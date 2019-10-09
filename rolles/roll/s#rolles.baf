@@ -1,0 +1,7 @@
+IF
+  Global("S#MakeRolles","AR0706",0)
+THEN
+  RESPONSE #100
+    CreateCreature("s#rolles",[370.480],11)
+    SetGlobal("S#MakeRolles","AR0706",1)
+END

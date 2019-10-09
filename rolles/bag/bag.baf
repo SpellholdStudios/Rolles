@@ -1,0 +1,7 @@
+IF
+  Global("StartDungBag","AR0602",0)
+THEN
+  RESPONSE #100
+    SetGlobal("StartDungBag","AR0602",1)
+    ActionOverride("Chest 8",CreateItem("S#bag02",1,1,1))
+END
