@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=red)
 ![Platform2](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#32CD32)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=green)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 ![Platform4](https://img.shields.io/static/v1?label=platform&message=windows&color=darkred)
 
 <h1><a name="top" id="top"></a>Rolles (WIP)</h1>
@@ -77,7 +77,7 @@ Run **setup-rolles.exe** in your game folder to reinstall, uninstall or otherwis
 
 #### Note for Complete Uninstallation
 
-In addition to the methods above for removing individual components, you can completely uninstall the mod using `**setup-rolles --uninstall**` at the command line to remove all components without wading through prompts.</br>
+In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-rolles --uninstall`** at the command line to remove all components without wading through prompts.</br>
 <div style="text-align:right"><a href="#top">Back to top</a></div>
 
 
