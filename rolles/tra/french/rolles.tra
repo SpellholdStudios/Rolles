@@ -1,0 +1,100 @@
+@001 = ~Bienvenue au magasin de Rolles Safyer, messire. Que puis-je faire pour vous ?~ ~Bienvenue au magasin de Rolles Safyer, ma dame. Que puis-je faire pour vous ?~
+@002 = ~Dites-moi Rolles, que faites-vous ici ?~ 
+@003 = ~Je suis un magicien doué, et notamment dans la création et la modification d'objets magiques. Si d'aventure, j'ai besoin de l'aide d'un forgeron, je n'ai qu'à demander au type juste à côté. En ce qui me concerne, cette situation me convient tout à fait. Je peux aussi vous vendre des objets magiques. Alors, qu'est-ce qu'il vous fallait ?~ 
+@004 = ~Montrez-moi vos marchandises.~ 
+@005 = ~Est-ce que je possède des objets sur lesquels vous pourriez travailler ?~ 
+@006 = ~Rien pour le moment, merci. Je m'en vais.~ 
+@007 = ~Heureux de vous revoir. Que puis-je pour vous ?~ 
+@008 = ~Avec plaisir, messire.~ ~Avec plaisir, ma dame.~
+@009 = ~Montrez-moi ce que vous avez, et je vous dirai quels objets peuvent être améliorés.~ 
+@010 = ~On dirait que je n'ai rien qui puisse faire l'affaire. Je m'en vais.~ 
+@011 = ~Je vous souhaite bien des choses, messire. S'il y a quoi que ce soit que je puisse faire pour vous, n'hésitez pas à revenir.~ ~Je vous souhaite bien des choses, ma dame. S'il y a quoi que ce soit que je puisse faire pour vous, n'hésitez pas à revenir.~
+@012 = ~Au revoir.~ 
+@013 = ~Non, je n'en ai pas besoin. Peut-être pourriez-vous travailler sur autre chose ?~ 
+@014 = ~Oui, vous pouvez y aller.~ 
+
+@104 = ~J'ai la fronde +3 « Arla Ruinedragon ». Vous pouvez l'améliorer ?~ 
+@105 = ~La fronde +3 « Arla Ruinedragon » ? Si vous avez une fronde Chercheuse +2, je pourrais vous fabriquer un excellent lance-pierres. Je ne prendrai que 5000 pièces d'or pour ce travail. Cela vous convient-il ?~ 
+
+@106 = ~Vous pouvez faire quelque chose du Bouclier de Baldurien ? ~ 
+@107 = ~Le Bouclier de Baldurien ? Hmm... Je pourrais vous fabriquer un bouclier si puissant que les dieux en seront verts de jalousie. Mais pour cela, il me faudra le Bouclier de réflexion +1 et le Bouclier des Disparus +2, ainsi que des parchemins de protection contre le feu, le froid, l'électricité et l'acide, une potion de protection contre la magie et enfin une potion de force du géant du feu. Et ne me jugez pas trop sévèrement, mais pour un objet si puissant, ma commission s'élèvera à 15 000 pièces d'or. Cela vous convient-il ?~ 
+
+@108 = ~Vous pouvez travailler avec ces gantelets ?~ 
+@109 = ~Voyons voir... Oui, si vous m'apportez des Gantelets de compétence, des Gantelets de spécialisation ainsi que des Bracelets d'Attaque éclair, je pourrai vous fabriquer un objet qui ne risquera pas de vous décevoir. J'aurai aussi besoin de bracelets de défense CA 6, d'un parchemin de Hâte améliorée, d'une potion de force de géant des tempêtes, de deux potions de géant du feu et d'une potion de défense. Ainsi qu'une rétribution de 10 000 pièces d'or pour mon travail. Cela vous convient-il ?~ 
+
+@110 = ~J'ai récupéré cette Amulette de Protection contre les sorts, il n'y a pas si longtemps. Vous croyez pouvoir faire quelque chose de ce truc quasi-inutile ?~ 
+@111 = ~Montrez-moi ça... Vous avez dit inutile ? Si vous m'amenez un parchemin d'Arrêt du temps, je pense que vous aurez une bonne surprise. J'aurai aussi besoin de l'Amulette de résistance à la magie de Kaligun, de deux Amulettes de protection +1, de deux diamants et d'une potion de résistance à la magie. Ainsi qu'une rétribution de 10 000 pièces d'or pour mon travail. Cela vous convient-il ?~ 
+
+@112 = ~J'ai cette Amulette de pouvoir. Vous croyez pouvoir l'améliorer ?~ 
+@113 = ~L'Amulette de pouvoir ? Un objet des plus remarquables. Mais il m'est effectivement possible de l'améliorer. J'aurai pour cela besoin de l'Amulette de résistance à la magie 5 %, d'une Amulette de protection +1, d'une potion de génie et d'une potion de perspicacité. Comme ce sera assez facile à faire, je ne vous demanderai que 5000 pièces d'or. Cela vous convient-il ?~ 
+
+@114 = ~Je possède un objet des plus étranges : le Masque du Roi Strohm III. Vous pouvez peut-être en faire quelque chose ?~ 
+@115 = ~Ouais... C'était un objet magique très puissant, dans le temps. Mais de très nombreuses années sont passées... Je crains ne pouvoir restaurer toutes ses capacités passées, mais je peux tout de même essayer. Apportez-moi une Pierre ionique rose cendré et une Pierre ionique vert pâle, ainsi qu'un parchemin de Vision véritable et un parchemin de Convocation d'Efrit, et je verrai ce que je peux faire. Et comme ce n'est pas un travail des plus aisés, le prix sera de 10 000 pièces d'or. Cela vous convient-il ?~ 
+
+@116 = ~Pouvez-vous améliorer cette hache d'armes ?~ 
+@117 = ~Si vous m'apportez trois haches d'armes, Pierrefeu, Froide-Faucheuse et la Hache de Hangard +2, alors je serai en mesure de vous fabriquer une excellente arme. Il me faudra aussi un cœur de démon, une baguette de givre et deux parchemins de Flèche acide de Melf. Le prix ne s'élèvera qu'à 10 000 pièces d'or. Cela vous convient-il ?~ 
+
+@118 = ~J'ai avec moi une excellente épée : la Sainte Lame Carsomyr. Vous pouvez l'améliorer ? ~ 
+@119 = ~Jamais de ma vie je n'avais pensé voir un jour la couleur de cette arme de légende. Oui, si vous m'apportez une autre sainte lame, l'Étoile du jour, je pourrai les réunir en une seule arme. Et je pourrai en faire une épée longue ou une épée à deux mains, selon votre désir. Il me faudra aussi deux parchemins de protection contre les morts-vivants. Comme ça, ces monstruosités trembleront à sa seule vision. Et pour un travail aussi honorifique que celui-là, je ne vous prendrai que 5 000 pièces d'or. Cela vous convient-il ?~ 
+@120 = ~Oui, faites-en une épée à deux mains.~ 
+@121 = ~Oui, faites-en une épée longue.~ 
+
+@122 = ~Je possède un Ceinturon de force. Il est assez puissant, mais vous pourriez peut-être le rendre encore meilleur ?~ 
+@123 = ~Un Ceinturon de force ? Hmm... J'ai l'impression qu'il perd de sa puissance au fur et à mesure du temps. Mais ce n'est pas irréversible. Il me faudra une Potion de régénération et une Potion de force morale. Ça ne vous coûtera pas grand-chose, 5 000 pièces d'or uniquement. Cela vous convient-il ?~ 
+
+@124 = ~Je possède un Bâton de soins. Un objet des plus pratiques, mais assez inutile au combat. Vous pouvez l'améliorer ?~ 
+@125 = ~Si vous m'apportez un Bâton de piété +3 et un parchemin de Rappel à la vie, je pourrai vous créer un bel objet, dont la capacité à soigner se restaurera au fur et à mesure que vous l'utiliserez. Mais je vous préviens, les charges de cet objet seront moindres. Concernant mon paiement, je ne vous prendrai que 10 000 pièces d'or. Cela vous convient-il ?~ 
+
+@126 = ~J'ai sur moi la main de Dace. Ça pue et c'est vraiment dégoûtant, mais elle peut peut-être vous être utile ?~ 
+@127 = ~Nous sommes au moins d'accord sur le mot dégoûtant. Je peux effectivement en faire quelque chose. Si vous m'apportez les Gantelets de broyage, je pourrai vous créer un excellent objet. Il me faudra aussi une Potion de régénération, une Potion d'isolation et une Potion de résistance au froid. Ça vous coûtera 15 000 pièces d'or ; ce travail ne sera pas vraiment un plaisir à réaliser. Cela vous convient-il ?~ 
+
+@128 = ~Je possède plusieurs épées à deux mains, mais je ne sais jamais laquelle choisir. Vous pourriez combiner toutes leurs forces en une seule arme ?~ 
+@129 = ~Hmm... En effet, c'est possible, mais ça ne se fera certainement pas les doigts dans le nez. Je devrais vous dire avant tout que je forgerai une épée très lourde, il vous faudra une force considérable pour la manier correctement. Toutefois, comme elle sera très lourde, sa puissance n'en sera que décuplée, et elle sera en mesure d'infliger des dégâts contondants supplémentaires. J'essaierai aussi de préserver toutes les propriétés initiales des épées à partir desquelles je travaillerai. J'aurai besoin de l'Épée du Chaos +2, de Lilarcor, d'une Épée maudite berserker +3, de deux parchemins de Délivrance de la malédiction ainsi que d'un parchemin de Toucher vampirique. Ça vous coûtera 15 000 pièces d'or, mais je pense être en mesure de pouvoir vous dire que le résultat ne vous décevra pas. Et il se pourrait même que je puisse encore améliorer le résultat si vous trouvez d'autres épées intéressantes au détour de vos aventures. Cela vous convient-il ?~ 
+
+@130 = ~J'ai avec moi la Destructrice +4. Vous pouvez l'améliorer encore ?~ 
+@131 = ~Hmm. En effet, c'est dans mes cordes, mais ce sera loin d'être facile. Il me faudra l'Épée d'argent, la Voleuse d'âmes +4, la Flamme du Nord, un parchemin de Doigt de mort et une potion de résistance à la magie. J'essaierai de garder les propriétés de toutes les épées initiales, mais je ne suis pas en mesure de vous garantir que toutes les essences magiques seront totalement préservées. Cela vous coûtera 20 000 pièces d'or, mais je vous garantis que vous serez satisfait du résultat. Cela vous convient-il ?~ ~Hmm. En effet, c'est dans mes cordes, mais ce sera loin d'être facile. Il me faudra l'Épée d'argent, la Voleuse d'âmes +4, la Flamme du Nord, un parchemin de Doigt de Mort et une potion de résistance à la magie. J'essaierai de garder les propriétés de toutes les épées initiales, mais je ne suis pas en mesure de vous garantir que toutes les essences magiques seront totalement préservées. Cela vous coûtera 20 000 pièces d'or, mais je vous garantis que vous serez satisfaite du résultat. Cela vous convient-il ?~
+
+@132 = ~Je possède une amulette de pierre verte. C'est un bon objet, mais peut-être est-elle améliorable ?~ 
+@133 = ~Une amulette de pierre verte ? Écoutez, je peux vous proposer quelque chose d'assez inhabituel. Vous avez suffisamment d'amulettes à votre disposition, alors une de plus ou une de moins, ça ne fera pas grande différence. Je vous dis cela, car je peux faire de votre amulette un fermoir pour une cape que je peux vous fabriquer et dont je suis sûr qu'elle va vous plaire. J'aurai besoin pour cela de deux capes de protection +1, d'une potion de clarté, d'un collier de contrôle, d'une fiole de potion salée et d'une carapace d'ankheg. Et comme ce sera compliqué à faire, je prendrai une commission de 15 000 pièces d'or. Cela vous convient-il ?~ 
+
+@134 = ~Je possède l'arc de Tansheron +3. Il m'a apporté toute satisfaction jusqu'à présent, mais je me demandais si vous pouviez l'améliorer ?~ 
+@135 = ~En effet, je le peux, si vous me trouvez un arc Tuigan +1, et que vous me payez 5 000 pièces d'or. Je serai alors en mesure de vous faire un objet plus puissant. Cela vous convient-il ?~ 
+
+@136 = ~Vous pouvez faire quelque chose de cette armure de cuir ?~ 
+@137 = ~Hmm... Oui, je pense pouvoir vous faire une excellente armure de cuir, même si ça ne sera pas facile. Il me faudra à cet effet une Peau de goule +4, l'armure de la Vipère +5, une cape de protection +1, une carapace d'ankheg, deux parchemins de Non-détection, deux parchemins de protection contre le poison, deux parchemins d'Invisibilité et deux doses de poudre d'adamantine afin d'en extraire de l'adamantine pure, qui ne sera pas affectée par le soleil. Ma commission s'élèvera à 20 000 pièces d'or, car cet objet sera très difficile à faire. Cela vous convient-il ?~ 
+
+@138 = ~J'ai avec moi un marteau de lancer des Nains +3. C'est un objet puissant, mais est-ce que vous pouvez le rendre encore plus puissant ?~ 
+@139 = ~Hmm... Et bien, si vous me trouvez le marteau +1, +4 contre les géants et que vous disposez de 5 000 pièces d'or, je peux effectivement le rendre encore plus puissant. Cependant, seul un nain sera en mesure d'utiliser un tel objet. Mais si vous me payez 15 000 pièces d'or, je pourrai rendre ce marteau universel, ce qui signifie que tout le monde pourra l'utiliser. Il me faudra aussi le marteau de guerre +2 « Ashideena » ainsi qu'une baguette de foudre. Ce marteau-là sera plus puissant. Cela vous convient-il ?~ 
+@140 = ~Oui, je veux le Marteau de lancer des Nains +4.~ 
+@141 = ~Oui, je veux le Marteau de lancer universel +5.~ 
+
+@142 = ~J'ai avec moi le bâton du Magicien. Il m'a donné toute satisfaction jusqu'à présent, mais je me disais que vous pourriez peut-être l'améliorer ?~ 
+@143 = ~Les enchantements qui l'habitent déjà sont nombreux et puissants. Il serait risqué de le modifier encore une fois, mais je pense pouvoir tenter le coup. Si vous m'amenez le bâton de Rynn +4 et deux parchemins de Chaîne d'éclairs, je serai en mesure d'améliorer ses capacités de combat. Mon paiement s'élèvera à 10 000 pièces d'or. Cela vous convient-il ?~ 
+
+@144 = ~Je possède plusieurs dagues, mais j'aimerais n'en avoir qu'une seule qui combine toutes leurs forces. Vous pensez pouvoir m'aider ?~ 
+@145 = ~Hmm... Et bien oui, je pense que c'est possible. Je peux vous faire une excellente dague de jet. Il me faudra à cet effet le stylet de Demarche +2, la dague boomerang +2, l'Aiguillon de Pixie +3, l'Atroce tranchoir de Neb, deux parchemins d'Immobilisation des monstres et deux parchemins de Sommeil. Je vous prendrai 10 000 pièces d'or pour mes frais, mais je pense que le résultat sera à la hauteur de vos attentes. Cela vous convient-il ?~ 
+
+@146 = ~J'ai sur moi plusieurs épées assez peu puissantes. J'aimerais pouvoir toutes les combiner en une seule très puissante. Vous pensez pouvoir m'aider ?~ 
+@147 = ~Hmm... C'est possible. Je peux vous faire une excellente épée de Liberté, qui sera une épée longue ou une épée courte, il vous faudra choisir. J'aurai besoin de Namarra +2, du cimeterre Belm +2, de l'épée d'Arabane +2, d'Ilbratha +1, de deux huiles de rapidité (blanches), d'une potion de liberté et de deux parchemins de Toucher vampirique. Ça vous coûtera 15 000 pièces d'or, mais je pense que vous ne serez pas déçu. Cela vous convient-il ?~ ~Hmm... C'est possible. Je peux vous faire une excellente épée de Liberté, qui sera une épée longue ou une épée courte, il vous faudra choisir. J'aurai besoin de Namarra +2, du cimeterre Belm +2, de l'épée d'Arabane +2, d'Ilbratha +1, de deux huiles de rapidité (blanches), d'une potion de liberté et de deux parchemins de Toucher vampirique. Ça vous coûtera 15 000 pièces d'or, mais je pense que vous ne serez pas déçue. Cela vous convient-il ?~
+@148 = ~Faites-moi l'épée courte de Liberté +5.~ 
+@149 = ~Faites-moi l'épée longue de Liberté +5.~
+
+@150 = ~Je possède diverses écailles de dragon. Est-ce que vous pouvez les forger ?~
+@151 = ~Tout à fait, je peux en faire une très bonne armure qui n'aura que très peu de restrictions. Je vais avoir besoin d'écailles de dragon rouge et de dragon d'ombre, d'un ceinturon de Barrière inertielle et d'une potion de protection contre la magie. La note s'élèvera à 10 000 pièces d'or. Cela vous convient-il ?~
+
+@152 = ~Je possède un bloc d'alliage d'illithium. Je me demandais si vous pouviez l'utiliser ?~
+@153 = ~Bien sûr, je peux vous en faire une excellente armure. Je devrai pour cela extraire l'illithium pur, ainsi que de l'adamantine pure, afin de pouvoir en faire un nouvel alliage. Il me faudra donc trois tas de poussières d'adamantine, de l'illithium et un parchemin de protection contre la magie. Et comme la tâche sera ardue, je vous prendrai 20 000 pièces d'or pour ce travail. Cela vous convient-il ?~
+
+@154 = ~Vous pouvez améliorer ces gants de Soins ?~
+@155 = ~Voyons voir... Oui, je peux effectivement en faire un artéfact puissant. Il me faudra pour cela les gants de Soins, bien sûr, mais aussi une paire de bracelets de défense CA 6, un anneau de protection +1, deux potions de régénération, quatre antidotes et deux parchemins de protection contre le poison. La note s'élèvera à 10 000 pièces d'or. Cela vous convient-il ?~
+
+@156 = ~Je possède une masse de Destruction +1. Pouvez-vous l'améliorer ?~
+@157 = ~Tout à fait. Recouverte d'illithium pur, cette masse peut conférer à son porteur de puissantes protections contre les vampires. Pour ce faire, il me faudra aussi la Chute d'Ardulia +1, du minerai d'illithium ainsi que trois parchemins de Lenteur, et ça vous coûtera 10 000 pièces d'or. Cela vous convient-il ?~
+
+@158 = ~Et si je vous proposais d'améliorer un anneau d'action libre ?~
+@159 = ~Alors je pourrai le combiner avec un anneau de protection +1 ou +2. Il me faudra aussi une potion de défense et deux émeraudes. Ma commission ne s'élèvera qu'à 10 000 pièces d'or. Cela vous convient-il ?~
+@160 = ~Je veux un anneau d'action libre +1.~
+@161 = ~Je veux un anneau d'action libre +2.~
+
+@162 = ~Vous pouvez faire quelque chose de l'anneau de Gaxx ?~
+@163 = ~La magie qui y est déjà présente est très puissante. Je peux essayer d'améliorer cet anneau, mais ce sera risqué. Si vous m'apportez quatre potions de régénération, un parchemin d'Invisibilité majeure et un parchemin de Hâte améliorée, je pourrai améliorer son potentiel. Et ça ne vous coûtera que 10 000 pièces d'or. Cela vous convient-il ?~

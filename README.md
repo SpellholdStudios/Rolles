@@ -4,18 +4,18 @@
 ![Platform](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=red)
 ![Platform2](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#781808)
-![Platform34](https://img.shields.io/static/v1?label=platform&message=windows&color=gold)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=green)
+![Platform4](https://img.shields.io/static/v1?label=platform&message=windows&color=darkred)
 
 <h1><a name="top" id="top"></a>Rolles (WIP)</h1>
 
-### A Spellhold Studios mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy and <acronym title="Baldur's Gate 'To Two'">Tutu</acronym>
+### A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET
 </div>
 
-<p><strong>Original Author:</strong> Serdrick<br />
-<strong>Languages:</strong> English, French, Russian<br />
 
-<strong>Mod Website and Forum:</strong> <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a></p>
+<p>**Original Author:** Serdrick<br />
+
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a></p>
 
 
 <div align="center">
@@ -43,7 +43,7 @@ Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/m
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
 This is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align:"right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -53,11 +53,11 @@ This is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and ther
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run <strong>setup-rolles.exe</strong>, uninstall the previously installed main component and delete the rolles folder.</em>
+<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-rolles.exe**, uninstall the previously installed main component and delete the rolles folder.</em>
 
-<em>When installing or uninstalling, <strong>do not close the <acronym title="Disk Operating System">DOS</acronym> window</strong> by clicking on the <strong>X</strong> button! Instead, press the <strong>Enter</strong> key whenever instructed to do so.</em>
+<em>When installing or uninstalling, **do not close the <acronym title="Disk Operating System">DOS</acronym> window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
 
-<strong>Disable any antivirus</strong> or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
+**Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
 
 ## 
 
@@ -69,15 +69,15 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be an rolles folder and a setup-rolles.exe file in your game folder. To install, simply double-click <strong>setup-rolles.exe</strong> and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a rolles folder and a setup-rolles.exe file in your game folder. To install, simply double-click **setup-rolles.exe** and follow the instructions on screen.
 
-Run <strong>setup-rolles.exe</strong> in your game folder to reinstall, uninstall or otherwise change the component settings.
+Run **setup-rolles.exe** in your game folder to reinstall, uninstall or otherwise change the component settings.
 
 ## 
 
 #### Note for Complete Uninstallation
 
-In addition to the methods above for removing individual components, you can completely uninstall the mod using <strong>setup-rolles --uninstall</strong> at the command line to remove all components without wading through prompts.</br>
+In addition to the methods above for removing individual components, you can completely uninstall the mod using `**setup-rolles --uninstall**` at the command line to remove all components without wading through prompts.</br>
 <div style="text-align:right"><a href="#top">Back to top</a></div>
 
 

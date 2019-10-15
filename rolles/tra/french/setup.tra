@@ -1,0 +1,896 @@
+@9001 = ~[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@0000 = ~Rolles Safyer~
+@0001 = ~Rolles~
+@0002 = ~Rolles~
+
+@0010 = ~Sac de contenance dans la prison d'Irenicus~
+
+@0020 = ~Ce composant n'est pas disponible pour votre jeu.~
+
+@0300 = ~Cape d'entropisme~
+@0301 = ~Cape d'entropisme
+Nul ne sait quand a été créé cet objet, ni par qui ; on ne peut que faire des suppositions à ce sujet. L'hypothèse la plus probable est qu'elle ait été créée par un entropiste désireux de se protéger des effets indésirables de sa magie.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Bouclier du Chaos
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Mémorisation de 3 sorts supplémentaires de niveau 1
+
+Poids : 3
+Utilisable par :
+ Entropiste~
+
+
+@1000 = ~Fronde +4 « Arla Ruinedragon »~
+@1001 = ~Fronde +4 : « Arla Ruinedragon »
+Cette fronde enchantée combine les pouvoirs de deux autres frondes : Arla Ruinedragon et la fronde chercheuse, avec toutefois une notable différence : elle fabrique elle-même ses munitions, des billes fantômes. Les dégâts qu'elle inflige sont à la mesure de la Force de l'utilisateur, tout comme la plupart des armes similaires.
+
+Note : évitez d'équiper votre personnage avec des billes normales, sinon la fronde les tirera à la place des billes fantômes.
+
+PARAMÈTRES :
+
+Capacité de combat : 
+- Ne requiert pas de billes
+- Une attaque supplémentaire par round
+
+TAC0 : +4
+Dégâts : 1d4 +4 (projectile), plus le bonus de Force
+Poids : 0
+Facteur de vitesse : 2
+Type de compétence : fronde
+Type : arme à 1 main
+Requiert : 3 en Force
+
+Non utilisable par :
+ Chevalier
+ Kensai~
+// OU Force nécessaire : 3 OU Nécessite : 3 en Force
+
+@1002 = ~Bouclier amélioré de Baldurien~
+@1003 = ~Bouclier amélioré de Baldurien +3
+Le bouclier du célèbre héros. Il fait partie d'une collection d'armures et d'armes volée au musée de la ville de la Porte de Baldur.
+Il a été amélioré magiquement, combinant en plus les pouvoirs du bouclier de réflexion et du bouclier des Disparus. Il protège également son porteur des effets des énergies destructives. Il est à noter que, contrairement à sa précédente version, ce bouclier ne réduit plus la force de son porteur.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Renvoie les rayons de spectateur
+- Renvoie les projectiles vers leur lanceur
+- Résistance à la magie : + 10 %
+- Résistance au feu, au froid, à l'acide et à l'électricité : + 20 %
+
+Bonus de Classe d'armure : 4
+Poids : 5
+Requiert : 12 en Force
+
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai~
+
+@1004 = ~Gantelets de haute spécialisation~
+@1005 = ~Gantelets de haute spécialisation
+Cette paire de gantelets magiques s'est vue enchantée avec les pouvoirs de nombreux autres objets. C'est pourquoi ils accordent de grands pouvoirs de combat et de protection, dignes des plus grands guerriers.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- TAC0 : +2
+- Dégâts : +2
+- Classe d'armure : +1
+- Force : +1
+
+Capacité spéciale :
+- Grande hâte 2 fois par jour pendant 5 rounds
+
+Poids : 2
+
+Non utilisable par :
+ Kensai
+ Tueur de magicien~
+
+@1006 = ~Collier de stabilité temporelle~
+@1007 = ~Collier de stabilité temporelle
+L'amulette de protection contre les sorts s'est révélée être l'un des rares objets à protéger son porteur contre les effets du sort Arrêt du Temps. Cette seule propriété ferait de cette amulette un objet de prix, mais à présent, elle accorde diverses protections supplémentaires à son utilisateur.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité à l'Arrêt du temps
+- Résistance à la magie : +10 %
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+
+Non utilisable par :
+ Tueur de magicien
+ Mage (monoclassé, à classes jumelées ou multiclassé)
+ Ensorceleur~
+
+@1008 = ~Amulette de pouvoir améliorée~
+@1009 = ~Amulette de pouvoir améliorée
+Cette amulette porte la signature des enchantements de Conster Damon, célèbre archimage mort dans l'année de la Fureur Draconique (1018 CV). Même si la netteté de ses gravures a disparu avec le temps et le feu, elle reste le témoignage des fameux défis du mage : « Ah ! Votre magie ne peut rien contre moi », « Cela va s'entendre », « La défaite n'attend pas ! » et « Vous n'aurez rien de moi ! ». Elle a été très utilisée et a changé de main de nombreuses fois au fil des batailles.
+Cette amulette a été améliorée magiquement, et est maintenant capable d'aider même le plus distrait des lanceurs de sorts.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Résistance à la magie : +10 %
+- Vocaliser
+- -1 au Temps d'incantation des sorts
+- Immunité à l'absorption de niveau
+- Intelligence et Sagesse : +2
+- Connaissances : +30
+
+Poids : 3
+Non utilisable par :
+ Voleur
+ Guerrier
+ Moine
+ Barbare~
+
+@1010 = ~Masque du Roi Strohm III restauré~
+@1011 = ~Masque du Roi Strohm III restauré
+Il s'agit du Masque du Roi Strohm III, dont une partie des anciens pouvoirs ont pu être récupérés. Les deux pierres ioniques qui y ont été enchâssées rendent cet objet encore plus précieux.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- TAC0 : +1
+- Points de vie : +10 %
+- Immunité à la Cécité
+- Vision véritable
+
+Capacité spéciale :
+- Convocation d'Efrit une fois par jour
+
+Poids : 5
+Non utilisable par :~
+
+@1012 = ~Hache d'armes +4 Feu et Glace~
+@1013 = ~Hache d'armes +4 « Feu et Glace »
+Cette arme puissante est tout aussi bien capable de tuer l'ennemi au corps-à-corps qu'à distance. En outre, elle inflige des dégâts supplémentaires de feu, de froid et d'acide.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- +2 points de dégât de feu à la cible
+- +2 points de dégât de froid à la cible
+- +2 points de dégât d'acide à la cible
+- Revient dans la main de son porteur après avoir été lancée
+
+TAC0 : +4 (enchantement +5)
+Dégâts (mêlée): 1d8 +4
+Dégâts (lancer): 1d6 +4
+Type de dégâts (mêlée) : tranchant
+Type de dégâts (lancer) : projectile (perforant)
+Poids : 5
+Facteur de vitesse : 3
+Type de compétence : hache
+Type : arme à 1 main
+Requiert : 10 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@1014 = ~Justice exaltée~
+@1015 = ~Justice exaltée
+Cette épée à deux mains à la puissance sans pareille combine les propriétés des deux saintes lames (Étoile du jour et la légendaire Carsomyr) qui y ont été incorporées. L'épée possède un fort dégoût pour les forces du mal et du chaos. Seul un être au cœur pur peut être capable d'en soulever la lame.
+
+PARAMÈTRES :
+
+Capacités spéciales :
+- Dissipation de la magie trois fois par jour
+- Rayon de soleil deux fois par jour :
+ Dégâts : 3d6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé pendant 10 rounds)
+ Mort-vivant : 1d6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
+ Portée : 6 mètres
+ Zone d'effet : 6 mètres de rayon
+
+Capacités d'équipement :
+- +50 % de résistance à la magie
+- Immunité à l'absorption de niveau
+
+Capacités de combat :
+- Dégâts supplémentaires : 4 contre les créatures mauvaises, 5 contre les adversaires chaotiques mauvais, en plus des autres bonus
+- Dissipation de la magie à chaque coup réussi
+
+TAC0 : +5 (enchantement +6), +7 contre les créatures mauvaises
+Dégâts : 1d12 +5, dégâts doublés contre les morts-vivants
+Type de dégâts : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Requiert : 14 en Force
+
+Utilisable par :
+ Paladin~
+
+@1016 = ~Justice exaltée~
+@1017 = ~Justice exaltée
+Cette épée longue à la puissance sans pareille combine les propriétés des deux saintes lames (Étoile du jour et la légendaire Carsomyr) qui y ont été incorporées. L'épée possède un fort dégoût pour les forces du mal et du chaos. Seul un être au cœur pur peut être capable d'en soulever la lame.
+
+PARAMÈTRES :
+
+Capacités spéciales :
+- Dissipation de la magie trois fois par jour
+- Rayon de soleil deux fois par jour :
+ Dégâts : 3d6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé pendant 10 rounds)
+ Mort-vivant : 1d6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
+ Portée : 6 mètres
+ Zone d'effet : 6 mètres de rayon
+
+Capacités d'équipement :
+- +50 % de résistance à la magie
+- Immunité à l'absorption de niveau
+
+Capacités de combat :
+- Dégâts supplémentaires : 4 contre les créatures mauvaises, 5 contre les adversaires chaotiques mauvais, en plus des autres bonus
+- Dissipation de la magie à chaque coup réussi
+
+TAC0 : +5 (enchantement +6), +7 contre les créatures mauvaises
+Dégâts : 1d8 +5, dégâts doublés contre les morts-vivants
+Type de dégâts : tranchant
+Poids : 2
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à 1 main
+Requiert : 6 en Force
+
+Utilisable par :
+ Paladin~
+
+@1018 = ~Ceinturon de force amélioré~
+@1019 = ~Ceinturon de force amélioré
+Ce ceinturon a été enchanté magiquement, ce qui lui a rendu ses anciens pouvoirs.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Constitution : portée à 18
+- Le porteur régénère 1 point de vie toutes les 3 secondes
+- Immunité aux maladies
+
+Non utilisable par :
+ Tueur de magicien~
+
+@1020 = ~Bâton de Soins amélioré~
+@1021 = ~Bâton de Soins amélioré
+On dit que Torm fait apparaître ces objets pendant les périodes de grands troubles, les confiant à ses prêtres qui soignent les blessés, les malades, et les empoisonnés. Magiquement combiné avec le bâton de piété +3, il est devenu une arme très puissante. En outre, il a reçu des pouvoirs supplémentaires : les charges de ce bâton se renouvellent automatiquement après huit heures.
+
+PARAMÈTRES :
+
+Capacités spéciales :
+- Soins (une charge) : guérit 4d6 +4 points de vie, maladie, cécité, paralysie et poison, 5 fois par jour
+- Rappel à la vie une fois par jour
+
+Capacité d'équipement :
+- Classe d'armure : +2
+
+TAC0 : +4
+Dégâts : 1d6 +4
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : bâton
+Type : arme à 2 mains
+Requiert : 5 en Force
+
+Non utilisable par :
+ Barde
+ Voleur
+ Guerrier
+ Mage
+ Moine~
+
+@1022 = ~Gantelets de broyage Les Mains du vampire~
+@1023 = ~Gantelets de broyage « Les Mains du vampire »
+Les gantelets de broyage sont devenus un artéfact d'une puissance incroyable depuis qu'une partie des forces de la main du vampire Dace y a été magiquement adjointe. Leur porteur se voit accordé quelques protections d'origine vampire, comme la régénération et l'immunité à l'absorption de niveau.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité à la peur, à l'immobilisation et aux échecs de moral
+- Immunité à l'absorption de niveau
+- Le porteur régénère 1 point de vie toutes les 3 secondes
+- Résistance au froid : + 30 %
+- Résistance à l'électricité : + 30 %
+
+Capacités de combat :
+- TAC0 : +4 pour l'attaque avec les poings
+- Dégâts : +4 pour l'attaque avec les poings
+Poids : 2
+
+Utilisable par :
+ Moine~
+
+@1024 = ~Destructrice +4~
+@1025 = ~Destructrice +4
+Cette arme lourde et imposante combine les pouvoirs de plusieurs lames mineures, chacune lui ayant légué une partie de ses forces. À cause de son poids, la Destructrice inflige des dégâts contondants supplémentaires, ce qui en une arme encore plus puissante. Toutefois, seule une personne d'une force considérable sera en mesure de la porter.
+
+PARAMÈTRES :
+
+Capacité spéciale :
+- Exaspération trois fois par jour
+
+Capacités d'équipement :
+- Immunité au charme
+- Immunité à la confusion
+
+Capacités de combat :
+- Chaque coup au but draine 2 points de vie à la cible qui sont transférés au porteur, qui ne peut toutefois dépasser son maximum de points de vie.
+- 10 % de chances que la cible soit repoussée, inconsciente pendant 1 round, et reçoive 1d6 points de dégâts contondants supplémentaires.
+
+TAC0 : +4 (enchantement +5)
+Dégâts : 2d6 +4, +1d4 points de dégâts contondants
+Type de dégâts : tranchant
+Poids : 18
+Facteur de vitesse : 9
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Requiert : 19 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@1026 = ~Destructeur +5~
+@1027 = ~Destructeur +5
+Cette arme lourde et imposante combine les pouvoirs de plusieurs lames mineures, chacune lui ayant légué une partie de ses forces. À cause de son poids, la Destructrice inflige des dégâts contondants supplémentaires, ce qui en une arme encore plus puissante. Toutefois, seule une personne d'une force considérable sera en mesure de la porter.
+
+Capacité spéciale :
+- Exaspération trois fois par jour
+
+Capacités d'équipement :
+- Immunité au charme
+- Immunité à la confusion
+- Résistance à la magie : +10 %
+
+Capacités de combat :
+- Chaque coup au but draine 2 points de vie à la cible qui sont transférés au porteur, qui ne peut toutefois dépasser son maximum de points de vie.
+- 15 % de chances que la cible soit repoussée, inconsciente pendant 1 round, et reçoive 1d8 points de dégâts contondants supplémentaires.
+- 10 % de chances que lorsque la cible est touchée, elle doive réussir un jet de sauvegarde contre la mort (à -2) ou mourir.
+- Chaque coup au but inflige à la cible une pénalité cumulative de 2 au TAC0 pendant 10 rounds.
+
+TAC0 : +5 (enchantement +6)
+Dégâts : 2d8 +5, +1d6 points de dégâts contondants
+Type de dégâts : tranchant
+Poids : 24
+Facteur de vitesse : 9
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Requiert : 21 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@1028 = ~Cape de perfection~
+@1029 = ~Cape de perfection
+Le propriétaire de cette cape peut aller sans crainte où bon lui semble sans risquer de se recevoir un coup de couteau par derrière. Elle a en effet été améliorée magiquement avec la chitine d'un ankheg. Le fermoir de cette cape, fait à partir d'une amulette de pierre verte, confère en outre une protection substantielle contre les sorts affectant l'esprit.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+- Immunité à l'attaque sournoise
+- Immunité à tout sort affectant l'esprit : charme, confusion, terreur, etc.
+
+Poids : 5
+
+Non utilisable par :
+ Tueur de magicien~
+
+@1030 = ~Arc de Tansheron +4~
+@1031 = ~Arc court de Tansheron +4
+La corde fine et effilochée de cet arc semble inutilisable, mais quand il la tire, l'archer sent apparaître entre ses doigts une flèche invisible mais solide. La liche Tansheron offrit cet arc à son guetteur, un gardien de son château qui se tenait dans un endroit inaccessible au sommet d'une tour. Dès que quelqu'un approchait, il recevait une pluie interminable de flèches fantômes jusqu'à ce qu'il soit mort ou en fuite. On ne sait pas comment cet arc a été pris au guetteur, mais ça ferait probablement une bonne histoire de taverne.
+
+Magiquement combiné à l'arc Tuigan +3, l'arc de Tansheron est devenu une arme encore plus puissante.
+
+Note : évitez d'équiper votre personnage avec des flèches normales, sinon l'arc les tirera à la place des flèches fantômes.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- Cet arc n'a pas besoin de flèches
+- 3 flèches par round
+- 25 % de chances que chaque coup au but inflige 1d6 points de dégâts perforants supplémentaires
+
+TAC0 : +4
+Dégâts : 1d6
+Poids : 2
+Facteur de vitesse : 3
+Type de compétence : arc court
+Type : arme à 2 mains
+Requiert : 6 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Moine
+ Chevalier
+ Kensai~
+
+@1032 = ~Rêve du Voleur~
+@1033 = ~Rêve du Voleur
+Cette armure de cuir clouté n'a plus grand-chose à voir avec une armure de cuir basique. Elle a été faite à partir de l'armure de la Vipère et d'une Peau de goule qui ont été amplifiées par une carapace d'ankheg, et accorde une solide protection contre les coups sournois dans le dos. Un renforcement métallique fait de plusieurs rivets d'adamantine pur, que le soleil n'affecte pas, garantissent une protection supplémentaire contre les attaques tranchantes et perforantes, ainsi que contre les charmes magiques. Et même si la plupart des aventuriers peuvent porter une telle armure, elle sera plus profitable à ceux qui traînent dans les ombres, les protégeant ainsi de leurs rivaux et de leurs collègues de « travail ».
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Jets de sauvegarde : +1
+- Immunité à l'attaque sournoise
+- Immunité au poison
+- Non-détection
+
+Capacité spéciale :
+- Invisibilité trois fois par jour
+
+Classe d'armure : 0
+Poids : 14
+Requiert : 9 en Force
+
+Non utilisable par :
+ Mage
+ Moine
+ Métamorphe
+ Justicier
+ Kensai~
+
+@1034 = ~Marteau de lancer Nain +4~
+@1035 = ~Marteau de lancer Nain +4
+Ce marteau - à ne pas confondre avec le marteau elfique Lanceur de nains - ne peut être utilisé que par des nains. Entre les mains expertes d'un guerrier nain, ce marteau peut être lancé contre tout ennemi, et revenir dans la main de son propriétaire, grâce à la magie dont il est imprégné. S'il touche un adversaire, il inflige deux fois plus de dégâts qu'un marteau de guerre normal. Contre les géants et les ogres, le marteau occasionne un bonus supplémentaire de 12 points de dégâts, à cause de la haine fervente que les nains vouent à ces créatures.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- Le marteau revient dans la main du lanceur une fois le coup porté
+
+TAC0 : +4
+Dégâts : 2d4 +4, +12 contre les géants et les ogres
+Type de dégâts (mêlée): contondant
+Type de dégâts (lancer): projectile (perforant)
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Requiert : 9 en Force
+
+Non utilisable par :
+ Toute race sauf les nains
+ Paladin
+ Rôdeur
+ Druide
+ Barde
+ Mage
+ Voleur
+ Moine~
+
+@1036 = ~Marteau de lancer universel +5~
+@1037 = ~Marteau de lancer universel +5
+Ce marteau a été enchanté et amélioré pour que toute personne qui sache manier un marteau puisse en faire usage, et non plus seulement les nains. Cette arme puissante est aussi efficace en combat rapproché qu'à distance. Lancé contre un ennemi, le marteau reviendra dans les mains du lanceur une fois le coup porté. S'il touche un adversaire, il inflige deux fois plus de dégâts qu'un marteau de guerre normal. Contre les géants et les ogres, le marteau occasionne un bonus supplémentaire de 12 points de dégâts.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- Le marteau revient dans la main du lanceur une fois le coup porté
+
+TAC0 : +5
+Dégâts : 2d4 +5, +2d2 points de dégâts électriques, +12 contre les géants et les ogres
+Type de dégâts (mêlée): contondant
+Type de dégâts (lancer): projectile (perforant)
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Requiert : 9 en Force
+
+Non utilisable par :
+ Druide
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@1038 = ~Bâton du Magicien amélioré~
+@1039 = ~Bâton du Magicien amélioré
+Quoique très rare, ce type de bâton est parfaitement lié à l'image du lanceur de sort. C'est l'un des outils les plus puissants dont un mage puisse disposer, la culmination d'enchantements complexes et d'études interminables. Celui-ci est efficace en combat de mêlée, peut rendre invisible et offre une protection contre les charmes et le mal. Il peut aussi piéger un sort, lancer une combinaison de boule de feu et d'éclair magique, et dissiper la magie. C'est la quintessence d'un objet de mage.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+- Invisibilité
+- Immunité aux charmes
+- Protection contre le mal
+
+Capacités spéciales :
+- Boule de feu-Chaîne d'éclairs
+  Dégâts : dégâts combinés de Chaîne d'éclairs et de Boule de feu
+  Portée : 50 mètres
+  Utilisation : 5 fois par jour
+
+- Piège à sorts
+  Durée : 8 heures, ou jusqu'à ce qu'un total de 30 niveaux de sort aient été emprisonnés
+  Utilisation : une fois par jour
+
+Capacité de combat (chaque coup) :
+- Dissipation de la magie
+
+TAC0 : +5
+Dégâts : 1d6 +5
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Requiert : 5 en Force
+
+Utilisable par :
+ Mage~
+@10391  = ~Boule de feu-Chaîne d'éclairs~
+
+@1040 = ~Dague de jet Mort silencieuse~
+@1041 = ~Dague de jet « Mort Silencieuse »
+Faite à partir du stylet de Demarche et de l'aiguillon de Pixie, cette dague est une arme redoutable, tout aussi dangereuse en combat rapproché qu'à distance. Une fois le coup porté, cette dague de jet retourne dans les mains de son propriétaire en volant, comme si elle était équipée de petites ailes.
+
+PARAMÈTRES :
+
+Capacités de combat (chaque coup) :
+- La dague revient dans la main du lanceur une fois le coup porté
+- 20 % de chances que la cible doive réussir un jet de sauvegarde contre le poison pour ne pas s'endormir pendant 2 rounds
+- Immobilisation : 20 % de chances que la cible soit paralysée pendant deux rounds (si elle rate son jet de sauvegarde contre la mort)
+- Poison : la cible doit réussir un jet de sauvegarde contre le poison ou recevoir 12 points de dégâts supplémentaires pendant deux rounds.
+
+TAC0 : +4
+Dégâts : 2d4 +4
+Type de dégâts (mêlée): contondant
+Type de dégâts (lancer): projectile (perforant)
+Poids : 1
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à 1 main
+Requiert : 3 en Force
+
+Non utilisable par :
+ Clerc
+ Belluaire~
+
+@1042 = ~Épée courte de Liberté +5~
+@1043 = ~Epée courte de Liberté +5
+Cette épée accorde une protection efficace contre les sorts affectant l'esprit et les attaques qui provoquent la paralysie. Elle combine les forces de plusieurs épées magiques de moindre puissance, chacune d'entre elles offrant une partie de son pouvoir. Cette épée est très bien équilibrée, et son tranchant acéré permet de provoquer des coups critiques plus souvent que la normale.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité au charme, à la domination et à la confusion
+- Immunité à l'étourdissement et à la paralysie
+- Octroie une attaque supplémentaire par round
+- Coup critique amélioré (un coup critique est déclenché sur un score de 19 ou 20)
+
+Capacités spéciales :
+- Image miroir deux fois par jour
+- Hâte améliorée pendant cinq rounds deux fois par jour
+
+Capacités de combat (chaque coup) :
+- La cible doit réussir un jet de sauvegarde contre la magie ou être réduite au silence pendant deux rounds.
+- Draine 2 points de vie et les transfère au porteur qui ne peut pas toutefois dépasser son nombre maximum de points de vie.
+
+TAC0 : +5
+Dégâts : 1d6 +5
+Type de dégâts : perforant
+Poids : 2
+Facteur de vitesse : 1
+Type de compétence : épée courte
+Type : arme à 1 main
+Requiert : 5 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+
+@1044 = ~Épée longue de Liberté +5~
+@1045 = ~Epée longue de Liberté +5
+
+Cette épée accorde une protection efficace contre les sorts affectant l'esprit et les attaques qui provoquent la paralysie. Elle combine les forces de plusieurs épées magiques de moindre puissance, chacune d'entre elles offrant une partie de son pouvoir. Cette épée est très bien équilibrée, et son tranchant acéré permet de provoquer des coups critiques plus souvent que la normale.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité au charme, à la domination et à la confusion
+- Immunité à l'étourdissement et à la paralysie
+- Octroie une attaque supplémentaire par round
+- Coup critique amélioré (un coup critique est déclenché sur un score de 19 ou 20)
+
+Capacités spéciales :
+- Image miroir deux fois par jour
+- Hâte améliorée pendant cinq rounds deux fois par jour
+
+Capacités de combat (chaque coup) :
+- La cible doit réussir un jet de sauvegarde contre la magie ou être réduite au silence pendant deux rounds.
+- Draine 2 points de vie et les transfère au porteur qui ne peut pas toutefois dépasser son nombre maximum de points de vie.
+
+TAC0 : +5
+Dégâts : 1d8 +5
+Type de dégâts : tranchant
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à 1 main
+Requiert : 6 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+
+@1046 = ~Armure d'écailles Deux dragons~
+@1047 = ~Armure d'écailles « Deux Dragons »
+Cette armure est faite à partir des écailles d'un dragon rouge et d'un dragon d'ombre. Les écailles, très bien assemblées, accordent à leur porteur une protection substantielle contre le feu et l'acide. En outre, l'armure a absorbé une partie des pouvoirs du ceinturon de Barrière inertielle. Sa légèreté permet aux guerriers/mages et aux voleurs de la porter sans trop de restrictions.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- +50 % de résistance au feu, à l'acide et à la magie
+- Jets de sauvegarde contre le souffle : +3
+
+Classe d'armure : 0
+Poids : 10
+Requiert : 8 en Force
+
+Non utilisable par :
+ Mage (monoclassé)
+ Moine
+ Métamorphe
+ Kensai~
+
+@1048 = ~Armure de plates complète +4~
+@1049 = ~Armure de plates complète +4
+Cette armure est faite à partir d'un alliage extrêmement rare d'adamantine et d'illithium très puissant et assez léger qui n'est pas affecté par la lumière. En outre, cette armure accorde une immunité à l'absorption de niveau et aux sorts de premier niveau.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité à l'absorption de niveau
+- Immunité aux sorts de premier niveau
+
+Classe d'armure : -3
+Poids : 50
+Requiert : 15 en Force
+
+Non utilisable par :
+ Druide
+ Barde
+ Mage
+ Voleur
+ Moine
+ Barbare
+ Archer
+ Belluaire
+ Traqueur
+ Kensai~
+
+@1050 = ~Gantelets de soins améliorés~
+@1051 = ~Gantelets de soins améliorés
+
+Cet gantelets ont été améliorés magiquement, et protègent beaucoup mieux leur propriétaire.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jets de sauvegarde : +1
+- Le porteur régénère 1 point de vie toutes les 6 secondes
+- Immunité au poison
+
+Poids : 3
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Tueur de magicien
+ Kensai~
+
+@1052 = ~Masse de Destruction +3~
+@1053 = ~Masse de Destruction +3
+Cette masse lourde a été fabriquée dans un but bien précis : détruire les morts-vivants. Toute créature de ce type touchée par cette arme en ressent non seulement la force du coup, mais risque aussi d'être tout simplement anéantie par sa magie. Certaines légendes mentionnent une prêtre si pieux qu'il pouvait détruire un vampire simplement en le touchant, mais les théologiens s'interrogent encore pour savoir s'il profitait du pouvoir de la masse, ou si c'est lui qui l'a faite profiter de son pouvoir.
+Maintenant qu'elle a été couverte d'illithium, cette masse est devenue plus puissante et procure également l'immunité contre le drainage de niveaux des plus puissants morts-vivants. Elle a aussi une chance de ralentir sa cible en combat.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité à l'absorption de niveau
+
+Capacités de combat :
+- 50 % de chances qu'à chaque coup au but, la cible doive réussir un jet de sauvegarde contre les sorts sous peine d'être ralentie pendant 15 secondes.
+- 2d6 +4 points de dégâts contre les morts-vivants, qui doivent réussir un jet de sauvegarde contre la mort (à -4) ou être détruits.
+
+TAC0 : +3 (enchantement +5)
+Dégâts : 1d6 +4
+Type de dégâts : contondant
+Poids : 8
+Facteur de vitesse : 6
+Type de compétence : masse
+Type : arme à 1 main
+Requiert : 10 en Force
+
+Non utilisable par :
+ Druide
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@1054 = ~Anneau d'action libre +1~
+@1055 = ~Anneau d'action libre +1
+Cet anneau a été amélioré magiquement. À présent, il combine les pouvoirs de l'anneau de protection +1 « L'Anneau des Princes » et de l'anneau d'action libre.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Le porteur est immunisé à tout ce qui, magique ou non, pourrait affecter sa mobilité, y compris les sorts de rapidité et de ralentissement.
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+
+Non utilisable par :
+ Tueur de magicien~
+
+@1056 = ~Anneau d'Action libre +2~
+@1057 = ~Anneau d'Action libre +2
+Cet anneau a été amélioré magiquement. À présent, il combine les pouvoirs de l'anneau de protection +2 « L'Anneau du Garde » et de l'anneau d'action libre.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Le porteur est immunisé à tout ce qui, magique ou non, pourrait affecter sa mobilité, y compris les sorts de rapidité et de ralentissement.
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+Le porteur est immunisé à tout effet, magique ou non, qui pourrait affecter sa mobilité, ce qui inclut les sorts de Hâte et de Lenteur.
+
+Non utilisable par :
+ Tueur de magicien~
+
+@1058 = ~Anneau de Gaxx amélioré~
+@1059 = ~Anneau de Gaxx amélioré
+Cet anneau sans apprêt irradie d'une ignoble magie puissamment maléfique. Son créateur, Kangaxx, n'était pas moins maléfique, même avant que des millénaires en mort-vivant n'affûtent son pouvoir. Des mages de Néthéril auraient réussi un jour à emprisonner cette demi-liche mais, incapables de la détruire, ils se seraient transformés en liches pour garder ses restes. La création de l'anneau les auraient montés l'un contre l'autre, car les neuf facettes de l'anneau furent, dit-on, emplies du pouvoir des sacrifices et de la mort.
+Cet anneau a été reforgé, et ses pouvoirs offensifs et défensifs se sont vus améliorés.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2 
+- Jets de sauvegarde : +2 
+- Résistance à la magie : +10 %
+- Le porteur régénère 1 point de vie par seconde
+- Immunité au poison et à la maladie
+
+Capacités spéciales :
+- Invisibilité majeure pendant 10 rounds une fois par jour
+- Hâte améliorée pendant 5 rounds trois fois par jour
+
+Non utilisable par :
+ Tueur de magicien~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "
