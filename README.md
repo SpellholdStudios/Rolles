@@ -1,8 +1,9 @@
+<div align="center">
 
 ![Latest Release](https://img.shields.io/github/v/release/gibberlings3/realmod?include_prereleases)
 ![Platform](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=red)
 ![Platform2](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
-![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#ffdc6b)
+![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#781808)
 ![Platform34](https://img.shields.io/static/v1?label=platform&message=windows&color=gold)
 
 <div align="center">
