@@ -3,7 +3,7 @@
 ![Latest Release](https://img.shields.io/github/v/release/gibberlings3/realmod?include_prereleases&color=red)
 ![Platform](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=red)
 ![Platform2](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
-![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#781808)
+![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#32CD32)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=green)
 ![Platform4](https://img.shields.io/static/v1?label=platform&message=windows&color=darkred)
 
