@@ -1,18 +1,25 @@
-# Rolles
 
 ![Latest Release](https://img.shields.io/github/v/release/gibberlings3/realmod?include_prereleases)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
+![Platform](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=red)
+![Platform2](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
+![Platform3](https://img.shields.io/static/v1?label=platform&message=windows&color=#ffdc6b)
+![Platform34](https://img.shields.io/static/v1?label=platform&message=windows&color=gold)
 
+<div align="center">
+<h1><a name="top" id="top"></a>Rolles (WIP)</h1>
+
+### A Spellhold Studios mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy and <acronym title="Baldur's Gate 'To Two'">Tutu</acronym>
+</div>
 
 <p><strong>Original Author:</strong> Serdrick<br />
-<strong>Version:</strong> 5.0.0<br />
-<strong>Language:</strong> English, French, Russian<br />
+<strong>Languages:</strong> English, French, Russian<br />
 
-<strong>Mod Website and Forum:</strong> <a href="http://www.shsforums.net/topic/34134-stuff-of-the-magi/">Spellhold Studios</a></p>
+<strong>Mod Website and Forum:</strong> <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a></p>
 
 
-<center><a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></center></br></br>
-
+<div align="center">
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></center></br></br>
+</div>
 
 <hr>
 
@@ -24,7 +31,7 @@ This mod adds a new smith in Waukeen's Promenade above the entrance to the Adven
 
 
 new set of Mage items scattered through the game.
-Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/StuffOfTheMagi/master/stuffofthemagi/readme/sotm-spoilers.txt">sotm-spoilers.txt</a> for details.
+Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/master/rolles/readme/rolles-readme-english.txt">rolles-readme-english.txt</a> for details.
 
 
 <hr>
