@@ -1,5 +1,5 @@
-<a name="top" id="top"></a>
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=darkred)
+
+![Latest Release](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=darkred)<a name="top" id="top"></a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
@@ -38,7 +38,7 @@ Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/m
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
 This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
-<div align="right"><a href="#top"><span style="size:50%">Back to top</span></a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -93,6 +93,7 @@ This component adds Rolles in Waukeen's Promenade.
 **10. Bag of Holding in Irenicus Dungeon**<br />
 
 This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -112,7 +113,7 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 #### Copyrights Information
 
 
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -161,4 +162,4 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 ##### version 1
 
 - Initial release
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
