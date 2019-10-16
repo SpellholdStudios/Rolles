@@ -1,20 +1,18 @@
-<div align="center">
-
+<a name="top" id="top"></a>
 ![Latest Release](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=darkred)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
-<h1><a name="top" id="top"></a>Rolles (WIP)</h1>
+<div align="center"><h1>Rolles (WIP)</h1>
 
 ### A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET
 
-</div>
+</div><br />
 
 
 
-**Original Author:** Serdrick<br />
-
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a>
+**Original Author:** Serdrick  
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a><br />
 
 
 <div align="center">
@@ -39,8 +37,8 @@ Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/m
 
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
-This is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
-<div align="right" style="font-size:50%"><a href="#top">Back to top</a></div>
+This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
+<div align="right"><a href="#top"><span style="size:50%">Back to top</span></a></div>
 
 
 <hr>
@@ -52,7 +50,7 @@ This is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and ther
 
 <em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-rolles.exe**, uninstall the previously installed main component and delete the rolles folder.</em>
 
-<em>When installing or uninstalling, **do not close the <acronym title="Disk Operating System">DOS</acronym> window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
+<em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
 
 **Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
 
@@ -137,7 +135,7 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 ##### version 4
 
 - Added BG2EE compatibility by Deratiseur
-- Fixed Sword of freedom recipe: Scimitar of Speed +2 'Belm' is now taken instead of The short sword 'Ilbratha+1'.
+- Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha+1.
 - Updated WeiDU installer to v246.
 
 ## 
@@ -150,13 +148,13 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 
 ##### version 2
 
-- Required components for some items were changed - see this document.
-- Restrictions on use were added for some items - see this document .
+- Required components for some items were changed - read this document.
+- Restrictions on use were added for some items - read this document .
 - Enhanced Amulet of Power is changed - now it gives +2 to wisdom and intelligence, and +30 to Lore.
-- Added: Scaly Armour 'Two Dragons'; Full Plate +4; Improved Gloves of Healing; Mace of Disruption +3; Ring of Free Action +1, or +2; Improved Ring of Gaxx.
+- Added: Scaly Armour 'Two Dragons', Full Plate +4, Improved Gloves of Healing, Mace of Disruption +3, Ring of Free Action +1 and +2, Improved Ring of Gaxx.
 - Fixed: when ToB is not installed some items were not displayed in inventory.
 - Fixed minor issues.
-- Added new component, which will allow to find a Bag of Holding containing 18 items in Irenicus' Dungeon.
+- Added new component, which will allow to find a Bag of Holding containing 18 items in Irenicus Dungeon.
 
 ## 
 
