@@ -40,7 +40,7 @@ Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/m
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
 This is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
-<div align="right"><span style="font-size: 80%"><a href="#top">Back to top</a></span></div>
+<div align="right" style="font-size:50%"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -87,6 +87,8 @@ The installer includes the following components. The number of each is the compo
 
 
 **0. Rolles Safyer**<br />
+
+This component adds Rolles in Waukeen's Promenade.
 
 ## 
 
