@@ -7,12 +7,14 @@
 <h1><a name="top" id="top"></a>Rolles (WIP)</h1>
 
 ### A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET
+
 </div>
 
 
-<p>**Original Author:** Serdrick<br />
 
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a></p>
+**Original Author:** Serdrick<br />
+
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a>
 
 
 <div align="center">
@@ -38,7 +40,7 @@ Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/m
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
 This is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
-<div align="right"><a href="#top">Back to top</a></div>
+<div align="right"><span style="font-size: 80%"><a href="#top">Back to top</a></span></div>
 
 
 <hr>
@@ -86,6 +88,7 @@ The installer includes the following components. The number of each is the compo
 
 **0. Rolles Safyer**<br />
 
+## 
 
 **10. Bag of Holding in Irenicus Dungeon**<br />
 
