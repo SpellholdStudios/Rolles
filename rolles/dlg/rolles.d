@@ -405,7 +405,7 @@ END
 
 IF ~~ THEN BEGIN s#swfree
     SAY @147 IF ~~ THEN REPLY @013 GOTO Upgrade
-    IF ~PartyHasItem("sw1h30") PartyHasItem("sw1h27") PartyHasItem("sw1h26") PartyHasItem("sw1h36")
+    IF ~PartyHasItem("sw1h30") PartyHasItem("sw1h27") PartyHasItem("sw1h26") PartyHasItem("sw1h35")
 		NumItemsPartyGT("scrl1q",1) NumItemsPartyGT("potn14",1) PartyHasItem("potn45")
         PartyGoldGT(14999)~
       THEN REPLY @148
@@ -413,13 +413,13 @@ IF ~~ THEN BEGIN s#swfree
           TakePartyItemNum("sw1h26",1)   DestroyItem("sw1h26")
           TakePartyItemNum("sw1h27",1)   DestroyItem("sw1h27")
           TakePartyItemNum("sw1h30",1)   DestroyItem("sw1h30")
-          TakePartyItemNum("sw1h36",1)   DestroyItem("sw1h36")
+          TakePartyItemNum("sw1h35",1)   DestroyItem("sw1h35")
           TakePartyItemNum("scrl1q",2)   DestroyItem("scrl1q")
           TakePartyItemNum("potn14",2)   DestroyItem("potn14")
           TakePartyItemNum("potn45",1)   DestroyItem("potn45")
           GiveItemCreate("s#sw1h02",Player1,1,1,1)
           CreateVisualEffect("spcrtwpn",[365.420])~ EXIT
-    IF ~PartyHasItem("sw1h30") PartyHasItem("sw1h27") PartyHasItem("sw1h26") PartyHasItem("sw1h36")
+    IF ~PartyHasItem("sw1h30") PartyHasItem("sw1h27") PartyHasItem("sw1h26") PartyHasItem("sw1h35")
 		NumItemsPartyGT("scrl1q",1) NumItemsPartyGT("potn14",1) PartyHasItem("potn45")
         PartyGoldGT(14999)~
       THEN REPLY @149
@@ -427,7 +427,7 @@ IF ~~ THEN BEGIN s#swfree
           TakePartyItemNum("sw1h26",1)   DestroyItem("sw1h26")
           TakePartyItemNum("sw1h27",1)   DestroyItem("sw1h27")
           TakePartyItemNum("sw1h30",1)   DestroyItem("sw1h30")
-          TakePartyItemNum("sw1h36",1)   DestroyItem("sw1h36")
+          TakePartyItemNum("sw1h35",1)   DestroyItem("sw1h35")
           TakePartyItemNum("scrl1q",2)   DestroyItem("scrl1q")
           TakePartyItemNum("potn14",2)   DestroyItem("potn14")
           TakePartyItemNum("potn45",1)   DestroyItem("potn45")
