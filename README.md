@@ -1,9 +1,9 @@
 
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=darkred)<a name="top" id="top"></a>
+![Latest Release](https://img.shields.io/static/v1?label=release&message=v5.0.0&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
-<div align="center"><h1>Rolles (WIP)</h1>
+<div align="center"><h1></a>Rolles (WIP)</h1>
 
 ### A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET
 
@@ -12,7 +12,7 @@
 
 
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a><br />
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a><br /><br />
 
 
 <div align="center">
@@ -25,7 +25,7 @@
 ## <a name="intro" id="intro"></a>Overview
 
 
-This mod adds Rolles, a new smith in Waukeen's Promenade above the entrance to Adventurer's Market, who can forge and upgrade items. He also sells ready things.
+This mod adds Rolles, a new smith in Waukeen's Promenade above the entrance to Adventurer Mart, who can upgrade items. He also sells scrolls and a few items.
 
 Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/master/rolles/readme/rolles-readme-english.txt">rolles-readme-english.txt</a> for details.
 
@@ -81,7 +81,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component DESIGNATED number which gives it a fixed install position and allows automated installers to specify component choices.
+The installer includes the following components. The number of each is the component DESIGNATED number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
 
 
 **0. Rolles Safyer**<br />
@@ -92,7 +92,7 @@ This component adds Rolles in Waukeen's Promenade.
 
 **10. Bag of Holding in Irenicus Dungeon**<br />
 
-This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
+This component adds a Bag of Holding (capacity: 18 items) in Irenicus Dungeon.
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -101,18 +101,32 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-#### Author: <a href="http://www.shsforums.net/user/2954-erephine/"></a>
+#### Author: Serdrick
 
 
 #### Special Acknowledgements to:
 
+- Deratiseur: Provided the EE compatible version.
+- Gwendolyne: Fixed translations and released version 5.0.0.
+- La Voix 2 la Sagesse (the d'Oghmatiques): Provided French translation.
+- Alina (aerie.ru): Great thanks for the English texts editing!
+
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v3/">mod forum</a>.</br>
+
 
 #### Programs/tools used in creation
+
+- <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> by Wes Weimer, the bigg and Wisp
+- <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintained by igi and lynx
+- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> by Avenger
+- <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip"> ShadowKeeper by Aaron O'Neil.
 
 
 #### Copyrights Information
 
-
+###### Rolles is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Serdrick, based on material from the game Baldur's Gate II and its expansion.
+###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
+###### All other trademarks and copyrights are the property of their respective owners.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -124,9 +138,11 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 ##### version 5
 
 - Renamed Setup-rolles.tp2 -> rolles.tp2 to support AL|EN's "Project Infinity".
-- Reorganized mod architecture tree: created folders to sort files according to their types.
 - Added rolles.ini metadata file to support AL|EN's "Project Infinity".
-- Appended tooltip.2da
+- Reorganized mod architecture tree: created folders to sort files according to their types.
+- Appended tooltip.2da whenever relevant.
+- Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
+- Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
 - Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
 - Updated readme.
 - Updated French and English translations (Gwendolyne).
@@ -136,7 +152,7 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 ##### version 4
 
 - Added BG2EE compatibility by Deratiseur
-- Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha+1.
+- Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
 - Updated WeiDU installer to v246.
 
 ## 
@@ -150,12 +166,12 @@ This component adds a Bag of Holding (containing 18 items) in Irenicus Dungeon.
 ##### version 2
 
 - Required components for some items were changed - read this document.
-- Restrictions on use were added for some items - read this document .
-- Enhanced Amulet of Power is changed - now it gives +2 to wisdom and intelligence, and +30 to Lore.
-- Added: Scaly Armour 'Two Dragons', Full Plate +4, Improved Gloves of Healing, Mace of Disruption +3, Ring of Free Action +1 and +2, Improved Ring of Gaxx.
-- Fixed: when ToB is not installed some items were not displayed in inventory.
+- Added usability restrictions for some items - read this document .
+- Altered Enhanced Amulet of Power: now gives +2 bonus to wisdom and intelligence, and +30 to Lore.
+- Added Scaly Armour 'Two Dragons', Full Plate +4, Improved Gloves of Healing, Mace of Disruption +3, Ring of Free Action +1 and +2, Improved Ring of Gaxx.
+- Fixed a bug causing some items not displayed in inventory when ToB is not installed.
 - Fixed minor issues.
-- Added new component, which will allow to find a Bag of Holding containing 18 items in Irenicus Dungeon.
+- Added new component, which will allows to find a Bag of Holding containing 18 items in Irenicus Dungeon.
 
 ## 
 
