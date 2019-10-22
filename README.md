@@ -10,22 +10,21 @@
 </div><br />
 
 
-
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v3/">Spellhold Studios</a><br /><br />
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v5/">Spellhold Studios</a><br /><br />
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></center></br></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></center></br>
 </div>
+
 
 <hr>
 
 
 ## <a name="intro" id="intro"></a>Overview
 
-
-This mod adds Rolles, a new smith in Waukeen's Promenade above the entrance to Adventurer Mart, who can upgrade items. He also sells scrolls and a few items.
+This mod adds Rolles, a new smith in Waukeen's Promenade above the entrance to Adventurer Mart, who can upgrade items. He also sells a few scrolls and items.
 
 Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/master/rolles/readme/rolles-readme-english.txt">rolles-readme-english.txt</a> for details.
 
@@ -106,12 +105,12 @@ This component adds a Bag of Holding (capacity: 18 items) in Irenicus Dungeon.
 
 #### Special Acknowledgements to:
 
-- Deratiseur: Provided the EE compatible version.
 - Gwendolyne: Fixed translations and released version 5.0.0.
-- La Voix 2 la Sagesse (the d'Oghmatiques): Provided French translation.
+- Deratiseur: Provided the EE compatible version (version 4.0.0).
+- La Voix 2 la Sagesse (the d'Oghmatiques): French translation.
 - Alina (aerie.ru): Great thanks for the English texts editing!
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v3/">mod forum</a>.</br>
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v5/">mod forum</a>.</br>
 
 
 #### Programs/tools used in creation
@@ -119,7 +118,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> by Wes Weimer, the bigg and Wisp
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintained by igi and lynx
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> by Avenger
-- <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip"> ShadowKeeper by Aaron O'Neil.
+- <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip"> ShadowKeeper</a> by Aaron O'Neil.
 
 
 #### Copyrights Information
@@ -135,38 +134,45 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### version 5
+##### Version 5.0.0
 
 - Renamed Setup-rolles.tp2 -> rolles.tp2 to support AL|EN's "Project Infinity".
 - Added rolles.ini metadata file to support AL|EN's "Project Infinity".
-- Reorganized mod architecture tree: created folders to sort files according to their types.
+- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
 - Appended tooltip.2da whenever relevant.
 - Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 - Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
+- Added Continue() action when appending bcs files with EXTEND_TOP command.
+- Reorganized mod architecture tree: created folders to sort files according to their types.
+- Reorganized components (DESIGNATED numbers).
+- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
+- Added README command in tp2.
+- Replaced AUTHOR keyword with SUPPORT.
+- Added version flag.
+- Updated and renamed readme files to rolles-readme-%LANGUAGE%.
 - Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
-- Updated readme.
 - Updated French and English translations (Gwendolyne).
 
 ## 
 
-##### version 4
+##### Version 4
 
-- Added BG2EE compatibility by Deratiseur
+- Added BG2EE compatibility by Deratiseur.
 - Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
 - Updated WeiDU installer to v246.
 
 ## 
 
-##### version 3
+##### Version 3
 
 - Added French translation by La Voix 2 la Sagesse (of the d'Oghmatiques).
 
 ## 
 
-##### version 2
+##### Version 2
 
-- Required components for some items were changed - read this document.
-- Added usability restrictions for some items - read this document .
+- Required components for some items were changed.
+- Added usability restrictions for some items.
 - Altered Enhanced Amulet of Power: now gives +2 bonus to wisdom and intelligence, and +30 to Lore.
 - Added Scaly Armour 'Two Dragons', Full Plate +4, Improved Gloves of Healing, Mace of Disruption +3, Ring of Free Action +1 and +2, Improved Ring of Gaxx.
 - Fixed a bug causing some items not displayed in inventory when ToB is not installed.
@@ -175,7 +181,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### version 1
+##### Version 1
 
 - Initial release
 <div align="right"><a href="#top">Back to top</a></div>
