@@ -6,12 +6,11 @@
 
 @0010 = ~Bag of Holding in Irenicus Dungeon~
 
-@0020 = ~This component is not available for your game.~
+@0020 = ~This mod is not available for your game.~
 
 @0300 = ~Cloak of the Wild Magi~
 @0301 = ~Cloak of the Wild Magi
-
-It's not known who and when created this item. Only it is possible to guess, that it was made by the magician practising wild magic, who was trying to protect itself from its undesirable effects.
+It's not known who and when created this item. Only it is possible to guess that it was made by the magician practising wild magic, who was trying to protect itself from its undesirable effects.
 
 STATISTICS:
 
@@ -28,7 +27,6 @@ Usable by:
 
 @1000 = ~Sling +4 Arla's Dragonbane~
 @1001 = ~Sling +4: 'Arla's Dragonbane'
-
 This powerful sling magically unites in itself the properties of Arla's Dragonbane and Sling of Seeking, with one essential difference - it does not require ammunition, as at a throw a phantom bullet originates. The damage it inflicts corresponds with the strength of the owner, as against the majority of similar things.
 
 Note: avoid equipping normal bullets on your character, else the sling will fire these instead of the phantom bullets.
@@ -52,7 +50,6 @@ Not usable by:~
 
 @1002 = ~Enhanced Shield of Balduran~
 @1003 = ~Enhanced Shield of Balduran +3
-
 This shield was worn by the hero Balduran. It is part of a set of weapons and armor that was stolen from the museum in the city of Baldur's Gate.
 Shield was changed magically and has in addition properties of Reflection Shield and Shield of the Lost, and also protects the owner from destructive influence of Elements. Except for that the shield does not reduce the strength of the owner any more.
 
@@ -75,7 +72,6 @@ Not usable by:
 
 @1004 = ~Gauntlets of Grandmastery~
 @1005 = ~Gauntlets of Grandmastery
-
 A pair of these fine gauntlets magically incorporated the properties of several more simple subjects, therefore they provide attacking and protective abilities, worthy of any great warrior.
 
 STATISTICS:
@@ -96,7 +92,6 @@ Not usable by:
 
 @1006 = ~Necklace of Time Stability~
 @1007 = ~Necklace of Time Stability
-
 Amulet of Spell Warding appeared to be one of the few items, that were capable to swallow the Time Stop spell, and so to become not subject to it. Even this feature only would make it a rather valuable item, but except for that it also protects the owner.
 
 STATISTICS:
@@ -114,7 +109,6 @@ Not usable by:
 
 @1008 = ~Enhanced Amulet of Power~
 @1009 = ~Enhanced Amulet of Power
-
 This amulet bears the signature enchantments of Conster Damon, an archmage that fell in the Year of the Dracorage (1018 DR). The crispness of its etchings may have faded with fire and time, but it still echoes his famous defiant cries: "Your magic denied!" "I will be heard!" "Defeat comes swiftly!" "Take nothing from me!" It has seen much use, and changed hands many times through blood and battle.
 This amulet was magically changed, and its new properties are capable to help the most forgetful spellcaster.
 
@@ -137,7 +131,6 @@ Not usable by:
 
 @1010 = ~Restored Mask of King Strohm III~
 @1011 = ~Restored Mask of King Strohm III
-
 This is the mask of ancient King Strohm III, with a part of its initial abilities restored. The two Ioun Stones, that were magically joined with it, make it an even more valuable item.
 
 STATISTICS:
@@ -157,7 +150,6 @@ Not usable by:~
 
 @1012 = ~Battle Axe +4 Ice and Fire~
 @1013 = ~Battle Axe +4 'Ice and Fire'
-
 This powerful weapon equally effectively is capable to strike the enemy both in close combat, and on a distance. Besides each hit inflicts an additional damage from fire, cold and acid.
 
 STATISTICS:
@@ -187,7 +179,6 @@ Not usable by:
 
 @1014 = ~Sacred Justice~
 @1015 = ~Sacred Justice
-
 In this two-handed sword of unprecedented power the properties of two sacred blades - Daystar and legendary Carsomyr - are magically incorporated, having special disgust for forces of evil and chaos. Only pure of heart can wield this sword.
 
 STATISTICS:
@@ -222,7 +213,6 @@ Usable by:
 
 @1016 = ~Sacred Justice~
 @1017 = ~Sacred Justice
-
 In this long sword of unprecedented power the properties of two sacred blades - Daystar and legendary Carsomyr - are magically incorporated, having special disgust for forces of evil and chaos. Only pure of heart can wield this sword.
 
 STATISTICS:
@@ -257,7 +247,6 @@ Usable by:
 
 @1018 = ~Enhanced Girdle of Fortitude~
 @1019 = ~Enhanced Girdle of Fortitude
-
 This belt was magically changed, and that returned its former force to it.
 
 STATISTICS:
@@ -272,7 +261,6 @@ Not usable by:
 
 @1020 = ~Enhanced Staff of Curing~
 @1021 = ~Enhanced Staff of Curing
-
 Torm is said to manifest these items during times of great trouble, granting them to priests who care for the wounded, diseased, and poisoned. Magically joined with Cleric's Staff +3, it has become now more powerful weapon, and besides it has received additional useful qualities - charges of cure are completely restored in 8 hours.
 
 STATISTICS:
@@ -299,7 +287,6 @@ Not usable by:
 
 @1022 = ~Gauntlets of Crushing Hand of Vampire~
 @1023 = ~Gauntlets of Crushing 'Hand of Vampire'
-
 Gauntlets of Crushing have turned to be a powerful artefact after a part of forces from the Hand of old vampire Dace was transferred to them. The wearer of these gloves gets some protection available to vampires, for example regeneration and immunity to Level Drain.
 
 STATISTICS:
@@ -320,7 +307,6 @@ Usable by:
 
 @1024 = ~Destroyer +4~
 @1025 = ~Destroyer +4
-
 This big and heavy two-handed sword magically join several more simple blades, each giving it a part of its force. Because of his weight the impact of the sword is rather strong, and it inflicts an additional crushing damage. However it demands considerable strength from the wielder.
 
 STATISTICS:
@@ -352,7 +338,6 @@ Not usable by:
 
 @1026 = ~Destroyer +5~
 @1027 = ~Destroyer +5
-
 This big and heavy two-handed sword magically join several more simple blades, each giving it a part of its force. Because of his weight the impact of the sword is rather strong, and it inflicts an additional crushing damage. However it demands considerable strength from the wielder.
 
 Charge abilities:
@@ -385,7 +370,6 @@ Not usable by:
 
 @1028 = ~Cloak of Perfection~
 @1029 = ~Cloak of Perfection
-
 The owner of this cloak can go quietly on dark alleyway without risking to receive a knife in the back, as it was amplified with chitinous inserts from Ankheg. Except for that the clasp of this cloak, made from Greenstone Amulet, provides excellent protection against mind-affecting spells.
 
 STATISTICS:
@@ -401,7 +385,6 @@ Not usable by:~
 
 @1030 = ~Tansheron's Bow +4~
 @1031 = ~Tansheron's Bow +4
-
 The thin, frayed string of this bow appears unusable, but when it is drawn a solid but invisible arrow becomes tangible. The lich Tansheron gave this bow to his Watcher, the guardian of his keep who stood atop a tower with neither entrance nor exit. When anyone approached, down would fall a never-ending rain of phantom arrows until they were dead or fled. How this bow was wrested from the Watcher's hand is not known, but would probably make a great tavern story.
 
 Magically joined with Tuigan Bow +1, it became now more powerful weapon.
@@ -429,7 +412,6 @@ Not usable by:
 
 @1032 = ~Dream of the Thief~
 @1033 = ~Dream of the Thief
-
 This Studded Leather Armor has little in common with an usual Leather Armor. It is made from Armor of the Viper and Skin of the Ghoul, amplified in addition by chitinous inserts from Ankheg, providing excellent protection against foul stabs in the back. Numerous rivets, made of pure Adamantine, which light does not affect, create a flexible metal covering, helping to evade cutting and slashing attacks, and keep charm well. And though many can wear it, it will be most useful to those, who has got used to be hidden in a shadow, providing him excellent protection against fellows on craft.
 
 STATISTICS:
@@ -475,7 +457,6 @@ Non-dwarves
 
 @1036 = ~Universal Thrower +5~
 @1037 = ~Universal Thrower +5
-
 This hammer is changed magically and now can be used by everyone who in general is able to use a hammer. This powerful weapon is capable to strike the enemy both in close combat, and on a distance equally effectively. The magic in the hammer draws it back to the hand of its wielder. If it hits an opponent it does double the normal damage that a hammer would normally do. Against giants and ogres the hammer does an additional +12 damage.
 
 STATISTICS:
@@ -499,7 +480,6 @@ Not usable by:
 
 @1038 = ~Enhanced Staff of the Magi~
 @1039 = ~Enhanced Staff of the Magi
-
 This type of staff is thoroughly linked of the image of the spellcasting profession, rare though it is. It is among the most powerful tools that a wizard can possess, the culmination of complex enchantment and endless study. This particular example is good in melee, grants Invisibility, and offers protection from Charms and Evil. It can also cast a Spell Trap, launch a Fireball-Chain Lightning combination, and Dispel Magic. The quintessential mage item.
 
 STATISTICS:
@@ -538,7 +518,6 @@ Usable By
 
 @1040 = ~Throwing Dagger Silent Death~
 @1041 = ~Throwing Dagger 'Silent Death'
-
 Made from Stiletto of Demarchess and Pixie Prick, this dagger is menacing weapon, and equally effectively is capable to strike the enemy both in close combat, and on a distance. After the end of a throw the dagger as if on wings comes back to the owner.
 
 STATISTICS:
@@ -563,7 +542,6 @@ Not usable by:
 
 @1042 = ~Short Sword of Freedom +5~
 @1043 = ~Short Sword of Freedom +5
-
 This sword gives quite good protection against mind-affecting spells and paralyzing attacks of monsters. It magically combines several more simple blades, each giving it a part of its force. The excellent balance and extremely sharp edge allow to strike critical stab more often.
 
 STATISTICS:
@@ -597,7 +575,6 @@ Not usable by:
 
 @1044 = ~Long Sword of Freedom +5~
 @1045 = ~Long Sword of Freedom +5
-
 This sword gives quite good protection against mind-affecting spells and paralyzing attacks of monsters. It magically combines several more simple blades, each giving it a part of its force. The excellent balance and extremely sharp edge allow to strike critical stab more often.
 
 STATISTICS:
@@ -713,7 +690,6 @@ Not usable by:
 
 @1054 = ~Ring of Free Action +1~
 @1055 = ~Ring of Free Action +1
-
 This ring was changed magically. It unites the abilities of Ring of Protection +1: 'Ring of the Princes' and Ring of Free Action.
 
 STATISTICS:
@@ -727,7 +703,6 @@ Not usable by:~
 
 @1056 = ~Ring of Free Action +2~
 @1057 = ~Ring of Free Action +2
-
 This ring was changed magically. It unites the abilities of Ring of Protection +2: 'The Guard's Ring' and Ring of Free Action.
 
 STATISTICS:
@@ -741,7 +716,6 @@ Not usable by:~
 
 @1058 = ~Improved Ring of Gaxx~
 @1059 = ~Improved Ring of Gaxx
-
 This ring is relatively unadorned, but the vile magic within radiates intense evil. Indeed, its creator, Kangaxx, was no less evil himself, even before millennia of undeath honed his power. It is said that a cadre of Netheril mages fought and imprisoned the demilich once, but being unable to truly destroy him they became liches themselves to stand guard over his remains. The construction of the ring may have led to their enmity, as each of the gem's nine facets was supposedly empowered by sacrifice and death.
 This ring was magically changed, and its fighting and protective abilities were improved.
 

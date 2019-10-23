@@ -6,7 +6,7 @@
 
 @0010 = ~Sac de contenance dans la prison d'Irenicus~
 
-@0020 = ~Ce composant n'est pas disponible pour votre jeu.~
+@0020 = ~Ce mod n'est pas disponible pour votre jeu.~
 
 @0300 = ~Cape d'entropisme~
 @0301 = ~Cape d'entropisme
@@ -52,7 +52,7 @@ Non utilisable par :
 
 @1002 = ~Bouclier amélioré de Baldurien~
 @1003 = ~Bouclier amélioré de Baldurien +3
-Le bouclier du célèbre héros. Il fait partie d'une collection d'armures et d'armes volée au musée de la ville de la Porte de Baldur.
+Le bouclier du célèbre héros Baldurien. Il fait partie d'une collection d'armures et d'armes volée au musée de la ville de la Porte de Baldur.
 Il a été amélioré magiquement, combinant en plus les pouvoirs du bouclier de réflexion et du bouclier des Disparus. Il protège également son porteur des effets des énergies destructives. Il est à noter que, contrairement à sa précédente version, ce bouclier ne réduit plus la force de son porteur.
 
 PARAMÈTRES :
@@ -438,7 +438,7 @@ Non utilisable par :
 
 @1032 = ~Rêve du Voleur~
 @1033 = ~Rêve du Voleur
-Cette armure de cuir clouté n'a plus grand-chose à voir avec une armure de cuir basique. Elle a été faite à partir de l'armure de la Vipère et d'une Peau de goule qui ont été amplifiées par une carapace d'ankheg, et accorde une solide protection contre les coups sournois dans le dos. Un renforcement métallique fait de plusieurs rivets d'adamantine pur, que le soleil n'affecte pas, garantissent une protection supplémentaire contre les attaques tranchantes et perforantes, ainsi que contre les charmes magiques. Et même si la plupart des aventuriers peuvent porter une telle armure, elle sera plus profitable à ceux qui traînent dans les ombres, les protégeant ainsi de leurs rivaux et de leurs collègues de « travail ».
+Cette armure de cuir clouté n'a plus grand-chose à voir avec une armure de cuir basique. Elle a été fabriquée à partir de l'armure de la Vipère et d'une Peau de goule qui ont été amplifiées par une carapace d'ankheg, et accorde une solide protection contre les coups sournois dans le dos. Un renforcement métallique fait de plusieurs rivets d'adamantine pur, que le soleil n'affecte pas, garantissent une protection supplémentaire contre les attaques tranchantes et perforantes, ainsi que contre les charmes magiques. Et même si la plupart des aventuriers peuvent porter une telle armure, elle sera plus profitable à ceux qui traînent dans les ombres, les protégeant ainsi de leurs rivaux et de leurs collègues de « travail ».
 
 PARAMÈTRES :
 
@@ -557,7 +557,7 @@ Utilisable par :
 
 @1040 = ~Dague de jet Mort silencieuse~
 @1041 = ~Dague de jet « Mort Silencieuse »
-Faite à partir du stylet de Demarche et de l'aiguillon de Pixie, cette dague est une arme redoutable, tout aussi dangereuse en combat rapproché qu'à distance. Une fois le coup porté, cette dague de jet retourne dans les mains de son propriétaire en volant, comme si elle était équipée de petites ailes.
+Forgée à partir du stylet de Demarche et de l'aiguillon de Pixie, cette dague est une arme redoutable, tout aussi dangereuse en combat rapproché qu'à distance. Une fois le coup porté, cette dague de jet retourne dans les mains de son propriétaire en volant, comme si elle était équipée de petites ailes.
 
 PARAMÈTRES :
 
@@ -618,7 +618,6 @@ Non utilisable par :
 
 @1044 = ~Épée longue de Liberté +5~
 @1045 = ~Epée longue de Liberté +5
-
 Cette épée accorde une protection efficace contre les sorts affectant l'esprit et les attaques qui provoquent la paralysie. Elle combine les forces de plusieurs épées magiques de moindre puissance, chacune d'entre elles offrant une partie de son pouvoir. Cette épée est très bien équilibrée, et son tranchant acéré permet de provoquer des coups critiques plus souvent que la normale.
 
 PARAMÈTRES :
@@ -654,7 +653,7 @@ Non utilisable par :
 
 @1046 = ~Armure d'écailles Deux dragons~
 @1047 = ~Armure d'écailles « Deux Dragons »
-Cette armure est faite à partir des écailles d'un dragon rouge et d'un dragon d'ombre. Les écailles, très bien assemblées, accordent à leur porteur une protection substantielle contre le feu et l'acide. En outre, l'armure a absorbé une partie des pouvoirs du ceinturon de Barrière inertielle. Sa légèreté permet aux guerriers/mages et aux voleurs de la porter sans trop de restrictions.
+Cette armure est fabriquée à partir des écailles d'un dragon rouge et d'un dragon d'ombre. Les écailles, très bien assemblées, accordent à leur porteur une protection substantielle contre le feu et l'acide. En outre, l'armure a absorbé une partie des pouvoirs du ceinturon de Barrière inertielle. Sa légèreté permet aux guerriers/mages et aux voleurs de la porter sans trop de restrictions.
 
 PARAMÈTRES :
 
@@ -674,7 +673,7 @@ Non utilisable par :
 
 @1048 = ~Armure de plates complète +4~
 @1049 = ~Armure de plates complète +4
-Cette armure est faite à partir d'un alliage extrêmement rare d'adamantine et d'illithium très puissant et assez léger qui n'est pas affecté par la lumière. En outre, cette armure accorde une immunité à l'absorption de niveau et aux sorts de premier niveau.
+Cette armure est forgée à partir d'un alliage extrêmement rare d'adamantine et d'illithium très puissant et assez léger qui n'est pas affecté par la lumière. En outre, cette armure accorde une immunité à l'absorption de niveau et aux sorts de premier niveau.
 
 PARAMÈTRES :
 
@@ -700,8 +699,7 @@ Non utilisable par :
 
 @1050 = ~Gantelets de soins améliorés~
 @1051 = ~Gantelets de soins améliorés
-
-Cet gantelets ont été améliorés magiquement, et protègent beaucoup mieux leur propriétaire.
+Ces gantelets ont été améliorés magiquement, et protègent beaucoup mieux leur propriétaire.
 
 PARAMÈTRES :
 
@@ -722,7 +720,7 @@ Non utilisable par :
 
 @1052 = ~Masse de Destruction +3~
 @1053 = ~Masse de Destruction +3
-Cette masse lourde a été fabriquée dans un but bien précis : détruire les morts-vivants. Toute créature de ce type touchée par cette arme en ressent non seulement la force du coup, mais risque aussi d'être tout simplement anéantie par sa magie. Certaines légendes mentionnent une prêtre si pieux qu'il pouvait détruire un vampire simplement en le touchant, mais les théologiens s'interrogent encore pour savoir s'il profitait du pouvoir de la masse, ou si c'est lui qui l'a faite profiter de son pouvoir.
+Cette masse lourde a été créée dans un but bien précis : détruire les morts-vivants. Toute créature de ce type touchée par cette arme en ressent non seulement la force du coup, mais risque aussi d'être tout simplement anéantie par sa magie. Certaines légendes mentionnent une prêtre si pieux qu'il pouvait détruire un vampire simplement en le touchant, mais les théologiens s'interrogent encore pour savoir s'il profitait du pouvoir de la masse, ou si c'est lui qui l'a faite profiter de son pouvoir.
 Maintenant qu'elle a été couverte d'illithium, cette masse est devenue plus puissante et procure également l'immunité contre le drainage de niveaux des plus puissants morts-vivants. Elle a aussi une chance de ralentir sa cible en combat.
 
 PARAMÈTRES :
