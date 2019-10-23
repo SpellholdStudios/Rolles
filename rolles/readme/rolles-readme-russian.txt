@@ -551,18 +551,42 @@ All other trademarks and copyrights are the property of their respective owners.
 
 7. История версий.
 
-v3: Добавлен французский перевод от La Voix 2 la Sagesse (of the d'Oghmatiques).
+v5.0.0
+- Renamed Setup-rolles.tp2 -> rolles.tp2 to support AL|EN's "Project Infinity".
+- Added rolles.ini metadata file to support AL|EN's "Project Infinity".
+- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
+- Appended tooltip.2da whenever relevant.
+- Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
+- Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
+- Added Continue() action when appending bcs files with EXTEND_TOP command.
+- Reorganized mod architecture tree: created folders to sort files according to their types.
+- Reorganized components (DESIGNATED numbers).
+- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
+- Added README command in tp2.
+- Replaced AUTHOR keyword with SUPPORT.
+- Added VERSION flag.
+- Updated and renamed readme files to rolles-readme-%LANGUAGE%.
+- Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
+- Updated French and English translations (Gwendolyne).
 
-v2:
-для некоторых предметов изменены требуемые компоненты - см. этот документ.
-для некоторых предметов введены ограничения на использование - см. этот документ. 
-изменен Улучшенный Амулет Силы - сейчас он дает +2 к мудрости и интеллекту, и +30 к Знаниям.
-добавлены: Чешуйчатый Доспех "Два Дракона"; Полный панцирь +4; Улучшенные Перчатки Исцеления; Булава Разрушения +3; Кольцо Свободы Действий +1, или +2; Улучшенное Кольцо Гакса.  
-исправлена ситуация, когда при не установленном ТоВ некоторые предметы не отображались в инвентаре.
-исправлено несколько мелких ошибок.
-добавлен новый компонент, позволяющий найти в подземелье Айреникуса сумку, вмещающую 18 предметов.
+v4 (November 11, 2018)
+- Added BG2EE compatibility by Deratiseur.
+- Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
+- Updated WeiDU installer to v246.
 
-v1:
-первый публичный релиз мода.
+v3
+- Добавлен французский перевод от La Voix 2 la Sagesse (of the d'Oghmatiques).
+
+v2
+- для некоторых предметов изменены требуемые компоненты - см. этот документ.
+- для некоторых предметов введены ограничения на использование - см. этот документ. 
+- изменен Улучшенный Амулет Силы - сейчас он дает +2 к мудрости и интеллекту, и +30 к Знаниям.
+- добавлены: Чешуйчатый Доспех "Два Дракона"; Полный панцирь +4; Улучшенные Перчатки Исцеления; Булава Разрушения +3; Кольцо Свободы Действий +1, или +2; Улучшенное Кольцо Гакса.  
+- исправлена ситуация, когда при не установленном ТоВ некоторые предметы не отображались в инвентаре.
+- исправлено несколько мелких ошибок.
+- добавлен новый компонент, позволяющий найти в подземелье Айреникуса сумку, вмещающую 18 предметов.
+
+v1
+- первый публичный релиз мода.
 
 

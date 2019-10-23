@@ -539,21 +539,25 @@ All other trademarks and copyrights are the property of their respective owners.
 7. Versions History:
 ====================
 
-v5.0.0
+v5.0.0 ()
 - Renamed Setup-rolles.tp2 -> rolles.tp2 to support AL|EN's "Project Infinity".
 - Added rolles.ini metadata file to support AL|EN's "Project Infinity".
-- Reorganized mod architecture tree: created folders to sort files according to their types.
+- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
 - Appended tooltip.2da whenever relevant.
 - Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 - Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
-- Added Continue() action when appending bcs file with EXTEND_TOP command.
+- Added Continue() action when appending bcs files with EXTEND_TOP command.
+- Reorganized mod architecture tree: created folders to sort files according to their types.
 - Reorganized components (DESIGNATED numbers).
+- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 - Added README command in tp2.
+- Replaced AUTHOR keyword with SUPPORT.
+- Added VERSION flag.
 - Updated and renamed readme files to rolles-readme-%LANGUAGE%.
 - Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
 - Updated French and English translations (Gwendolyne).
 
-v4
+v4 (November 11, 2018)
 - Added BG2EE compatibility by Deratiseur.
 - Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
 - Updated WeiDU installer to v246.
