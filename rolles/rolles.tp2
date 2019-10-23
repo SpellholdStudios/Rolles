@@ -1,0 +1,275 @@
+BACKUP ~rolles/backup~
+
+// AUTHOR ~serdrick@rol.ru~
+SUPPORT ~http://www.shsforums.net/topic/36655-rolles-v5/~
+
+VERSION ~5.0.0~
+
+README ~rolles/readme/rolles-readme-%LANGUAGE%.txt~ ~rolles/readme/rolles-readme-english.txt~
+
+
+ALWAYS
+
+	/* Converts tra files to UTF-8 */
+	ACTION_DEFINE_ARRAY s#_reload BEGIN setup END
+	ACTION_DEFINE_ARRAY s#_noconvert BEGIN END
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charset = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/tra~
+			noconvert_array = s#_noconvert
+			reload_array = s#_reload
+	END
+
+	/* Loads in any shared functions library (general macros and functions) */
+	INCLUDE ~rolles/lib/gw_functions.tpa~				// Loads macros and functions library dealing with tooltip appending and specific EE items descriptions.
+	INCLUDE ~rolles/gw_convert_inventory_bam_to_ee.tpa~	// Function converting inventory BAMs to EE.
+
+	LAM ~GW_READ_COL_TOOLTIP~				// Reads how many columns are in tooltip.2da file.
+
+END
+
+AUTO_TRA ~rolles/tra/%s~
+
+LANGUAGE ~Russian~
+         ~russian~
+         ~rolles/tra/russian/setup.tra~
+
+LANGUAGE ~English~
+         ~english~
+         ~rolles/tra/english/setup.tra~
+
+LANGUAGE ~French (traduction : La Voix 2 la Sagesse)~
+         ~french~
+         ~rolles/tra/french/setup.tra~
+
+
+/* ==================================== *
+ *         Rolles Safyer (SoA)          *
+ * ==================================== */
+
+BEGIN @0000
+DESIGNATED 0
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @0020
+
+// Copy BAMs or convert them to EE
+// -------------------------------
+ACTION_IF GAME_IS ~bg2ee eet~
+	OUTER_SPRINT -exc ~s#sw1h02 s#sw1h04 ~ // Special case: Inventory bams don't need to be converted.
+	ACTION_BASH_FOR ~rolles/bam/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		ACTION_IF (~%t-exc%~ STRING_CONTAINS_REGEXP ~%BASH_FOR_RES%~ = 1) BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+				LPF ~gw_convert_inventory_bam_to_ee~ END
+			BUT_ONLY
+		END ELSE BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+		END
+	END
+END ELSE BEGIN
+	COPY ~rolles/bam~	~override~
+END
+
+// Roles
+// -----
+COPY ~rolles/sto/s#rolles.sto~	~override~
+
+COPY ~rolles/roll/s#rolles.cre~	~override~
+	SAY NAME1 @0001
+ 	SAY NAME2 @0002
+
+EXTEND_TOP ~ar0706.bcs~	~rolles/roll/s#rolles.baf~
+
+// Items
+// -----
+COPY ~rolles/eff~	~override~
+
+COPY ~rolles/sto/s#bag01.sto~	~override~
+
+COPY ~rolles/itm/s#book01.itm~	~override~
+COPY ~rolles/itm/s#book02.itm~	~override~
+COPY ~rolles/itm/s#bag01.itm~	~override~
+
+// Cloak of the Wild Magi
+COPY ~rolles/itm/s#clck01.itm~ ~override~
+	SAY NAME2 @0300
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@0301" END
+
+// Sling +4 Arla's Dragonbane
+COPY ~rolles/itm/s#slng01.itm~ ~override~
+	SAY NAME2 @1000
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1001" END
+
+// Enhanced Shield of Balduran
+COPY ~rolles/itm/s#shld01.itm~ ~override~
+	SAY NAME2 @1002
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1003" END
+
+// Gauntlets of Grandmastery
+COPY ~rolles/itm/s#brac01.itm~ ~override~
+	SAY NAME2 @1004
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1005" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#brac01~ GW_tooltips = ~54312~ END	// Improved Haste twice per day
+
+// Necklace of Time Stability
+COPY ~rolles/itm/s#amul01.itm~ ~override~
+	SAY NAME2 @1006
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1007" END
+
+// Enhanced Amulet of Power
+COPY ~rolles/itm/s#amul02.itm~ ~override~
+	SAY NAME2 @1008
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1009" END
+
+// Restored Mask of King Strohm III
+COPY ~rolles/itm/s#helm01.itm~ ~override~
+	SAY NAME2 @1010
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1011" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#helm01~ GW_tooltips = ~34609~ END	// Summon Efreeti once per day
+
+// Battle Axe +4 Ice and Fire
+COPY ~rolles/itm/s#ax1h01.itm~ ~override~
+	SAY NAME2 @1012
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1013" END
+
+// Sacred Justice
+COPY ~rolles/itm/s#sw2h01.itm~ ~override~
+	SAY NAME2 @1014
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1015" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw2h01~ GW_tooltips = ~@1014 3803 12026~ END	// Sunray twice per day - Dispel magic 3 times per day
+
+COPY ~rolles/itm/s#sw1h01.itm~ ~override~
+	SAY NAME2 @1016
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1017" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw1h01~ GW_tooltips = ~@1016 12026 3803~ END	// Dispel magic 3 times per day - Sunray twice per day
+
+// Enhanced Girdle of Fortitude
+COPY ~rolles/itm/s#belt01.itm~ ~override~
+	SAY NAME2 @1018
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1019" END
+
+// Enhanced Staff of Curing
+COPY ~rolles/itm/s#staf01.itm~ ~override~
+	SAY NAME2 @1020
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1021" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#staf01~ GW_tooltips = ~@1020 12117 8786~ END	// Raise Dead once per day - Cure 5 times per day
+ 
+// Gauntlets of Crushing 'Hand of Vampire'
+COPY ~rolles/itm/s#brac02.itm~ ~override~
+	SAY NAME2 @1022
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1023" END
+
+// Destroyer +4
+COPY ~rolles/itm/s#sw2h02.itm~ ~override~
+	SAY NAME2 @1024
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1025" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw2h02~ GW_tooltips = ~@1024 34654~ END	// Enrage 3 times per day
+
+// Destroyer +5
+COPY ~rolles/itm/s#sw2h03.itm~ ~override~
+	SAY NAME2 @1026
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1027" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw2h03~ GW_tooltips = ~@1026 34654~ END	// Enrage 3 times per day
+
+// Cloak of Perfection
+COPY ~rolles/itm/s#clck03.itm~ ~override~
+	SAY NAME2 @1028
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1029" END
+
+// Tansheron's Bow +4
+COPY ~rolles/itm/s#bow01.itm~ ~override~
+	SAY NAME2 @1030
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1031" END
+
+// Dream of the Thief
+COPY ~rolles/itm/s#leat01.itm~ ~override~
+	SAY NAME2 @1032
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1033" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#leat01~ GW_tooltips = ~12017~ END	// Invisibility 3 times per day
+
+// Dwarven Thrower +4
+COPY ~rolles/itm/s#hamm01.itm~ ~override~
+	SAY NAME2 @1034
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1035" END
+
+// Universal Thrower +5
+COPY ~rolles/itm/s#hamm02.itm~ ~override~
+	SAY NAME2 @1036
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1037" END
+
+// Enhanced Staff of the Magi
+COPY ~rolles/itm/s#staf02.itm~ ~override~
+	SAY NAME2 @1038
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1039" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#staf02~ GW_tooltips = ~@1038 @10391 26304~ END	// Invisibility 3 times per day
+
+// Throwing Dagger Silent Death
+COPY ~rolles/itm/s#dagg01.itm~ ~override~
+	SAY NAME2 @1040
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1041" END
+
+// Short Sword of Freedom +5
+COPY ~rolles/itm/s#sw1h02.itm~ ~override~
+	SAY NAME2 @1042
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1043" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw1h02~ GW_tooltips = ~@1042 12018 54312~ END	// Mirror Image twice per day - Improved Haste twice per day
+
+// Long Sword of Freedom +5
+COPY ~rolles/itm/s#sw1h03.itm~ ~override~
+	SAY NAME2 @1044
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1045" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw1h03~ GW_tooltips = ~@1044 12018 54312~ END	// Mirror Image twice per day - Improved Haste twice per day
+
+// Scaly Armour Two Dragons
+COPY ~rolles/itm/s#chan01.itm~ ~override~
+	SAY NAME2 @1046
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1047" END
+
+// Full Plate +4
+COPY ~rolles/itm/s#plat02.itm~ ~override~
+	SAY NAME2 @1048
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1049" END
+
+// Improved Gloves of Healing
+COPY ~rolles/itm/s#brac03.itm~ ~override~
+	SAY NAME2 @1050
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1051" END
+
+// Mace of Disruption +3
+COPY ~rolles/itm/s#mace01.itm~ ~override~
+	SAY NAME2 @1052
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1053" END
+
+// Ring of Free Action +1
+COPY ~rolles/itm/s#ring01.itm~ ~override~
+	SAY NAME2 @1054
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1055" END
+
+// Ring of Free Action +2
+COPY ~rolles/itm/s#ring02.itm~ ~override~
+	SAY NAME2 @1056
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1057" END
+
+// Improved Ring of Gaxx
+COPY ~rolles/itm/s#ring03.itm~ ~override~
+	SAY NAME2 @1058
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1059" END
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#ring03~ GW_tooltips = ~63217 12017 25937~ END	// Improved Invisibility once per day - Improved Haste 3 times per day
+
+COMPILE ~rolles/dlg/rolles.d~
+
+
+/* ==================================== *
+ *  Bag of Holding in Irenicus Dungeon  *
+ * ==================================== */
+
+BEGIN @0010
+DESIGNATED 10
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @0020
+
+COPY ~rolles/sto/s#bag02.sto~	~override~
+COPY ~rolles/itm/s#bag02.itm~	~override~
+
+EXTEND_BOTTOM ~ar0602.bcs~ ~rolles/bag/bag.baf~

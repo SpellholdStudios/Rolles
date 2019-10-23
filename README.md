@@ -5,7 +5,7 @@
 
 <div align="center"><h1></a>Rolles (WIP)</h1>
 
-### A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET
+<h3>A mod for Baldur's Gate II (classical and EE games), Baldur's Gate Trilogy and EET</h3>
 
 </div><br />
 
@@ -15,7 +15,7 @@
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></center></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></center></br>
 </div>
 
 
@@ -134,7 +134,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 5.0.0
+##### Version 5.0.0 (, 2019)
 
 - Renamed Setup-rolles.tp2 -> rolles.tp2 to support AL|EN's "Project Infinity".
 - Added rolles.ini metadata file to support AL|EN's "Project Infinity".
@@ -148,14 +148,14 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 - Added README command in tp2.
 - Replaced AUTHOR keyword with SUPPORT.
-- Added version flag.
-- Updated and renamed readme files to rolles-readme-%LANGUAGE%.
+- Added VERSION flag.
+- Updated and renamed readme files to <em>rolles-readme-%LANGUAGE%</em>.
 - Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
 - Updated French and English translations (Gwendolyne).
 
 ## 
 
-##### Version 4
+##### Version 4 (November 11, 2018)
 
 - Added BG2EE compatibility by Deratiseur.
 - Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
