@@ -1,5 +1,21 @@
+/* ================================================================================================================================================================= *
+ *  Concept borrowed from Sam's BAM Batcher mod v2.4.2 to convert inventory BAMs to EE games. From Gwendolyne's original code, modified by Sam.                      *
+ *  Code emprunté au mod BAM Batcher v2.4.2 de Sam pour convertir les fichiers BAM d'inventaire au format EE. D'après un code original de Gwendolyne.                *
+ *                                                                                                                                                                   *
+ *  Source: https://www.gibberlings3.net/forums/topic/28823-merchant-mods/?do=findComment&comment=254149                                                             *
+ *                                                                                                                                                                   *
+ * ================================================================================================================================================================= *
+ *  This function attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM files must    *
+ *  have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed.            *
+ *  Inventory icon BAMs in the /bam folder that meet these requirements are patched and saved back to the override folder.                                           *
+ * ----------------------------------------------------------------------------------------------------------------------------------------------------------------- *
+ *  Cette fonction permet de modifier les fichiers BAM d'icônes d'inventaire afin que les jeux améliorés (EE) affichent à la fois leurs grandes et leurs petites     *
+ *  icônes. Ces fichiers comportent deux séquences, la première représentant la grande icône et la seconde la petite. Les fichiers BAM du répertoire /bam répondant  *
+ *  à ces caractéristiques sont modifiés et sauvegardés dans le répertoire override.                                                                                 *
+ * ================================================================================================================================================================= */
+
 DEFINE_PATCH_FUNCTION ~gw_convert_inventory_bam_to_ee~ BEGIN
-// https://www.gibberlings3.net/forums/topic/28823-merchant-mods/?do=findComment&comment=254149
+
 // Read BAM
 // ---------
     READ_ASCII 0x0 sg (4)    // Signature
