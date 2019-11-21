@@ -3,6 +3,6 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("StartDungBag","AR0602",1)
-    ActionOverride("Chest 8",CreateItem("S#bag02",1,1,1))
+    ActionOverride("Chest 8",CreateItem("s#bag02",1,1,1))
 	Continue()
 END
