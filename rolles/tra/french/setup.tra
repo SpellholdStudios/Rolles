@@ -1,5 +1,6 @@
 @9001 = ~[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 @9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+
 @0000 = ~Rolles Safyer~
 @0001 = ~Rolles~
 @0002 = ~Rolles~
@@ -8,6 +9,8 @@
 
 @0020 = ~Ce mod n'est pas disponible pour votre jeu.~
 
+// Items
+// -----
 @0300 = ~Cape d'entropisme~
 @0301 = ~Cape d'entropisme
 Nul ne sait quand a été créé cet objet, ni par qui ; on ne peut que faire des suppositions à ce sujet. L'hypothèse la plus probable est qu'elle ait été créée par un entropiste désireux de se protéger des effets indésirables de sa magie.
@@ -21,29 +24,30 @@ Capacités d'équipement :
 - Mémorisation de 3 sorts supplémentaires de niveau 1
 
 Poids : 3
+
 Utilisable par :
  Entropiste~
 
-
-@1000 = ~Fronde +4 « Arla Ruinedragon »~
-@1001 = ~Fronde +4 : « Arla Ruinedragon »
+@1000 = ~Fronde +4 Arla Ruinedragon~
+@1001 = ~Fronde +4 « Arla Ruinedragon »
 Cette fronde enchantée combine les pouvoirs de deux autres frondes : Arla Ruinedragon et la fronde chercheuse, avec toutefois une notable différence : elle fabrique elle-même ses munitions, des billes fantômes. Les dégâts qu'elle inflige sont à la mesure de la Force de l'utilisateur, tout comme la plupart des armes similaires.
 
 Note : évitez d'équiper votre personnage avec des billes normales, sinon la fronde les tirera à la place des billes fantômes.
 
 PARAMÈTRES :
 
-Capacité de combat : 
+Capacités de combat : 
 - Ne requiert pas de billes
 - Une attaque supplémentaire par round
 
 TAC0 : +4
 Dégâts : 1d4 +4 (projectile), plus le bonus de Force
-Poids : 0
 Facteur de vitesse : 2
 Type de compétence : fronde
 Type : arme à 1 main
 Requiert : 3 en Force
+
+Poids : 0
 
 Non utilisable par :
  Chevalier
@@ -60,10 +64,10 @@ PARAMÈTRES :
 Capacités d'équipement :
 - Renvoie les rayons de spectateur
 - Renvoie les projectiles vers leur lanceur
-- Résistance à la magie : + 10 %
-- Résistance au feu, au froid, à l'acide et à l'électricité : + 20 %
+- Résistance à la magie : +10 %
+- Résistance au feu, au froid, à l'acide et à l'électricité : +20 %
 
-Bonus de Classe d'armure : 4
+Classe d'armure : +4
 Poids : 5
 Requiert : 12 en Force
 
@@ -108,6 +112,8 @@ Capacités d'équipement :
 - Classe d'armure : +2
 - Jets de sauvegarde : +2
 
+Poids : 3
+
 Non utilisable par :
  Tueur de magicien
  Mage (monoclassé, à classes jumelées ou multiclassé)
@@ -131,11 +137,13 @@ Capacités d'équipement :
 - Connaissances : +30
 
 Poids : 3
+
 Non utilisable par :
  Voleur
  Guerrier
  Moine
- Barbare~
+ Barbare
+ Tueur de magicien~
 
 @1010 = ~Masque du Roi Strohm III restauré~
 @1011 = ~Masque du Roi Strohm III restauré
@@ -153,7 +161,7 @@ Capacités d'équipement :
 Capacité spéciale :
 - Convocation d'Efrit une fois par jour
 
-Poids : 5
+Poids : 1
 Non utilisable par :~
 
 @1012 = ~Hache d'armes +4 Feu et Glace~
@@ -196,13 +204,13 @@ PARAMÈTRES :
 Capacités spéciales :
 - Dissipation de la magie trois fois par jour
 - Rayon de soleil deux fois par jour :
- Dégâts : 3d6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé pendant 10 rounds)
- Mort-vivant : 1d6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
- Portée : 6 mètres
- Zone d'effet : 6 mètres de rayon
+  Dégâts : 3d6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé pendant 10 rounds)
+  Mort-vivant : 1d6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
+  Portée : 6 mètres
+  Zone d'effet : 6 mètres de rayon
 
 Capacités d'équipement :
-- +50 % de résistance à la magie
+- Résistance à la magie : +50 %
 - Immunité à l'absorption de niveau
 
 Capacités de combat :
@@ -212,11 +220,12 @@ Capacités de combat :
 TAC0 : +5 (enchantement +6), +7 contre les créatures mauvaises
 Dégâts : 1d12 +5, dégâts doublés contre les morts-vivants
 Type de dégâts : tranchant
-Poids : 6
 Facteur de vitesse : 4
 Type de compétence : épée à 2 mains
 Type : arme à 2 mains
 Requiert : 14 en Force
+
+Poids : 6
 
 Utilisable par :
  Paladin~
@@ -230,13 +239,13 @@ PARAMÈTRES :
 Capacités spéciales :
 - Dissipation de la magie trois fois par jour
 - Rayon de soleil deux fois par jour :
- Dégâts : 3d6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé pendant 10 rounds)
- Mort-vivant : 1d6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
- Portée : 6 mètres
- Zone d'effet : 6 mètres de rayon
+  Dégâts : 3d6 (jet de sauvegarde contre les sorts sous peine d'être aveuglé pendant 10 rounds)
+  Mort-vivant : 1d6 de dégâts supplémentaires par niveau du lanceur (jet de sauvegarde contre les sorts sous peine d'être détruit)
+  Portée : 6 mètres
+  Zone d'effet : 6 mètres de rayon
 
 Capacités d'équipement :
-- +50 % de résistance à la magie
+- Résistance à la magie : +50 %
 - Immunité à l'absorption de niveau
 
 Capacités de combat :
@@ -246,11 +255,12 @@ Capacités de combat :
 TAC0 : +5 (enchantement +6), +7 contre les créatures mauvaises
 Dégâts : 1d8 +5, dégâts doublés contre les morts-vivants
 Type de dégâts : tranchant
-Poids : 2
 Facteur de vitesse : 2
 Type de compétence : épée longue
 Type : arme à 1 main
 Requiert : 6 en Force
+
+Poids : 2
 
 Utilisable par :
  Paladin~
@@ -266,12 +276,14 @@ Capacités d'équipement :
 - Le porteur régénère 1 point de vie toutes les 3 secondes
 - Immunité aux maladies
 
+Poids : 2
+
 Non utilisable par :
  Tueur de magicien~
 
 @1020 = ~Bâton de Soins amélioré~
 @1021 = ~Bâton de Soins amélioré
-On dit que Torm fait apparaître ces objets pendant les périodes de grands troubles, les confiant à ses prêtres qui soignent les blessés, les malades, et les empoisonnés. Magiquement combiné avec le bâton de piété +3, il est devenu une arme très puissante. En outre, il a reçu des pouvoirs supplémentaires : les charges de ce bâton se renouvellent automatiquement après huit heures.
+On dit que Torm fait apparaître ces objets pendant les périodes de grands troubles, les confiant à ses prêtres qui soignent les blessés, les malades, et les empoisonnés. Magiquement combiné avec le Bâton de piété, il est devenu une arme très puissante. En outre, il a reçu des pouvoirs supplémentaires : les charges de ce bâton se renouvellent automatiquement après huit heures.
 
 PARAMÈTRES :
 
@@ -285,17 +297,18 @@ Capacité d'équipement :
 TAC0 : +4
 Dégâts : 1d6 +4
 Type de dégâts : contondant
-Poids : 4
 Facteur de vitesse : 3
 Type de compétence : bâton
 Type : arme à 2 mains
 Requiert : 5 en Force
 
+Poids : 4
+
 Non utilisable par :
  Barde
- Voleur
  Guerrier
  Mage
+ Voleur
  Moine~
 
 @1022 = ~Gantelets de broyage Les Mains du vampire~
@@ -308,12 +321,13 @@ Capacités d'équipement :
 - Immunité à la peur, à l'immobilisation et aux échecs de moral
 - Immunité à l'absorption de niveau
 - Le porteur régénère 1 point de vie toutes les 3 secondes
-- Résistance au froid : + 30 %
-- Résistance à l'électricité : + 30 %
+- Résistance au froid : +30 %
+- Résistance à l'électricité : +30 %
 
 Capacités de combat :
 - TAC0 : +4 pour l'attaque avec les poings
 - Dégâts : +4 pour l'attaque avec les poings
+
 Poids : 2
 
 Utilisable par :
@@ -408,8 +422,7 @@ Non utilisable par :
 @1030 = ~Arc de Tansheron +4~
 @1031 = ~Arc court de Tansheron +4
 La corde fine et effilochée de cet arc semble inutilisable, mais quand il la tire, l'archer sent apparaître entre ses doigts une flèche invisible mais solide. La liche Tansheron offrit cet arc à son guetteur, un gardien de son château qui se tenait dans un endroit inaccessible au sommet d'une tour. Dès que quelqu'un approchait, il recevait une pluie interminable de flèches fantômes jusqu'à ce qu'il soit mort ou en fuite. On ne sait pas comment cet arc a été pris au guetteur, mais ça ferait probablement une bonne histoire de taverne.
-
-Magiquement combiné à l'arc Tuigan +3, l'arc de Tansheron est devenu une arme encore plus puissante.
+Fusionné avec l'arc Tuigan +3, l'arc de Tansheron est devenu une arme encore plus puissante.
 
 Note : évitez d'équiper votre personnage avec des flèches normales, sinon l'arc les tirera à la place des flèches fantômes.
 
@@ -462,8 +475,8 @@ Non utilisable par :
  Justicier
  Kensai~
 
-@1034 = ~Marteau de lancer Nain +4~
-@1035 = ~Marteau de lancer Nain +4
+@1034 = ~Marteau de lancer nain +4~
+@1035 = ~Marteau de lancer nain +4
 Ce marteau - à ne pas confondre avec le marteau elfique Lanceur de nains - ne peut être utilisé que par des nains. Entre les mains expertes d'un guerrier nain, ce marteau peut être lancé contre tout ennemi, et revenir dans la main de son propriétaire, grâce à la magie dont il est imprégné. S'il touche un adversaire, il inflige deux fois plus de dégâts qu'un marteau de guerre normal. Contre les géants et les ogres, le marteau occasionne un bonus supplémentaire de 12 points de dégâts, à cause de la haine fervente que les nains vouent à ces créatures.
 
 PARAMÈTRES :
@@ -475,11 +488,12 @@ TAC0 : +4
 Dégâts : 2d4 +4, +12 contre les géants et les ogres
 Type de dégâts (mêlée): contondant
 Type de dégâts (lancer): projectile (perforant)
-Poids : 4
 Facteur de vitesse : 1
 Type de compétence : marteau de guerre
 Type : arme à 1 main
 Requiert : 9 en Force
+
+Poids : 4
 
 Non utilisable par :
  Toute race sauf les nains
@@ -504,11 +518,12 @@ TAC0 : +5
 Dégâts : 2d4 +5, +2d2 points de dégâts électriques, +12 contre les géants et les ogres
 Type de dégâts (mêlée): contondant
 Type de dégâts (lancer): projectile (perforant)
-Poids : 4
 Facteur de vitesse : 1
 Type de compétence : marteau de guerre
 Type : arme à 1 main
 Requiert : 9 en Force
+
+Poids : 4
 
 Non utilisable par :
  Druide
@@ -556,7 +571,7 @@ Utilisable par :
 @10391  = ~Boule de feu-Chaîne d'éclairs~
 
 @1040 = ~Dague de jet Mort silencieuse~
-@1041 = ~Dague de jet « Mort Silencieuse »
+@1041 = ~Dague de jet « Mort silencieuse »
 Forgée à partir du stylet de Demarche et de l'aiguillon de Pixie, cette dague est une arme redoutable, tout aussi dangereuse en combat rapproché qu'à distance. Une fois le coup porté, cette dague de jet retourne dans les mains de son propriétaire en volant, comme si elle était équipée de petites ailes.
 
 PARAMÈTRES :
@@ -565,17 +580,18 @@ Capacités de combat (chaque coup) :
 - La dague revient dans la main du lanceur une fois le coup porté
 - 20 % de chances que la cible doive réussir un jet de sauvegarde contre le poison pour ne pas s'endormir pendant 2 rounds
 - Immobilisation : 20 % de chances que la cible soit paralysée pendant deux rounds (si elle rate son jet de sauvegarde contre la mort)
-- Poison : la cible doit réussir un jet de sauvegarde contre le poison ou recevoir 12 points de dégâts supplémentaires pendant deux rounds.
+- Poison : la cible doit réussir un jet de sauvegarde contre le poison ou subir 1 point de dégâts de poison supplémentaire par seconde pendant deux rounds.
 
 TAC0 : +4
 Dégâts : 2d4 +4
-Type de dégâts (mêlée): contondant
+Type de dégâts (mêlée): perforant
 Type de dégâts (lancer): projectile (perforant)
-Poids : 1
 Facteur de vitesse : 0
 Type de compétence : dague
 Type : arme à 1 main
 Requiert : 3 en Force
+
+Poids : 1
 
 Non utilisable par :
  Clerc
@@ -598,17 +614,18 @@ Capacités spéciales :
 - Hâte améliorée pendant cinq rounds deux fois par jour
 
 Capacités de combat (chaque coup) :
-- La cible doit réussir un jet de sauvegarde contre la magie ou être réduite au silence pendant deux rounds.
+- La cible doit réussir un jet de sauvegarde contre les sorts (avec un malus de 2) ou être réduite au silence pendant deux rounds.
 - Draine 2 points de vie et les transfère au porteur qui ne peut pas toutefois dépasser son nombre maximum de points de vie.
 
 TAC0 : +5
 Dégâts : 1d6 +5
 Type de dégâts : perforant
-Poids : 2
 Facteur de vitesse : 1
 Type de compétence : épée courte
 Type : arme à 1 main
 Requiert : 5 en Force
+
+Poids : 2
 
 Non utilisable par :
  Druide
@@ -633,7 +650,7 @@ Capacités spéciales :
 - Hâte améliorée pendant cinq rounds deux fois par jour
 
 Capacités de combat (chaque coup) :
-- La cible doit réussir un jet de sauvegarde contre la magie ou être réduite au silence pendant deux rounds.
+- La cible doit réussir un jet de sauvegarde contre les sorts (avec un malus de 2) ou être réduite au silence pendant deux rounds.
 - Draine 2 points de vie et les transfère au porteur qui ne peut pas toutefois dépasser son nombre maximum de points de vie.
 
 TAC0 : +5
@@ -653,12 +670,12 @@ Non utilisable par :
 
 @1046 = ~Armure d'écailles Deux dragons~
 @1047 = ~Armure d'écailles « Deux Dragons »
-Cette armure est fabriquée à partir des écailles d'un dragon rouge et d'un dragon d'ombre. Les écailles, très bien assemblées, accordent à leur porteur une protection substantielle contre le feu et l'acide. En outre, l'armure a absorbé une partie des pouvoirs du ceinturon de Barrière inertielle. Sa légèreté permet aux guerriers/mages et aux voleurs de la porter sans trop de restrictions.
+Cette armure a été fabriquée à partir des écailles d'un dragon rouge et d'un dragon d'ombre. Très bien assemblées, les écailles accordent à quiconque les porte une protection substantielle contre le feu et l'acide. En outre, l'armure a absorbé une partie des pouvoirs du ceinturon de Barrière inertielle. Sa légèreté permet aux guerriers/mages et aux voleurs de la porter sans trop de restrictions.
 
 PARAMÈTRES :
 
 Capacités d'équipement :
-- +50 % de résistance au feu, à l'acide et à la magie
+- Résistance au feu, à l'acide et aux dégâts magiques : +50 %
 - Jets de sauvegarde contre le souffle : +3
 
 Classe d'armure : 0
@@ -721,7 +738,7 @@ Non utilisable par :
 @1052 = ~Masse de Destruction +3~
 @1053 = ~Masse de Destruction +3
 Cette masse lourde a été créée dans un but bien précis : détruire les morts-vivants. Toute créature de ce type touchée par cette arme en ressent non seulement la force du coup, mais risque aussi d'être tout simplement anéantie par sa magie. Certaines légendes mentionnent une prêtre si pieux qu'il pouvait détruire un vampire simplement en le touchant, mais les théologiens s'interrogent encore pour savoir s'il profitait du pouvoir de la masse, ou si c'est lui qui l'a faite profiter de son pouvoir.
-Maintenant qu'elle a été couverte d'illithium, cette masse est devenue plus puissante et procure également l'immunité contre le drainage de niveaux des plus puissants morts-vivants. Elle a aussi une chance de ralentir sa cible en combat.
+Maintenant qu'elle a été recouverte d'illithium, cette masse est devenue plus puissante et procure également l'immunité contre le drainage de niveaux des plus puissants morts-vivants. Elle a aussi une chance de ralentir sa cible en combat.
 
 PARAMÈTRES :
 
@@ -729,17 +746,19 @@ Capacité d'équipement :
 - Immunité à l'absorption de niveau
 
 Capacités de combat :
-- 50 % de chances qu'à chaque coup au but, la cible doive réussir un jet de sauvegarde contre les sorts sous peine d'être ralentie pendant 15 secondes.
-- 2d6 +4 points de dégâts contre les morts-vivants, qui doivent réussir un jet de sauvegarde contre la mort (à -4) ou être détruits.
+- 50 % de chances qu'une créature touchée par la masse doive réussir un jet de sauvegarde contre les sorts sous peine d'être ralentie pendant 15 secondes.
+- Les morts-vivants doivent réussir un jet de sauvegarde contre la mort (à -4) pour ne pas être complètement détruits.
+ doit faire un jet de sauvegarde contre les sorts à -3 pour ne pas être sous l'effet de lenteur pendant 12 secondes.
 
 TAC0 : +3 (enchantement +5)
-Dégâts : 1d6 +4
+Dégâts : 1d6 +4, 2d6 +4 contre les morts-vivants
 Type de dégâts : contondant
-Poids : 8
 Facteur de vitesse : 6
 Type de compétence : masse
 Type : arme à 1 main
 Requiert : 10 en Force
+
+Poids : 8
 
 Non utilisable par :
  Druide
@@ -755,9 +774,11 @@ Cet anneau a été amélioré magiquement. À présent, il combine les pouvoirs de l'a
 PARAMÈTRES :
 
 Capacités d'équipement :
-- Le porteur est immunisé à tout ce qui, magique ou non, pourrait affecter sa mobilité, y compris les sorts de rapidité et de ralentissement.
+- Le porteur est immunisé à tout effet, magique ou non, qui pourrait affecter sa mobilité, ce qui inclut les sorts de Hâte et de Lenteur.
 - Classe d'armure : +1
 - Jets de sauvegarde : +1
+
+Poids : 0
 
 Non utilisable par :
  Tueur de magicien~
@@ -769,10 +790,11 @@ Cet anneau a été amélioré magiquement. À présent, il combine les pouvoirs de l'a
 PARAMÈTRES :
 
 Capacités d'équipement :
-- Le porteur est immunisé à tout ce qui, magique ou non, pourrait affecter sa mobilité, y compris les sorts de rapidité et de ralentissement.
+- Le porteur est immunisé à tout effet, magique ou non, qui pourrait affecter sa mobilité, ce qui inclut les sorts de Hâte et de Lenteur.
 - Classe d'armure : +2
 - Jets de sauvegarde : +2
-Le porteur est immunisé à tout effet, magique ou non, qui pourrait affecter sa mobilité, ce qui inclut les sorts de Hâte et de Lenteur.
+
+Poids : 0
 
 Non utilisable par :
  Tueur de magicien~
@@ -791,9 +813,11 @@ Capacités d'équipement :
 - Le porteur régénère 1 point de vie par seconde
 - Immunité au poison et à la maladie
 
-Capacités spéciales :
+Capacités de charge :
 - Invisibilité majeure pendant 10 rounds une fois par jour
 - Hâte améliorée pendant 5 rounds trois fois par jour
+
+Poids : 0
 
 Non utilisable par :
  Tueur de magicien~

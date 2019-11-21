@@ -1,5 +1,6 @@
 @9001 = ~[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+
 @0000 = ~Rolles Safyer~
 @0001 = ~Rolles~
 @0002 = ~Rolles~
@@ -8,9 +9,11 @@
 
 @0020 = ~This mod is not available for your game.~
 
+// Items
+// -----
 @0300 = ~Cloak of the Wild Magi~
 @0301 = ~Cloak of the Wild Magi
-It's not known who and when created this item. Only it is possible to guess that it was made by the magician practising wild magic, who was trying to protect itself from its undesirable effects.
+It's not known who created this item or when they did so. However, it is likely that it was made by a mage who practised wild magic and was trying to protect himself from the unpredictable and undesirable effects of his magic.
 
 STATISTICS:
 
@@ -18,18 +21,19 @@ Equipped abilities:
 - Chaos Shield
 - Armor Class: +1
 - Saving Throws: +1
-- Memorize 3 extra 1 level spell
+- Memorize 3 extra 1 level spells
 
 Weight: 3
+
 Usable by:
  Wild Mage~
 
-
 @1000 = ~Sling +4 Arla's Dragonbane~
 @1001 = ~Sling +4: 'Arla's Dragonbane'
-This powerful sling magically unites in itself the properties of Arla's Dragonbane and Sling of Seeking, with one essential difference - it does not require ammunition, as at a throw a phantom bullet originates. The damage it inflicts corresponds with the strength of the owner, as against the majority of similar things.
+This powerful sling brings together the strengths of Arla's Dragonbane and the Sling of Seeking with one additional power: it does not require ammunition as it creates its own phantom bullets. This weapon is rather unusual for a sling as the damage it inflicts corresponds to the strength of the owner.
 
-Note: avoid equipping normal bullets on your character, else the sling will fire these instead of the phantom bullets.
+Note: avoid equipping normal bullets on your character. If you do, the sling will fire these instead of the phantom bullets.
+
 
 STATISTICS:
 
@@ -40,39 +44,46 @@ Combat abilities:
 - 1 additional attack per round
 
 THACO: +4
-Damage: 1d4 + 4 (missile damage), plus Strength bonus
-Weight: 0
-Speed Factor:2
+Damage: 1d4+4 (missile damage), plus Strength bonus
+Speed Factor: 2
 Proficiency Type: Sling
-Type: 1-handed
+Type: One-handed
 Requires: 3 Strength
-Not usable by:~
+
+Weight: 0
+
+Not usable by:
+ Kensai
+ Cavalier~
 
 @1002 = ~Enhanced Shield of Balduran~
 @1003 = ~Enhanced Shield of Balduran +3
 This shield was worn by the hero Balduran. It is part of a set of weapons and armor that was stolen from the museum in the city of Baldur's Gate.
-Shield was changed magically and has in addition properties of Reflection Shield and Shield of the Lost, and also protects the owner from destructive influence of Elements. Except for that the shield does not reduce the strength of the owner any more.
+This shield was magically altered and has, in addition to its own properties and the properties of the Reflection Shield and the Shield of the Lost, the ability to protect its owner from the the destructive power of the elements.
 
 STATISTICS:
 
 Equipped abilities:
 - Reflects beholder rays
 - Reflects missile weapons back to their user
-- +10% magical resistance
-- +20% fire, cold, acid & electrical resistance
+- Magical Resistance: +10%
+- Fire, Cold, Acid and Electrical Resistance: +20%
 
-Armor Class Bonus:+4
+Armor Class: +4
 Weight: 5
 Requires: 12 Strength
+
 Not usable by:
  Bard
  Druid
  Mage
- Thief~
+ Thief
+ Monk
+ Kensai~
 
 @1004 = ~Gauntlets of Grandmastery~
 @1005 = ~Gauntlets of Grandmastery
-A pair of these fine gauntlets magically incorporated the properties of several more simple subjects, therefore they provide attacking and protective abilities, worthy of any great warrior.
+These fine gauntlets have inherited the properties of several different pairs of gloves and so provide increased offensive and defensive abilities and are worthy of any great warrior.
 
 STATISTICS:
 
@@ -83,24 +94,27 @@ Equipped abilities:
 - Strength: +1
 
 Charge abilities:
- Improved Haste twice per day for 5 rounds
+- Improved Haste twice per day for 5 rounds
 
 Weight: 2
+
 Not usable by:
  Kensai
- Wizardslayer~
+ Wizard Slayer~
 
 @1006 = ~Necklace of Time Stability~
 @1007 = ~Necklace of Time Stability
-Amulet of Spell Warding appeared to be one of the few items, that were capable to swallow the Time Stop spell, and so to become not subject to it. Even this feature only would make it a rather valuable item, but except for that it also protects the owner.
+The Amulet of Spell Warding appeared to be one of the few items that capable of consuming the Time Stop spell instead of becoming vulnerable to it. While this feature alone would make this item priceless, it also grants the wearer powerful protective benefits.
 
 STATISTICS:
 
 Equipped abilities:
 - Immunity to Time Stop
-- Magic Resistance: +10% Bonus
-- Armor Class: +2 Bonus
-- Saving Throws: +2 Bonus
+- Magic Resistance: +10%
+- Armor Class: +2
+- Saving Throws: +2
+
+Weight: 3
 
 Not usable by:
  Wizardslayer
@@ -110,7 +124,7 @@ Not usable by:
 @1008 = ~Enhanced Amulet of Power~
 @1009 = ~Enhanced Amulet of Power
 This amulet bears the signature enchantments of Conster Damon, an archmage that fell in the Year of the Dracorage (1018 DR). The crispness of its etchings may have faded with fire and time, but it still echoes his famous defiant cries: "Your magic denied!" "I will be heard!" "Defeat comes swiftly!" "Take nothing from me!" It has seen much use, and changed hands many times through blood and battle.
-This amulet was magically changed, and its new properties are capable to help the most forgetful spellcaster.
+This amulet has been magically enhanced and it can now change the most forgetful and bumbling of spellcasters into a force to be reckoned with.
 
 STATISTICS:
 
@@ -120,18 +134,22 @@ Equipped abilities:
 - Magic Resistance: +10%
 - Vocalize
 - Decrease Spell Casting Speed by 1
-- Immunity to Level Drain
-- Wisdom and Intelligence: +2 Bonus
-- Lore: +30 Bonus
+- Immunity to level drain
+- Wisdom and Intelligence: +2
+- Lore: +30
+
+Weight: 3
 
 Not usable by:
- Thief
  Fighter
- Monk~
+ Thief
+ Monk
+ Barbarian
+ Wizard Slayer~
 
 @1010 = ~Restored Mask of King Strohm III~
 @1011 = ~Restored Mask of King Strohm III
-This is the mask of ancient King Strohm III, with a part of its initial abilities restored. The two Ioun Stones, that were magically joined with it, make it an even more valuable item.
+This is the ancient death mask of King Strohm III. Though its powers faded with age, some of its original powers have been restored and the mask's power has been augmented by the two Ioun Stones that were magically joined with it.
 
 STATISTICS:
 
@@ -139,18 +157,18 @@ Equipped abilities:
 - Armor Class: +1
 - THACO: +1
 - +10 % bonus to hit points
-- Immunity to Blindness
+- Immunity to blindness
 - True Sight
 
 Charge abilities:
 - Summon Efreeti once per day
 
-Weight: 5
+Weight: 1
 Not usable by:~
 
 @1012 = ~Battle Axe +4 Ice and Fire~
 @1013 = ~Battle Axe +4 'Ice and Fire'
-This powerful weapon equally effectively is capable to strike the enemy both in close combat, and on a distance. Besides each hit inflicts an additional damage from fire, cold and acid.
+This powerful weapon is equally capable of striking an enemy in close combat or at a distance. Each strike of this axe causes additional fire, cold, and acid damage. 
 
 STATISTICS:
 
@@ -161,25 +179,28 @@ Combat abilities:
 - Axe returns to the wielder's hand instantly after an attack is made
 
 THACO: +4 (+5 enchanted)
-Damage (melee): 1d8 + 4
-Damage (thrown): 1d6 + 4
+Damage (melee): 1d8+4
+Damage (thrown): 1d6+4
 Damage type (melee): slashing
 Damage type (thrown): missile (piercing)
-Weight: 5
 Speed Factor: 3
 Proficiency Type: Axe
-Type: 1-handed
+Type: One-handed
 Requires: 10 Strength
+
+Weight: 5
+
 Not usable by:
  Druid
  Cleric
  Mage
- Thief~
-
+ Thief
+ Monk
+ Beast Master~
 
 @1014 = ~Sacred Justice~
 @1015 = ~Sacred Justice
-In this two-handed sword of unprecedented power the properties of two sacred blades - Daystar and legendary Carsomyr - are magically incorporated, having special disgust for forces of evil and chaos. Only pure of heart can wield this sword.
+This two-handed sword of unprecedented power unites the powers of two sacred blades: Daystar and the legendary Holy Avenger, Carsomyr. This weapon holds a special hatred for the forces of evil and chaos, such that only the pure of heart can wield it.
 
 STATISTICS:
 
@@ -193,27 +214,29 @@ Charge abilities:
   Area: 20 ft radius
 
 Equipped abilities:
-- +50% Magic Resistance
-- Immunity to Level Drain
+- Magic Resistance: +50%
+- Immunity to level drain
 
 Combat abilities:
 - Dispels magic whenever the sword strikes an opponent
-- Additional Damage: +4 vs. evil creatures, +5 damage to chaotic evil opponents in addition to other bonuses.
+- Additional damage: +4 vs. evil creatures, +5 damage to chaotic evil opponents in addition to other bonuses.
 
 THAC0: +5 (+6 enchanted), +7 vs. evil creatures
-Damage: 1d12 +5, does double damage against undead
+Damage: 1d12+5, does double damage against undead
 Damage type: slashing
-Weight: 6
 Speed Factor: 4
-Proficiency Type: Two handed sword
-Type: 2-handed
+Proficiency Type: Two-handed Sword
+Type: Two-handed
 Requires: 14 Strength
+
+Weight: 6
+
 Usable by:
- Paladins~
+ Paladin~
 
 @1016 = ~Sacred Justice~
 @1017 = ~Sacred Justice
-In this long sword of unprecedented power the properties of two sacred blades - Daystar and legendary Carsomyr - are magically incorporated, having special disgust for forces of evil and chaos. Only pure of heart can wield this sword.
+This long sword of unprecedented power unites the powers of two sacred blades: Daystar and the legendary Holy Avenger, Carsomyr. This weapon holds a special hatred for the forces of evil and chaos, such that only the pure of heart can wield it.
 
 STATISTICS:
 
@@ -227,87 +250,97 @@ Charge abilities:
   Area: 20 ft radius
 
 Equipped abilities:
-- +50% Magic Resistance
-- Immunity to Level Drain
+- Magic Resistance: +50%
+- Immunity to level drain
 
 Combat abilities:
 - Dispels magic whenever the sword strikes an opponent
-- Additional Damage: +4 vs. evil creatures,+5 damage to chaotic evil opponents in addition to other bonuses.
+- Additional damage: +4 vs. evil creatures,+5 damage to chaotic evil opponents in addition to other bonuses.
 
 THAC0: +5 (+6 enchanted), +7 vs. evil creatures
-Damage: 1d8 +5, does double damage against undead
+Damage: 1d8+5, does double damage against undead
 Damage type: slashing
-Weight: 2
 Speed Factor: 2
 Proficiency Type: Long sword
-Type: 1-handed
+Type: One-handed
 Requires: 6 Strength
+
+Weight: 2
+
 Usable by:
- Paladins~
+ Paladin~
 
 @1018 = ~Enhanced Girdle of Fortitude~
 @1019 = ~Enhanced Girdle of Fortitude
-This belt was magically changed, and that returned its former force to it.
+This belt has been magically enhanced and its former power has been returned to it.
 
 STATISTICS:
 
 Equipped abilities:
 - Constitution: set to 18
-- Wearer regenerates 1 hit point every 3 seconds
-- Immunity to Disease
+- Regenerate 1 Hit Point every 3 seconds
+- Immunity to disease
+
+Weight: 2
 
 Not usable by:
- Wizardslayer~
+ Wizard Slayer~
 
 @1020 = ~Enhanced Staff of Curing~
 @1021 = ~Enhanced Staff of Curing
-Torm is said to manifest these items during times of great trouble, granting them to priests who care for the wounded, diseased, and poisoned. Magically joined with Cleric's Staff +3, it has become now more powerful weapon, and besides it has received additional useful qualities - charges of cure are completely restored in 8 hours.
+Torm is said to manifest these items during times of great trouble, granting them to priests who care for the wounded, diseased, and poisoned. After being merged with a Cleric's Staff, it has become an effective weapon and its healing powers slowly recover over the course of eight hours.
 
 STATISTICS:
 
 Charge abilities:
-- Cure (one charge): 4 - 24 +4 hit points, Disease, Blindness, Hold and Poison, 5 times per day
+- Cure: 4d6+4 hit points, Disease, Blindness, Hold and Poison, 5 times per day
 - Raise Dead once per day
 
 Equipped abilities:
 - Armor Class: +2
 
 THAC0: +4
-Damage: 1d6 +4
+Damage: 1d6+4
 Damage type: crushing
-Weight: 4
 Speed Factor: 3
 Proficiency Type: Quarterstaff
-Type: 2-handed
+Type: Two-handed
 Requires: 5 Strength
+
+Weight: 4
+
 Not usable by:
- Thief
+ Bard
  Fighter
- Mage~
+ Mage
+ Thief
+ Monk~
 
 @1022 = ~Gauntlets of Crushing Hand of Vampire~
 @1023 = ~Gauntlets of Crushing 'Hand of Vampire'
-Gauntlets of Crushing have turned to be a powerful artefact after a part of forces from the Hand of old vampire Dace was transferred to them. The wearer of these gloves gets some protection available to vampires, for example regeneration and immunity to Level Drain.
+These Gauntlets of Crushing have been turned into powerful artifacts after the powers of the hand of the ancient vampire Dace Sontan were transferred to them. The wearer of these gloves gains some vampiric powers, such as the ability to regenerate and immunity to negative plane energy.
 
 STATISTICS:
 
 Equipped abilities:
-- Immunity to Fear, Hold and Morale Failure
-- Immunity to Level Drain
-- Wearer regenerates 1 hit point every 3 seconds
-- +30% cold resistance
-- +30% electrical resistance
+- Immunity to fear, hold and morale failure
+- Immunity to level drain
+- Regenerate 1 Hit Point every 3 seconds
+- Cold resistance: +30%
+- Electrical Resistance: +30%
 
-THAC0: +4 bonus when attacking with fists
-Damage: +4 bonus when attacking with fists
+Combat abilities:
+- THAC0: +4 bonus when attacking with fists
+- Damage: +4 bonus when attacking with fists
 
 Weight: 2
+
 Usable by:
  Monk~
 
 @1024 = ~Destroyer +4~
 @1025 = ~Destroyer +4
-This big and heavy two-handed sword magically join several more simple blades, each giving it a part of its force. Because of his weight the impact of the sword is rather strong, and it inflicts an additional crushing damage. However it demands considerable strength from the wielder.
+This big and heavy two-handed sword is the result of magically joining several lesser blades, and it uses the powers of each. Because of the sword's massive weight, getting hit by it feels almost as much like getting hit by a hammer as it feels like being cut. However, it also demands a considerable amount of strength from its wielder.
 
 STATISTICS:
 
@@ -315,104 +348,120 @@ Charge abilities:
 - Enrage 3 times per day
 
 Equipped abilities:
-- Immunity to Charm
-- Immunity to Confusion
+- Immunity to charm
+- Immunity to confusion
 
 Combat abilities:
-- Each hit drains 2 hit points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum
-- 10 % chance each hit that target will be throw away without consciousness on 1 round, having received in addition 1d6 points of crushing damage
+- Each hit drains 2 Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
+- Each hit has a 10% chance to throw the target back and knock them unconscious, dealing 1d6 points of crushing damage.
 
 THAC0: +4 (+5 enchanted)
-Damage: 2d6 +4, +1d4 points an additional crushing damage
+Damage: 2d6+4, +1d4 points of additional crushing damage
 Damage type: slashing
-Weight: 18
 Speed Factor: 9
-Proficiency Type: Two handed sword
-Type: 2-handed
+Proficiency Type: Two-handed Sword
+Type: Two-handed
 Requires: 19 Strength
+
+Weight: 18
+
 Not usable by:
  Druid
  Cleric
  Mage
- Thief~
+ Thief
+ Monk
+ Beast Master~
 
 @1026 = ~Destroyer +5~
 @1027 = ~Destroyer +5
-This big and heavy two-handed sword magically join several more simple blades, each giving it a part of its force. Because of his weight the impact of the sword is rather strong, and it inflicts an additional crushing damage. However it demands considerable strength from the wielder.
+This big and heavy two-handed sword is the result of magically joining several lesser blades with a single powerful on, and it uses the powers of each. Because of the sword's massive weight, getting hit by it feels almost as much like getting hit by a hammer as it feels like being cut. However, it also demands a considerable amount of strength from its wielder.
+
+STATISTICS:
 
 Charge abilities:
 - Enrage 3 times per day
 
 Equipped abilities:
-- Immunity to Charm
-- Immunity to Confusion
+- Immunity to charm
+- Immunity to confusion
 - Magic Resistance: +10%
 
 Combat abilities:
-- Each hit drains 2 hit points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum
-- 15% chance each hit that target will be throw away without consciousness on 1 round, having received in addition 1d8 points of crushing damage
-- 10% chance each hit that target must make a saving throw vs death (-2 penalty) or die.
+- Each hit drains 2 Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
+- Each hit has a 15% chance to throw the target back and knock them unconscious, dealing 1d8 points of crushing damage.
+- Each hit has a 10% chance of forcing the target to make a saving throw vs death at a -2 penalty or die.
 - Each hit makes the target receive a cumulative 2 point penalty to their THAC0 for 10 rounds
 
 THAC0: +5 (+6 enchanted)
-Damage: 2d8 +5, +1d6 points an additional crushing damage
+Damage: 2d8+5, +1d6 points of additional crushing damage
 Damage type: slashing
-Weight: 24
 Speed Factor: 9
-Proficiency Type: Two handed sword
-Type: 2-handed
+Proficiency Type: Two-handed Sword
+Type: Two-handed
 Requires: 21 Strength
+
+Weight: 24
+
 Not usable by:
  Druid
  Cleric
  Mage
- Thief~
+ Thief
+ Monk
+ Beast Master~
 
 @1028 = ~Cloak of Perfection~
 @1029 = ~Cloak of Perfection
-The owner of this cloak can go quietly on dark alleyway without risking to receive a knife in the back, as it was amplified with chitinous inserts from Ankheg. Except for that the clasp of this cloak, made from Greenstone Amulet, provides excellent protection against mind-affecting spells.
+The wearer of this cloak can walk through a dark alleyway without having to fear a knife in the back thanks to the Ankheg chitin woven into it. On top of that, the clasp of this cloak, made from a Greenstone Amulet, provides excellent protection against spells which attack the mind.
 
 STATISTICS:
 
 Equipped abilities:
-- Armor Class: +2-
-- Saving Throws: +2-
+- Armor Class: +2
+- Saving Throws: +2
 - Immunity to backstab
-- Protects from all types of mind-affecting spells - charm, confusion, fear etc.
+- Protects from all types of mind-affecting spells (charm, confusion, fear etc).
 
 Weight: 5
-Not usable by:~
+
+Not usable by:
+ Wizard Slayer~
 
 @1030 = ~Tansheron's Bow +4~
 @1031 = ~Tansheron's Bow +4
 The thin, frayed string of this bow appears unusable, but when it is drawn a solid but invisible arrow becomes tangible. The lich Tansheron gave this bow to his Watcher, the guardian of his keep who stood atop a tower with neither entrance nor exit. When anyone approached, down would fall a never-ending rain of phantom arrows until they were dead or fled. How this bow was wrested from the Watcher's hand is not known, but would probably make a great tavern story.
+After being merged with the Tuigan Bow, it has become a more powerful weapon.
 
-Magically joined with Tuigan Bow +1, it became now more powerful weapon.
-
-Note: avoid equipping normal arrows on your character, else the bow will fire these instead of the phantom arrows.
+Note: avoid equipping normal arrows on your character. If you do, the bow will fire these instead of the phantom arrows.
 
 STATISTICS:
 
 Combat abilities:
 - This powerful bow requires no ammunition
 - 3 shots per round
-- 25% chance each hit do additional 1d6 points of piercing damage
+- 25% chance each hit deals additional 1d6 points of piercing damage
 
 THACO: +4
 Damage: 1d6
-Weight: 2
 Speed Factor: 3
 Proficiency Type: Short Bow
-Type: 2-handed
+Type: Two-handed
 Requires: 6 Strength
+
+Weight: 2
+
 Not usable by:
  Druid
  Cleric
- Mage~
+ Mage
+ Monk
+ Cavalier
+ Kensai~
 
 @1032 = ~Dream of the Thief~
 @1033 = ~Dream of the Thief
-This Studded Leather Armor has little in common with an usual Leather Armor. It is made from Armor of the Viper and Skin of the Ghoul, amplified in addition by chitinous inserts from Ankheg, providing excellent protection against foul stabs in the back. Numerous rivets, made of pure Adamantine, which light does not affect, create a flexible metal covering, helping to evade cutting and slashing attacks, and keep charm well. And though many can wear it, it will be most useful to those, who has got used to be hidden in a shadow, providing him excellent protection against fellows on craft.
+This studded leather armor has little in common with usual Leather Armor. It is made from the Armor of the Viper and the Skin of the Ghoul, laced with small plates of Ankheg Chitin which protect the wearer from blades in the back, and reinforced by countless rivets made of pure Adamantine which create a flexible metal covering that deflect cutting and slashing attacks and hold enchantments well. While any can wear this armour, it is most useful to those who are at home in the shadows.
 
 STATISTICS:
 
@@ -423,64 +472,80 @@ Equipped abilities:
 - Saving Throws: +1
 - Immunity to backstab
 - Immunity to poison
-- Non-Detection
+- Non-detection
 
 Armor Class: 0
-Weight: 14
 Requires: 9 Strength
+
+Weight: 14
+
 Not usable by:
- Mage~
+ Mage
+ Monk
+ Shapeshifter
+ Avenger
+ Kensai~
 
 @1034 = ~Dwarven Thrower +4~
 @1035 = ~Dwarven Thrower +4
-This hammer - not to be confused with the elven made Dwarf Thrower - is only usable by dwarves. In the capable hands of a dwarven warrior the hammer may be thrown at an opponent. The magic in the hammer draws it back to the hand of its wielder. If it hits an opponent it does double the normal damage that a hammer would normally do. Against giants and ogres the hammer does an additional +12 damage, due to the special hatred that dwarves hold against these races.
+This hammer -- not to be confused with the elven made Dwarf Thrower -- is only usable by dwarves. In the capable hands of a dwarven warrior the hammer may be thrown at an opponent. The magic in the hammer draws it back to the hand of its wielder. If it hits an opponent it does double the normal damage that a hammer would normally do. This hammer inflicts an additional 12 damage against giants and ogres due to the special hatred that dwarves hold for these races.
 
 STATISTICS:
 
 Combat abilities:
-- Hammer returns to the wielder's hand instantly after an attack is made
+- The hammer returns to the wielder's hand instantly after an attack is made
 
 THAC0: +4
-Damage: 2d4 + 4, +12 damage to giants and ogres
+Damage: 2d4+4, +12 damage to giants and ogres
 Damage type (melee): crushing
 Damage type (thrown): missile (piercing)
-Weight: 4
 Speed Factor: 1
 Proficiency Type: War Hammer
-Type: 1-handed
+Type: One-handed
 Requires: 9 Strength
+
+Weight: 4
+
 Not usable by:
-Non-dwarves
+ Non-dwarves
+ Paladin
+ Ranger
  Druid
+ Bard
  Mage
- Thief~
+ Thief
+ Monk~
 
 @1036 = ~Universal Thrower +5~
 @1037 = ~Universal Thrower +5
-This hammer is changed magically and now can be used by everyone who in general is able to use a hammer. This powerful weapon is capable to strike the enemy both in close combat, and on a distance equally effectively. The magic in the hammer draws it back to the hand of its wielder. If it hits an opponent it does double the normal damage that a hammer would normally do. Against giants and ogres the hammer does an additional +12 damage.
+This hammer has been magically altered and can now be used by anyone who can wield a hammer in battle. This powerful weapon is capable of striking the enemy both in close combat and at a distance with equal effectiveness, as the magic in the hammer returns it to the hand of its wielder. This hammer inflicts an additional 12 damage against giants and ogres due to the special hatred that its dwarven makers hold for these races.
 
 STATISTICS:
 
 Combat abilities:
-- Hammer returns to the wielder's hand instantly after an attack is made
+- The hammer returns to the wielder's hand instantly after an attack is made
 
 THAC0: +5
-Damage: 2d4 + 5, +2d2 electrical damage, +12 damage to giants and ogres
+Damage: 2d4+5, +2d2 electrical damage, +12 damage to giants and ogres
 Damage type (melee): crushing
 Damage type (thrown): missile (piercing)
-Weight: 4
 Speed Factor: 1
 Proficiency Type: War Hammer
-Type: 1-handed
+Type: One-handed
 Requires: 9 Strength
+
+Weight: 4
+
 Not usable by:
  Druid
  Mage
- Thief~
+ Thief
+ Monk
+ Beast Master~
 
 @1038 = ~Enhanced Staff of the Magi~
 @1039 = ~Enhanced Staff of the Magi
-This type of staff is thoroughly linked of the image of the spellcasting profession, rare though it is. It is among the most powerful tools that a wizard can possess, the culmination of complex enchantment and endless study. This particular example is good in melee, grants Invisibility, and offers protection from Charms and Evil. It can also cast a Spell Trap, launch a Fireball-Chain Lightning combination, and Dispel Magic. The quintessential mage item.
+This type of staff is thoroughly linked of the image of the spellcasting profession, rare though it is. It is among the most powerful tools that a wizard can possess, the culmination of complex enchantment and endless study. This particular example is good in melee, grants Invisibility, and offers protection from both Charms and Evil. Furthermore, it can cast Spell Trap, launch a Fireball-Chain Lightning combination, and Dispel Magic. It is the quintessential mage item.
 
 STATISTICS:
 
@@ -488,8 +553,8 @@ Equipped abilities:
 - Armor Class: +2
 - Saving Throws: +2
 - Invisibility
-- Immunity to Charm
-- Protection From Evil
+- Immunity to charm
+- Protection from Evil
 
 Charge abilities:
 - Fireball-Chain Lightning
@@ -504,51 +569,56 @@ Charge abilities:
 Combat abilities (each hit):
 - Dispel Magic
 
-THAC0: +5 bonus
-Damage: 1d6 +5
+THAC0: +5
+Damage: 1d6+5
 Damage type: crushing
-Weight: 4
 Speed Factor: 4
 Proficiency Type: Quarterstaff
-Type: 2-handed
+Type: Two-handed
 Requires: 5 Strength
+
+Weight: 4
+
 Usable By
  Mage~
 @10391  = ~Fireball-Chain Lightning~
 
 @1040 = ~Throwing Dagger Silent Death~
 @1041 = ~Throwing Dagger 'Silent Death'
-Made from Stiletto of Demarchess and Pixie Prick, this dagger is menacing weapon, and equally effectively is capable to strike the enemy both in close combat, and on a distance. After the end of a throw the dagger as if on wings comes back to the owner.
+Made from the Stiletto of Demarchess and the Pixie's Prick, this dagger is a menacing weapon, and equally effective when thrown or used to stab an enemy up close. If thrown, the dagger returns, as if flying on invisible wings, to the hand of its wielder.
 
 STATISTICS:
 
 Combat abilities:
-- Dagger returns to the wielder's hand instantly after an attack is made
-- 20% chance each hit that the victim must save vs. poison or fall asleep for two rounds
-- 20% chance each hit that the victim must save vs. death or be held for two rounds
-- Target must make a saving throw vs. poison or having received 12 points Poison Damage per 2 rounds
+- The dagger returns to the wielder's hand instantly after an attack is made
+- 20% chance per hit that the target must save vs. Poison or fall asleep for 2 rounds
+- 20% chance per hit that the target must save vs. Death or be held for 2 rounds
+- Target must make a saving throw vs. poison or receive 12 points of Poison damage per 2 rounds
 
 THAC0: +4
-Damage: 2d4 + 4
+Damage: 2d4+4
 Damage type (melee): piercing
 Damage type (thrown): missile (piercing)
-Weight: 1
 Speed Factor: 0
 Proficiency Type: Dagger
-Type: 1-handed
+Type: One-handed
 Requires: 3 Strength
+
+Weight: 1
+
 Not usable by:
- Cleric~
+ Cleric
+ Beast Master~
 
 @1042 = ~Short Sword of Freedom +5~
 @1043 = ~Short Sword of Freedom +5
-This sword gives quite good protection against mind-affecting spells and paralyzing attacks of monsters. It magically combines several more simple blades, each giving it a part of its force. The excellent balance and extremely sharp edge allow to strike critical stab more often.
+This sword gives effective protection against spells that attack the mind and the paralytic attacks of monsters. It is the result of merging several simpler blades and combining their powers. Its perfect balance and extremely sharp edge allow it to deal critical hits more often.
 
 STATISTICS:
 
 Equipped abilities:
-- Immunity to Charm, Domination and Confusion
-- Immunity to Hold and Stun
+- Immunity to charm, domination and confusion
+- Immunity to hold and stun
 - +1 additional attack per round
 - Improved critical hit (a throw 19 and 20 instead of usual 20)
 
@@ -557,21 +627,24 @@ Charge abilities:
 - Improved Haste twice per day for 5 rounds
 
 Combat abilities (each hit):
-- Target must make a saving throw vs. magic, or will be silenced for 2 rounds
-- Drains 2 hit points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum
+- Target must make a saving throw vs. vs. Spell (-2 penalty) or be silenced for 2 rounds            
+- Drains 2 Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum
 
 THAC0: +5
-Damage: 1d6 +5
+Damage: 1d6+5
 Damage type: piercing
-Weight: 2
 Speed Factor: 1
-Proficiency Type: Short sword
-Type: 1-handed
+Proficiency Type: Short Sword
+Type: One-handed
 Requires: 5 Strength
+
+Weight: 2
+
 Not usable by:
  Druid
  Cleric
- Mage~
+ Mage
+ Beast Master~
 
 @1044 = ~Long Sword of Freedom +5~
 @1045 = ~Long Sword of Freedom +5
@@ -580,8 +653,8 @@ This sword gives quite good protection against mind-affecting spells and paralyz
 STATISTICS:
 
 Equipped abilities:
-- Immunity to Charm, Domination and Confusion
-- Immunity to Hold and Stun
+- Immunity to charm, domination and confusion
+- Immunity to hold and stun
 - +1 additional attack per round
 - Improved critical hit (a throw 19 and 20 instead of usual 20)
 
@@ -590,107 +663,128 @@ Charge abilities:
 - Improved Haste twice per day for 5 rounds
 
 Combat abilities (each hit):
-- Target must make a saving throw vs. magic (-2 penalty), or will be silenced for 2 rounds
+- Target must make a saving throw vs. Spell (-2 penalty) or be silenced for 2 rounds
 - Drains 2 hit points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum
 
 THAC0: +5
-Damage: 1d8 +5
+Damage: 1d8+5
 Damage type: slashing
-Weight: 3
 Speed Factor: 2
-Proficiency Type: Long sword
-Type: 1-handed
+Proficiency Type: Long Sword
+Type: One-handed
 Requires: 6 Strength
+
+Weight: 3
+
 Not usable by:
  Druid
  Cleric
- Mage~
+ Mage
+ Beast Master~
 
 @1046 = ~Scaly Armour Two Dragons~
 @1047 = ~Scaly Armour 'Two Dragons'
-This suit of armor is formed from gracefully interlocking red and shadow dragon scales. These scales protect the owner from fire and acid. Besides, this armour has absorbed a part of abilities of the Belt of Inertial Barrier. Lightness of this armor allows it to be worn by fighter/mages and thieves with few restrictions.
+This suit of armor is formed from the elegantly interlocking scales of a red and a shadow dragon. These scales protect the owner from fire and acid, and on top of that, this suit of armour has absorbed the abilities of the Belt of Inertial Barrier. The lightness of this armor allows it to be worn by fighter/mages and thieves with few restrictions to their abilities.
 
 STATISTICS:
 
 Equipped abilities:
-- +50% fire, acid & magic damage resistance
-- +3 to saves vs. breath weapons
+- Fire, Acid and Magic damage Resistance: +50%
+- Save vs. breath weapons: +3
 
 Armor Class: 0
-Weight: 10
 Requires: 8 Strength
+
+Weight: 10
+
 Not usable by:
  Mage (single class)
  Monk
+ Shapeshifter
  Kensai~
 
 @1048 = ~Full Plate +4~
 @1049 = ~Full Plate +4
-This suit of armor is made from extremely rare Illithium and Adamantine alloy. The alloy very strong, rather easy, and is not affected by light. Besides this alloy provides protection from Level Drain and all first-level spells.
+This suit of armor is made from an extremely rare Illithium and Adamantine alloy. The alloy is very strong, not affected by light, and it provides protection from level drain and all first-level spells. 
 
 STATISTICS:
 
 Equipped abilities:
-- Immunity to Level Drain
+- Immunity to level drain
 - Immunity to first level spells
 
 Armor Class: -3
-Weight: 50
 Requires: 15 Strength
+
+Weight: 50
+
 Not usable by:
  Druid
  Bard
  Mage
- Thief~
+ Thief
+ Monk
+ Barbarian
+ Archer
+ Beast Master
+ Stalker
+ Kensai~
 
 @1050 = ~Improved Gloves of Healing~
 @1051 = ~Improved Gloves of Healing
-These gloves were changed magically and now protect the owner better.
+These gloves were magically enhanced and now protect the wearer.
 
 STATISTICS:
 
 Equipped abilities:
 - Armor Class: +2
 - Saving Throws: +1
-- Wearer regenerates 1 hit point every 6 seconds
+- Regenerate 1 Hit Point every 6 seconds
 - Immunity to poison
 
 Weight: 3
+
 Not usable by:
  Druid
  Cleric
- Mage~
+ Mage
+ Wizard Slayer
+ Kensai~
 
 @1052 = ~Mace of Disruption +3~
 @1053 = ~Mace of Disruption +3
 This heavy mace was created for a very specific purpose: to slay undead. Any such creature hit by it not only feels the sting of weapon, but also has a chance of being simply blasted from existence. There are legends that speak of a priest so holy a single glancing touch could send a vampire to oblivion, but whether the weapon empowered her or she empowered it is a topic for theologians.
-Now that the mace has been coated with illithium, it is even more potent, conferring to its user immunity to the life-draining powers of the more powerful undead. Except for that there is a chance to slow down the target.
+Now that the mace has been coated with illithium, it is even more potent, conferring to its user immunity to the life-draining powers of the more powerful undead. In addition, the mace has a chance to slow any enemies it hits.
 
 STATISTICS:
 
 Equipped abilities:
-- Immunity to Level Drain
+- Immunity to level drain
 
 Combat abilities:
-- 50% chance each hit that target must make a saving throw vs magic, or will be slowed for 15 sec.
-- 2d6 +4 damage to undead, plus they must make a saving throw vs. death (-4 penalty) or be utterly destroyed
+- 50% chance that each hit will force the target to make a saving throw vs magic or be slowed for 15 seconds.
+- Undead must save vs. Death at -4 or be utterly destroyed.
 
 THAC0: +3 (+5 enchanted)
-Damage: 1d6 +4
+Damage: 1d6+4, 2d6+4 vs undead
 Damage type: crushing
-Weight: 8
 Speed Factor: 6
 Proficiency Type: Mace
-Type: 1-handed
+Type: One-handed
 Requires: 10 Strength
+
+Weight: 8
+
 Not usable by:
  Druid
  Mage
- Thief~
+ Thief
+ Monk
+ Beast Master~
 
 @1054 = ~Ring of Free Action +1~
 @1055 = ~Ring of Free Action +1
-This ring was changed magically. It unites the abilities of Ring of Protection +1: 'Ring of the Princes' and Ring of Free Action.
+This ring has been magically altered and now has the combined abilities of the Ring of Protection +1: 'Ring of the Princes' and a Ring of Free Action.
 
 STATISTICS:
 
@@ -699,11 +793,14 @@ Equipped abilities:
 - Armor Class: +1
 - Saving Throws: +1
 
-Not usable by:~
+Weight: 0
+
+Not usable by:
+ Wizard Slayer~
 
 @1056 = ~Ring of Free Action +2~
 @1057 = ~Ring of Free Action +2
-This ring was changed magically. It unites the abilities of Ring of Protection +2: 'The Guard's Ring' and Ring of Free Action.
+This ring has been magically altered and now has the combined abilities of the Ring of Protection +2: 'The Guard's Ring' and a Ring of Free Action.
 
 STATISTICS:
 
@@ -712,12 +809,15 @@ Equipped abilities:
 - Armor Class: +2
 - Saving Throws: +2
 
-Not usable by:~
+Weight: 0
+
+Not usable by:
+ Wizard Slayer~
 
 @1058 = ~Improved Ring of Gaxx~
 @1059 = ~Improved Ring of Gaxx
 This ring is relatively unadorned, but the vile magic within radiates intense evil. Indeed, its creator, Kangaxx, was no less evil himself, even before millennia of undeath honed his power. It is said that a cadre of Netheril mages fought and imprisoned the demilich once, but being unable to truly destroy him they became liches themselves to stand guard over his remains. The construction of the ring may have led to their enmity, as each of the gem's nine facets was supposedly empowered by sacrifice and death.
-This ring was magically changed, and its fighting and protective abilities were improved.
+This ring has been magically altered and as a result, its magical abilities have been enhanced.
 
 STATISTICS:
 
@@ -726,10 +826,13 @@ Equipped abilities:
 - Saving Throws: +2
 - Magic Resistance: +10%
 - Regenerate 1 Hit Point per second
-- Immunity to Disease and Poison
+- Immunity to disease and poison
 
 Charge abilities:
 - Improved Invisibility once per day for 10 rounds
 - Improved Haste 3 times per day for 5 rounds
 
-Not usable by:~
+Weight: 0
+
+Not usable by:
+ Wizard Slayer~

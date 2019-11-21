@@ -13,8 +13,8 @@
 @013 = ~Non, je n'en ai pas besoin. Peut-être pourriez-vous travailler sur autre chose ?~ 
 @014 = ~Oui, vous pouvez y aller.~ 
 
-@104 = ~J'ai la fronde +3 « Arla Ruinedragon ». Vous pouvez l'améliorer ?~ 
-@105 = ~La fronde +3 « Arla Ruinedragon » ? Si vous avez une fronde Chercheuse +1, je pourrais vous fabriquer un excellent lance-pierres. Je ne prendrai que 5000 pièces d'or pour ce travail. Cela vous convient-il ?~ 
+@104 = ~J'ai la fronde « Arla Ruinedragon ». Vous pouvez l'améliorer ?~ 
+@105 = ~La fronde « Arla Ruinedragon » ? Si vous avez une fronde Chercheuse +1, je pourrais vous fabriquer un excellent lance-pierres. Je ne prendrai que 5000 pièces d'or pour ce travail. Cela vous convient-il ?~ 
 
 @106 = ~Vous pouvez faire quelque chose du Bouclier de Baldurien ? ~ 
 @107 = ~Le Bouclier de Baldurien ? Hmm... Je pourrais vous fabriquer un bouclier si puissant que les dieux en seront verts de jalousie. Mais pour cela, il me faudra le Bouclier de réflexion +1 et le Bouclier des Disparus +2, ainsi que des parchemins de protection contre le feu, le froid, l'électricité et l'acide, une potion de protection contre la magie et enfin une potion de force du géant du feu. Et ne me jugez pas trop sévèrement, mais pour un objet si puissant, ma commission s'élèvera à 15 000 pièces d'or. Cela vous convient-il ?~ 
@@ -26,7 +26,7 @@
 @111 = ~Montrez-moi ça... Vous avez dit inutile ? Si vous m'amenez un parchemin d'Arrêt du temps, je pense que vous aurez une bonne surprise. J'aurai aussi besoin de l'Amulette de résistance à la magie de Kaligun, de deux Amulettes de protection +1, de deux diamants et d'une potion de résistance à la magie. Ainsi qu'une rétribution de 10 000 pièces d'or pour mon travail. Cela vous convient-il ?~ 
 
 @112 = ~J'ai cette Amulette de pouvoir. Vous croyez pouvoir l'améliorer ?~ 
-@113 = ~L'Amulette de pouvoir ? Un objet des plus remarquables. Mais il m'est effectivement possible de l'améliorer. J'aurai pour cela besoin de l'Amulette de résistance à la magie 5 %, d'une Amulette de protection +1, d'une potion de génie et d'une potion de perspicacité. Comme ce sera assez facile à faire, je ne vous demanderai que 5000 pièces d'or. Cela vous convient-il ?~ 
+@113 = ~Une Amulette de pouvoir ? Un objet des plus remarquables. Mais il m'est effectivement possible de l'améliorer. J'aurai pour cela besoin de l'Amulette de résistance à la magie 5 %, d'une Amulette de protection +1, d'une potion de génie et d'une potion de perspicacité. Comme ce sera assez facile à faire, je ne vous demanderai que 5000 pièces d'or. Cela vous convient-il ?~ 
 
 @114 = ~Je possède un objet des plus étranges : le Masque du Roi Strohm III. Vous pouvez peut-être en faire quelque chose ?~ 
 @115 = ~Ouais... C'était un objet magique très puissant, dans le temps. Mais de très nombreuses années sont passées... Je crains ne pouvoir restaurer toutes ses capacités passées, mais je peux tout de même essayer. Apportez-moi une Pierre ionique rose cendré et une Pierre ionique vert pâle, ainsi qu'un parchemin de Vision véritable et un parchemin de Convocation d'Efrit, et je verrai ce que je peux faire. Et comme ce n'est pas un travail des plus aisés, le prix sera de 10 000 pièces d'or. Cela vous convient-il ?~ 
@@ -51,13 +51,13 @@
 @128 = ~Je possède plusieurs épées à deux mains, mais je ne sais jamais laquelle choisir. Vous pourriez combiner toutes leurs forces en une seule arme ?~ 
 @129 = ~Hmm... En effet, c'est possible, mais ça ne se fera certainement pas les doigts dans le nez. Je devrais vous dire avant tout que je forgerai une épée très lourde, il vous faudra une force considérable pour la manier correctement. Toutefois, comme elle sera très lourde, sa puissance n'en sera que décuplée, et elle sera en mesure d'infliger des dégâts contondants supplémentaires. J'essaierai aussi de préserver toutes les propriétés initiales des épées à partir desquelles je travaillerai. J'aurai besoin de l'Épée du Chaos +2, de Lilarcor, d'une Épée maudite berserker +3, de deux parchemins de Délivrance de la malédiction ainsi que d'un parchemin de Toucher vampirique. Ça vous coûtera 15 000 pièces d'or, mais je pense être en mesure de pouvoir vous dire que le résultat ne vous décevra pas. Et il se pourrait même que je puisse encore améliorer le résultat si vous trouvez d'autres épées intéressantes au détour de vos aventures. Cela vous convient-il ?~ 
 
-@130 = ~J'ai avec moi la Destructrice +4. Vous pouvez l'améliorer encore ?~ 
+@130 = ~J'ai avec moi la Destructrice. Vous pouvez l'améliorer encore ?~ 
 @131 = ~Hmm. En effet, c'est dans mes cordes, mais ce sera loin d'être facile. Il me faudra l'Épée d'argent, la Voleuse d'âmes +4, la Flamme du Nord, un parchemin de Doigt de mort et une potion de résistance à la magie. J'essaierai de garder les propriétés de toutes les épées initiales, mais je ne suis pas en mesure de vous garantir que toutes les essences magiques seront totalement préservées. Cela vous coûtera 20 000 pièces d'or, mais je vous garantis que vous serez satisfait du résultat. Cela vous convient-il ?~ ~Hmm. En effet, c'est dans mes cordes, mais ce sera loin d'être facile. Il me faudra l'Épée d'argent, la Voleuse d'âmes +4, la Flamme du Nord, un parchemin de Doigt de Mort et une potion de résistance à la magie. J'essaierai de garder les propriétés de toutes les épées initiales, mais je ne suis pas en mesure de vous garantir que toutes les essences magiques seront totalement préservées. Cela vous coûtera 20 000 pièces d'or, mais je vous garantis que vous serez satisfaite du résultat. Cela vous convient-il ?~
 
 @132 = ~Je possède une amulette de pierre verte. C'est un bon objet, mais peut-être est-elle améliorable ?~ 
 @133 = ~Une amulette de pierre verte ? Écoutez, je peux vous proposer quelque chose d'assez inhabituel. Vous avez suffisamment d'amulettes à votre disposition, alors une de plus ou une de moins, ça ne fera pas grande différence. Je vous dis cela, car je peux faire de votre amulette un fermoir pour une cape que je peux vous fabriquer et dont je suis sûr qu'elle va vous plaire. J'aurai besoin pour cela de deux capes de protection +1, d'une potion de clarté, d'un collier de contrôle, d'une fiole de potion salée et d'une carapace d'ankheg. Et comme ce sera compliqué à faire, je prendrai une commission de 15 000 pièces d'or. Cela vous convient-il ?~ 
 
-@134 = ~Je possède l'arc de Tansheron +3. Il m'a apporté toute satisfaction jusqu'à présent, mais je me demandais si vous pouviez l'améliorer ?~ 
+@134 = ~Je possède l'arc de Tansheron. Il m'a apporté toute satisfaction jusqu'à présent, mais je me demandais si vous pouviez l'améliorer ?~ 
 @135 = ~En effet, je le peux, si vous me trouvez un arc Tuigan +1, et que vous me payez 5 000 pièces d'or. Je serai alors en mesure de vous faire un objet plus puissant. Cela vous convient-il ?~ 
 
 @136 = ~Vous pouvez faire quelque chose de cette armure de cuir ?~ 
@@ -88,7 +88,7 @@
 @154 = ~Vous pouvez améliorer ces gants de Soins ?~
 @155 = ~Voyons voir... Oui, je peux effectivement en faire un artéfact puissant. Il me faudra pour cela les gants de Soins, bien sûr, mais aussi une paire de bracelets de défense CA 6, un anneau de protection +1, deux potions de régénération, quatre antidotes et deux parchemins de protection contre le poison. La note s'élèvera à 10 000 pièces d'or. Cela vous convient-il ?~
 
-@156 = ~Je possède une masse de Destruction +1. Pouvez-vous l'améliorer ?~
+@156 = ~Je possède une masse de Destruction. Pouvez-vous l'améliorer ?~
 @157 = ~Tout à fait. Recouverte d'illithium pur, cette masse peut conférer à son porteur de puissantes protections contre les vampires. Pour ce faire, il me faudra aussi la Chute d'Ardulia +1, du minerai d'illithium ainsi que trois parchemins de Lenteur, et ça vous coûtera 10 000 pièces d'or. Cela vous convient-il ?~
 
 @158 = ~Et si je vous proposais d'améliorer un anneau d'action libre ?~

@@ -1,102 +1,102 @@
  
-@001 = ~Welcome to Rolles Safyer's, my <LADYLORD>. What can I do for you?~ 
-@002 = ~Tell me Rolles, what are you doing here?~ 
-@003 = ~I am a skilled mage, engaged with creating and altering of various custom-built items. If I need a help from a smith, I ask this guy in this very room. It is rather convenient for me. I also have goods for sale. So, what you want?~ 
-@004 = ~Show me, what you sell.~ 
+@001 = ~Welcome to Rolles Safyer's shop, my <LADYLORD>. What can I do for you?~ 
+@002 = ~Tell me Rolles, what do you do here?~ 
+@003 = ~I am a skilled enchanter and my line of work mainly involves the creation and alteration of various magical items. If I ever need the help of a smith, I need only ask this man here. It's quite convenient. I also have goods for sale. So, what you want?~ 
+@004 = ~Show me what you have for sale.~ 
 @005 = ~Do I have anything you could alter?~ 
-@006 = ~Thanks, nothing for the moment. I'm leaving.~ 
+@006 = ~Nothing for the moment, thanks. I'm leaving.~ 
 @007 = ~I am glad to see you again. What can I do for you?~ 
 @008 = ~With pleasure, my <LADYLORD>~ 
-@009 = ~Show me what you have, and I'll tell you if it can be altered.~ 
-@010 = ~It looks like I do not have anything interesting. I'm leaving.~ 
+@009 = ~Show me what you have and I'll tell you if I see anything that can be altered.~ 
+@010 = ~It looks like I do not have anything you can work with. I'm leaving.~ 
 @011 = ~I wish all the best to you, my <LADYLORD>. Come back if you need something.~ 
-@012 = ~Good-bye.~ 
-@013 = ~I don't need it right now. Maybe I have something else you could alter?~ 
+@012 = ~Goodbye.~ 
+@013 = ~I don't want that right now. Do I have anything else you could alter?~ 
 @014 = ~Yes, make it for me.~ 
 
-@104 = ~I have the Sling +3 'Arla's Dragonbane'. Can you do anything to it?~ 
-@105 = ~Sling +3 Arla's Dragonbane ? If you have also Sling of Seeking +1, I can make for you a very good thing. I shall take only 5000 gold for my work. Should I make this thing for you?~ 
+@104 = ~I have Arla's Dragonbane. Can you do anything to it?~ 
+@105 = ~Arla's Dragonbane? If you also have a Sling of Seeking, I can make a powerful new weapon for you. It'll cost you 5000 gold pieces. So, should I make it for you?~ 
 
-@106 = ~Can you do anything to Shield of Balduran? ~ 
+@106 = ~Can you do anything to the Shield of Balduran? ~ 
+@107 = ~The Shield of Balduran? Hmm... I can make a shield of such power that even the gods will be envious of you. I will need a Shield of Reflection, the Shield of the Lost, Scrolls of Protection from Fire, Cold, Electricity and Acid, and potions of Magic Protection and Fire Giant Strength. Now, don't let this disuade you, but for such a powerful item, I'll need 15000 gold pieces. Do you want this made?~ 
 @107 = ~Shield of Balduran? Hmm... I can make such a shield for you that even gods will burst with envy. I will need for that also Reflection Shield +1 and Shield of the Lost +2, and also Protection scrolls from Fire, Cold, Electricity and Acid, one Potion of Magic Protection and one Potion of Fire Giant Strength. And don't judge too severely, but for so powerful an item I shall take 15000 gold. Should I make this thing for you?~ 
 
-@108 = ~Can you do anything to this Gauntlets?~ 
-@109 = ~Let's look... Yes, if you bring to me Gauntlets of Weapon Skill, Gauntlets of Weapon Expertise and Bracers of Blinding Strike, you'll get a thing which will not disappoint you. I will also need Bracers of Defense AC 6, one scroll of Improved Haste, one Potion of Storm Giant Strength, two Potions of Fire Giant Strength, and one Potion of Defense. And 10000 gold as payment for my work. Should I make this thing for you?~ 
+@108 = ~Can you do anything to these Gauntlets?~ 
+@109 = ~Let's have a looksee... Yes, if you bring me some Gauntlets of Weapon Skill, Gauntlets of Weapon Expertise, Bracers of Blinding Strike, Bracers of Defense AC 6, a Scroll of Improved Haste, a Potion of Storm Giant Strength, two Potions of Fire Giant Strength, and a Potion of Defence, I can make something for you. Trust me, you won't be disappointed. Of course, I also require payment: 10000 gold pieces should be fine. Should I make this for you?~ 
 
 @110 = ~I've got the Amulet of Spell Warding not so long ago. I guess you can make something to this almost useless thing?~ 
-@111 = ~Let me have a look... You say useless? If you bring to me one scroll of Time Stop, I think I'll make you a big surprise. I will need also Kaligun's Amulet of Magic Resistance, two Amulets of Protection +1, two Diamonds, and one Potion of Magic Protection. And 10000 gold as payment for my work. Should I make this thing for you?~ 
+@111 = ~Let me have a look... You say it's junk? If you bring me a Scroll of Time Stop, Kaligun's Amulet of Magic Resistance, two Amulets of Protection +1, two Diamonds, a Potion of Magic Protection, and my fee- in this case 10000 gold- you'll be pleasantly surprised. Should I make this for you?~ 
 
-@112 = ~I have the Amulet of Power. What can you do to improve it?~ 
-@113 = ~The Amulet of Power? Yes, a remarkable thing. But it is possible to make it even better. I will need for that Amulet of 5 % Magic Resistance, one Amulet of Protection +1, one Potion of Genius, and one Potion of Insight. And as it is a rather simple task, I shall take only 5000 gold from you. Should I make this thing for you?~ 
+@112 = ~I have an Amulet of Power. What can you do to improve it?~ 
+@113 = ~An Amulet of Power? That's a powerful artifact, but of course, it is possible to make it even better. For that, I will need an Amulet of 5 % Magic Resistance, an Amulet of Protection +1, a Potion of Genius, and a Potion of Insight. Seeing how it's a relatively simple item to create, I'll only charge you 5000 gold pieces. Do you want me to make this?~ 
 
-@114 = ~I have a rather strange thing - Mask of King Strohm III. Probably you can make something to it?~ 
-@115 = ~Yess... Once it was a very powerful thing. But so many years has passed since then... I am afraid it's not possible to restore all of its former abilities, but I can try. Bring me Dusty Rose Ioun Stone and Pale Green Ioun Stone, and also one scroll of True Sight and one scroll of Efreet Summoning, and we'll see what I'll be able to do. And 10000 gold for me, for so uneasy work. Should I make this thing for you?~ 
+@114 = ~I found something that is quite interesting: The Deathmask of King Strohm III. You can make something with it, right?~ 
+@115 = ~Yes... it was once quite powerful, but so many years have passed since then... I am afraid it's impossible to restore all of its former abilities, but even though I may not be able to replicate its full character, I bet I can come real close. Bring me a Dusty Rose Ioun Stone, a Pale Green Ioun Stone, a Scroll of True Sight, and a Scroll of Efreet Summoning, and we'll see what I can do. And of course, for such difficult work I'll need 10000 gold pieces from you. Should I make this new mask for you?~ 
 
-@116 = ~Can you make something to this Battle Axe?~ 
-@117 = ~If you bring me three Battle Axes - Stonefire, Frostreaver and Hangard's Axe +2 -, then you'll get excellent weapon. I'll also need one Demon Heart, one Wand of Frost, and two scrolls of Melf's Acid Arrow. And as payment I'll take only 10000 gold. Should I make this thing for you?~ 
+@116 = ~Can you make something out of this Battle Axe?~ 
+@117 = ~If you bring me three Battle Axes: Stonefire, Frostreaver, and Hangard's Axe. If you can do that and find a Demon Heart, a Wand of Frost, and two Scrolls of Melf's Acid Arrow, then I'll be able to make an exceptional weapon. As for payment, I'll only take 10000 gold pieces off of you. Should I make this axe for you?~ 
 
-@118 = ~I have an excellent sword - The Holy Avenger Carsomyr. Is it possible to make it even better? ~ 
-@119 = ~I couldn't even think that one day I would see this legendary weapon. Yes, if you will bring me the other sword, that hates evil - Daystar -, I'll manage to reunite them into a single whole. And on your choice I can make either a long, or a two-handed sword. I will also need two scrolls of Protection from Undead, in order to make all undead tremble with its only sight. And for such pleasant work I'll take only 5000 gold. Should I make this thing for you?~ 
-@120 = ~Yes, make a two-handed sword for me.~ 
-@121 = ~Yes, make a long sword for me.~ 
+@118 = ~I have a peerless sword: Carsomyr, The Holy Avenger. Is it possible to make it even better? ~ 
+@119 = ~I never imagined that one day I would see this legendary weapon. Yes, if you bring me another slayer of evil, the Daystar sword, I'll merge them into one weapon. To do this, I will also need two Scrolls of Protection from Undead, and I'll let you choose what type of sword I make: A greatsword or a longsword. For the honour of working on a Holy Avenger, I'll work for a mere 5000 gold pieces. What do you want me to do?~ 
+@120 = ~Please make a greatsword for me.~ 
+@121 = ~Please make a longsword for me.~ 
 
-@122 = ~I have a Girdle of Fortitude. A quite good subject, but perhaps you can make it even better?~ 
-@123 = ~Girdle of Fortitude? Hmm... I have an impression, that it has simply lost its magic with time. But it can be corrected. I will need one Potion of Regeneration and one Potion of Fortitude. It also will cost you almost nothing - only 5000 gold. Should I make this thing for you?~ 
+@122 = ~I have a Girdle of Fortitude. Do something with it.~ 
+@123 = ~A Girdle of Fortitude? Hmm... I get the feeling that it was once great but has lost its magic over time. However, this can be corrected. I will need a Potion of Regeneration and a Potion of Fortitude. It also will cost you almost nothing - only 5000 gold pieces. Should I make this belt for you?~ 
 
-@124 = ~I have Staff of Curing. A useful thing, but rather weak as weapon. Perhaps you can make something to it?~ 
-@125 = ~If you bring me Cleric's Staff +3 and one scroll of Raise Dead you'll get a rather good thing, in which charges of cure will be restored with time. But should warn you at once that there will be less charges. And as payment I'll take only 10000 gold. Should I make this thing for you?~ 
+@124 = ~I have a Staff of Curing. It's useful, but it's rather weak as weapon. Can you do something about that?~ 
+@125 = ~If you bring me a Cleric's Staff and a Scroll of Raise Dead, I'll make a superior weapon whose healing powers will return if given enough time. However, I should warn you that the number of charges you can use at any given time will be reduced. As payment for this job, I'll only take 10000 gold pieces. Should I make this staff for you?~ 
 
-@126 = ~I have with me The Hand of Dace. Certainly a nasty thing, but perhaps it will fit for anything?~ 
-@127 = ~I completely agree to you concerning "nasty thing", but we can take a benefit from it. If you bring me Gauntlets of Crushing I can make an excellent thing for you. I will need also one Potion of Regeneration, one Potion of Insulation and one Potion of Cold Resistance. And 15000 gold for me, for rather unpleasant work. Should I make this thing for you?~ 
+@126 = ~I have with me The Hand of Dace. It's quite foul, but do you think you can do something with it anyway?~ 
+@127 = ~I completely agree to you when you say this hand is "quite foul," but we can make use of it. If you bring me some Gauntlets of Crushing, a Potion of Regeneration, a Potion of Insulation and a Potion of Cold Resistance I can make a pair of powerful gauntlets for you. Oh, and you'll need to bring me 15000 gold pieces for me; I try to avoid such distasteful work and I always charge more for it. Should I make these gauntlets for you?~ 
 
-@128 = ~I have several two-handed swords. But I would like to have only one, which would contain all their forces. Can you help me?~ 
-@129 = ~Hmm... Well, it is possible to do that, but it will not be simple. You should take into account that the sword will be rather heavy, and will demand considerable strength from you. However, because of its weight the impact of this sword will be very powerful, and will inflict an additional crushing damage. We'll try to preserve all the useful properties of initial swords. I will need Sword of Chaos +2, Lilarcor, Cursed Berserking Sword +3, two scrolls of Remove Curse, and one scroll of Vampiric Touch. It also will cost you 15000 gold, but I think that the result will not disappoint you. Well and then it will be possible to make the sword even more powerful if you find something interesting. Should I make this thing for you?~ 
+@128 = ~I have several greatswords. Can you combine them so that I can wield all of their powers in one weapon?~ 
+@129 = ~Hmm... Well, it is possible, but it will not be simple. The first thing you should know is that the sword will be extremely heavy and will require superhuman strength to use it. However, on the plus side, the weight of the sword will give it immense power- it'll feel almost like getting hit by a hammer at the same time as a sword. Now, I'll try to preserve all the useful properties of the original swords: The sword of Chaos, Lilarcor, and the Cursed Berserking Sword. I'll also need you to bring me two Scrolls of Remove Curse and a Scroll of Vampiric Touch. It also will cost you 15000 gold pieces, but I doubt you'll be disappointed. To top it all off, it will be possible to further improve this sword and make it even more powerful if you find something worth adding. Anyway, do you want me to forge this blade for you?~ 
 
-@130 = ~I have Destroyer +4. Can you make it even more powerful?~ 
-@131 = ~Hmm. Well, it is possible to do that, but it will not be simple. I will need Silver Sword, Soul Reaver +4, Flame of The North, one scroll of Finger of Death and one Potion of Magic Protection. We'll try to preserve the useful properties of initial swords, but maybe not all of them can be saved. It also will cost you 20000 gold, but I think that the result will not disappoint you. Should I make this thing for you?~ 
+@130 = ~I have Destroyer, the sword you made for me. When you gave it to me, you said something about making it more powerful. What's involved in that?~ 
+@131 = ~Hmm. Well, it's possible, but it will be far from simple. I will need The Silver Sword, The Soul Reaver, The Flame Of The North, a Scroll of Finger of Death, and a Potion of Magic Protection. We'll try to preserve all the useful properties of original blades, but I wouldn't keep my hopes up. This work will cost you 20000 gold pieces. Expensive, yes, but you'll love the end result. Should I make this monster of a weapon for you?~ 
 
-@132 = ~I have Greenstone Amulet. A quite good subject, but perhaps you can make it even better?~ 
-@133 = ~Greenstone Amulet? I have a rather unusual offer to you. You have more than enough amulets even without this one. I can make a clasp for cloak from it, and the cloak itself at the same time, and I am sure you'll like them. I will need for that two Cloaks of Protection +1, one Potion of Clarity, one Control Circlet, one Brine Potion and one Ankheg Shell. And as it will be a rather complicated task, I'll take for that 15000 gold. Should I make this thing for you?~ 
+@132 = ~I have a Greenstone Amulet. It's decent and pretty useful, but do you think you can do anything with it?~ 
+@133 = ~A Greenstone Amulet? I have an offer for you that's a bit different from usual. Listen, you already have enough amulets, even without this one, so I can turn this amulet into the clasp of a cloak. I'll also need to create the cloak at the same time, but I'm sure you'll like what I'll make for you. For that, I'll need two                                                                                                           Cloaks of Protection +1, a Potion of Clarity, a Control Circlet, a Brine Potion and an Ankheg Shell. As this will be a rather complicated task, I'll take 15000 gold pieces. Should I make this cloak for you?~ 
 
-@134 = ~I have Tansheron's Bow +3. A quite good item, but perhaps you can make it even better?~ 
-@135 = ~Well, it is possible to do that. If you find Tuigan Bow +1, and pay me 5000 gold, I can make it even more strong. Should I make this thing for you?~ 
+@134 = ~I have Tansheron's Bow. It's quite useful, but do you think you can make it better?~ 
+@135 = ~Ah, this one's relatively simple. If you bring me The Tuigan Bow and give me 5000 gold pieces for my work, I can merge these two bows into a single superior weapon. Should I make this bow for you?~ 
 
 @136 = ~Can you somehow improve this Leather Armor?~ 
-@137 = ~Hmm... Well, I can make an excellent Leather Armor for you, but it will not be easy. I will need Skin of the Ghoul +4, Armor of the Viper +5, one Cloak of Protection +1, one Ankheg Shell, two scrolls of Non-Detection, two scrolls of Protection from Poison, two scrolls of Invisibility and two piles of Adamantine Dust, - to take pure Adamantine from it, which is not affected by daylight. And as it will be a rather complex task, I shall take 20000 gold from you. Should I make this thing for you?~ 
+@137 = ~Hmm... Well, I can make some excellent Leather Armor for you, but it will not be easy. I will need The Skin of the Ghoul, The Armor of the Viper, a Cloak of Protection +1, an Ankheg Shell, two Scrolls of Non-Detection, two Scrolls of Protection from Poison, two Scrolls of Invisibilty, and two piles of Adamantine Dust. I'll need the dust because I need pure Adamantine which is no longer affected by the light of day. And as this will be a rather complex task, I will require 20000 gold pieces as payment. Should I make this armor for you?~ 
 
-@138 = ~ I have War Hammer Dwarven Thrower +3. A quite good item, but perhaps you can make it even better? ~ 
-@139 = ~Hmm... Well, if you find War Hammer +1, +4 vs. Giantkin, and pay me 5000 gold, I can make it even more strong. However, still only dwarves can use it. But if you agree to pay me 15000 gold, I can make the Universal Thrower for you, which can be used by everyone who in general is able to use a war hammer. But for this I will also need War Hammer +2 Ashideena and one Wand of Lightning. But the hammer itself will become more powerful. Should I make this thing for you?~ 
-@140 = ~Yes, make for me Dwarven Thrower +4.~ 
-@141 = ~Yes, make for me Universal Thrower +5.~ 
+@138 = ~ I have the Dwarven Thrower. It's quite useful, qhat with being like a boomerang, but would it be possible to improve it? ~ 
+@139 = ~Hmm... Well, if you find a War Hammer +1, +4 vs. Giantkin, and pay me 5000 gold pieces, I can make it much stronger. However, it will remain a weapon that only dwarves can use. However, if you pay me 15000 gold pieces, and bring me the war hammer Ashideena and a wand of Lightning, I can make the Universal Thrower. Not only will this weapon be usable by anyone who has the inclination to use a war hammer, it will also be even more powerful than the Dwarven Thrower. Which one do you want me to make?~ 
+@140 = ~Make the Dwarven Thrower +4.~ 
+@141 = ~Make the Universal Thrower +5.~ 
 
-@142 = ~I have Staff of the Magi. An excellent thing, but perhaps you can do anything to it?~ 
-@143 = ~There is already so much magic in it. It's simply risky to do anything else with this staff, but I can try. If you bring me Staff of Rynn +4, and two scrolls of Chain Lightning, I'll be able to improve its fighting abilities. I'll take only 10000 gold as payment. Should I make this thing for you?~ 
+@142 = ~I have a Staff of the Magi. It's amazing, but do you think you can make it even better?~ 
+@143 = ~There is already so much power in it. To put it plainly, it's a big risk to do anything with this staff, but I can try. If you bring me the Staff of Rynn and two Scrolls of Chain Lightning, I'll be able to increase its combat abilities, and I'll only take 10000 gold pieces as payment. Should I make this staff for you?~ 
 
-@144 = ~I have several daggers. But I would like to have only one, which would unite all of their forces. Can you help me?~ 
-@145 = ~Hmm... Well, it is possible to do that. I can make for you an excellent throwing dagger. I will need Stiletto of Demarchess +2, Boomerang Dagger +2, Pixie Prick +3, Neb's Nasty Cutter, two scrolls of Hold Monster, and two scrolls of Sleep. It also will cost you 10000 gold, but I think that the result will not disappoint you. Should I make this thing for you?~ 
+@144 = ~I have several daggers. Can you combine them so that I can wield all of their powers in one weapon?~ 
+@145 = ~Hmm... Well, it is possible to make an exceptional throwing knife. I will need the Stiletto of Demarchess, the Boomerang Dagger, the Pixie Prick, Neb's Nasty Cutter, two Scrolls of Hold Monster, and two Scrolls of Sleep. It also will cost you 10000 gold pieces, but I知 sure you won't be disappointed. Should I make this blade for you?~ 
 
-@146 = ~I have several rather weak swords. But I would like to have only one, which would unite all of their forces. Can you help me?~ 
-@147 = ~Hmm... Well, it is possible to do that. I can make for you an excellent Sword of Freedom. And on your choice I can make it either a long, or a short sword. I will need Adjatha the Drinker +2, Scimitar of Speed +2 Belm, Arbane's Sword +2, Ilbratha +1, two Oils of Speed (white), one Potion of Freedom, and two scrolls of Vampiric Touch. It also will cost you 15000 gold, but I think that the result will not disappoint you. Should I make this thing for you?~ 
-@148 = ~Yes, make for me Short Sword of Freedom +5.~ 
-@149 = ~Yes, make for me Long Sword of Freedom +5.~
+@146 = ~I have several rather weak swords. Do you think you can combine them so that I can have a single decent weapon?~ 
+@147 = ~Of course. I can make something called The Sword of Freedom, and depending on your choice, I can make it either a longsword, or a shortsword. I will need Namarra, the Scimitar of Speed: Belm, Arbane's Sword, Ilbratha, two Oils of Speed, a Potion of Freedom, and two Scrolls of Vampiric Touch. It also will cost you 15000 gold, but you'll like what I give you. Which sword should I make for you?~ 
+@148 = ~Make the Short Sword of Freedom.~ 
+@149 = ~Make the Long Sword of Freedom.~
 
-@150 = ~I have some scales of a dragon. Perhaps you can make something from it?~
-@151 = ~Yes, I can make from it an excellent armour, that will have few restrictions. I will need for my work the scales of red and shadow dragons, and also the Belt of Inertial Barrier and one Potion of Magic Shielding. I'll take only 10000 gold for my work. Should I make this thing for you?~
+@150 = ~I have some scales I ripped from the corpse of a dragon I killed. Do you think you can do anything with it?~
+@151 = ~Of course. With those scales, I can make exceptional armor that will have few restrictions; thieves and mages can even use their abilities when wearing it. I will need the scales of both a red dragon and a shadow dragon, a Belt of Inertial Barrier, and a Potion of Magic Shielding. This will cost you 10000 gold pieces for my work. Should I make this armor for you?~ 
 
-@152 = ~ I have a Chunk of Illithium Alloy. Perhaps you can make something from it?~
-@153 = ~Yes, I can make from it an excellent armour. I'll have to extract pure illithium from it, and pure adamantine from Adamantine Dust, and melt them into a new alloy. I will need three piles of Adamantine Dust, Illithium Alloy, and one scroll of Protection from Magic for my work. And as it will be rather a complex task, I shall take 20000 gold as a payment. Should I make this thing for you?~
+@152 = ~ I have a Chunk of Illithium Alloy. Can you do anything with it?~
+@153 = ~Yes, I can use it to craft an excellent suit of armor. I'll have to extract pure illithium from it, and some pure adamantine from Adamantine Dust, and mix them to create a new alloy. I will need three piles of Adamantine Dust, your Illithium Alloy, and a scroll of Protection from Magic for this to work, and given the complexity of this task, I shall take 20000 gold pieces as a payment. Should I make this armor for you?~ 
 
-@154 = ~Can you do anything to this Gloves of Healing?~
-@155 = ~Let's have a look... Yes, it is possible to make a quite good thing of them. I will need the Gloves of Healing, the Bracers of Defense AC 6, one Ring of Protection +1, two Potions of Regeneration, four Antidotes, and two scrolls of Protection from Poison for my work. And 10000 gold as a payment. Should I make this thing for you?~
+@154 = ~Can you do anything to these Gloves of Healing?~
+@155 = ~Let's have a look... Yes, it is possible to make a rather impressive pair of gloves out of those. I will need the Gloves of Healing, Bracers of Defense AC 6, a Ring of Protection +1, two Potions of Regeneration, four Antidotes, and two scrolls of Protection from Poison. As payment, I値l take 10000 gold pieces. Should I make these gloves for you?~ 
 
-@156 = ~I have Mace of Disruption +1. Perhaps you can make something to it?~
-@157 = ~Yes, covered with a thin layer of pure illithium, it will give to the owner excellent protection against the attacks of vampires. I will also need Mace Ardulia's Fall +1, Illithium Ore, and three scrolls of Slow. I'll take only 10000 gold as a payment. Should I make this thing for you?~
+@156 = ~I have a Mace of Disruption. can you make something with it?~
+@157 = ~Yes, if I did a few things and covered it with a thin layer of pure illithium, this mace will give the owner excellent protection from vampires. I will need you to bring me the mace Ardulia's Fall, some Illithium Ore, and three Scrolls of Slow. I'll only take 10000 gold as payment. Should I make this mace for you?~ 
 
 @158 = ~Can you do anything to this Ring of Free Action?~
-@159 = ~Yes, on your choice I could combine a Ring of Free Action with a Ring of Protection +1, or +2. I will also need one Potion of Defense, and two Emeralds. I'll take only 10000 gold as a payment. Should I make this thing for you?~
- @160 = ~Yes, make the Ring of Free Action +1 for me.~
- @161 = ~Yes, make the Ring of Free Action +2 for me.~
+@159 = ~Yes, I can merge it with a ring of protection. I値l let you choose which you want me to merge: a Ring of Protection +1, or a Ring of Protection +2. Either way, I will also need a Potion of Defence and two Emeralds. I値l only take 10000 gold pieces as my fee this time. Which ring do you want me to make?~ 
+@160 = ~Make the Ring of Free Action +1 for me.~
+@161 = ~Make the Ring of Free Action +2 for me.~
 
-@162 = ~Can you do anything to this Ring of Gaxx?~
-@163 = ~There is already so strong magic in it. It's simply risky to do anything else with this ring, but I can try. If you bring me four Potions of Regeneration, one scroll of Improved Invisibility, and one scroll of Improved Haste, it is possible to improve its fighting potential. I'll take only 10000 gold as a payment. Should I make this thing for you?~
-
+@162 = ~Can you do anything to the Ring of Gaxx?~
+@163 = ~There is already such strong magic in this evil thing, it would be nothing short of dangerous to add any more. Still, I can try. If you bring me four Potions of Regeneration, a Scroll of Improved Invisibility, and a Scroll of Improved Haste, it is possible to increase its power. For this work, I'll only take 10000 gold pieces as payment. Should I make this ring for you?~ 
