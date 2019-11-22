@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
-<div align="center"><h1></a>Rolles (WIP)</h1>
+<div align="center"><h1></a>Rolles</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II: Throne of Bhaal (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
