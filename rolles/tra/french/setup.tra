@@ -181,11 +181,12 @@ Dégâts (mêlée): 1d8 +4
 Dégâts (lancer): 1d6 +4
 Type de dégâts (mêlée) : tranchant
 Type de dégâts (lancer) : projectile (perforant)
-Poids : 5
 Facteur de vitesse : 3
 Type de compétence : hache
 Type : arme à 1 main
 Requiert : 10 en Force
+
+Poids : 5
 
 Non utilisable par :
  Druide
@@ -353,11 +354,12 @@ Capacités de combat :
 TAC0 : +4 (enchantement +5)
 Dégâts : 2d6 +4, +1d4 points de dégâts contondants
 Type de dégâts : tranchant
-Poids : 18
 Facteur de vitesse : 9
 Type de compétence : épée à 2 mains
 Type : arme à 2 mains
 Requiert : 19 en Force
+
+Poids : 18
 
 Non utilisable par :
  Druide
@@ -388,11 +390,12 @@ Capacités de combat :
 TAC0 : +5 (enchantement +6)
 Dégâts : 2d8 +5, +1d6 points de dégâts contondants
 Type de dégâts : tranchant
-Poids : 24
 Facteur de vitesse : 9
 Type de compétence : épée à 2 mains
 Type : arme à 2 mains
 Requiert : 21 en Force
+
+Poids : 24
 
 Non utilisable par :
  Druide
@@ -435,11 +438,12 @@ Capacité de combat :
 
 TAC0 : +4
 Dégâts : 1d6
-Poids : 2
 Facteur de vitesse : 3
 Type de compétence : arc court
 Type : arme à 2 mains
 Requiert : 6 en Force
+
+Poids : 2
 
 Non utilisable par :
  Druide
@@ -561,11 +565,11 @@ Capacité de combat (chaque coup) :
 TAC0 : +5
 Dégâts : 1d6 +5
 Type de dégâts : contondant
-Poids : 4
 Facteur de vitesse : 4
 Type de compétence : bâton
 Requiert : 5 en Force
 
+Poids : 4
 Utilisable par :
  Mage~
 @10391  = ~Boule de feu-Chaîne d'éclairs~
@@ -656,11 +660,12 @@ Capacités de combat (chaque coup) :
 TAC0 : +5
 Dégâts : 1d8 +5
 Type de dégâts : tranchant
-Poids : 3
 Facteur de vitesse : 2
 Type de compétence : épée longue
 Type : arme à 1 main
 Requiert : 6 en Force
+
+Poids : 3
 
 Non utilisable par :
  Druide
