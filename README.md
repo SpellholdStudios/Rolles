@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/Rolles?include_prereleases&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Rolles?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
 
@@ -27,7 +27,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 This mod adds Rolles, a new smith in Waukeen's Promenade above the entrance to Adventurer Mart, who can upgrade items. He also sells a few scrolls and items.
 
-Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/master/rolles/readme/rolles-readme-english.txt">rolles-readme-english.txt</a> for details.
+Please see <a href="https://raw.githubusercontent.com/SpellholdStudios/Rolles/master/rolles/readme/rolles-readme-english.txt">rolles-readme-english.txt</a> for details.
 
 
 <hr>
@@ -38,9 +38,9 @@ Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/Rolles/ma
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
 This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
-<div align="right"><a href="#top">Back to top</a></div>
 
-Enhanced Shield of Balduran IR
+:warning: Classical game players are strongly recommended to download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -175,7 +175,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 	- Added *Continue()* action when appending area bcs files with EXTEND_TOP command.
 	- Fixed corrupted rolles.cre file.
 	- Reorganized components (*DESIGNATED* numbers) and added *LABELS* "*Rolles_Safyer*" and "*Rolles_Bag_of_Holding_in_Irenicus_Dungeon*".
-	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. 
+	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. :angel:
 	- Added README command in tp2.
 	- Replaced AUTHOR keyword with SUPPORT.
 	- Added VERSION flag.
