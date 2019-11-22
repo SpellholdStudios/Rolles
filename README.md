@@ -12,7 +12,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v5/">Spellhold Studios</a><br /><br />
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v500/">Spellhold Studios</a><br /><br />
 
 
 <div align="center">
@@ -72,7 +72,29 @@ Run **`setup-rolles.exe`** in your game folder to reinstall, uninstall or otherw
 
 ## 
 
-#### Note for Complete Uninstallation
+#### Mac OS X
+
+The The Slithering Menace for Mac OS X is distributed in the same compressed archive than the Windows one.
+
+First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: rolles folder, setup-rolles and setup-rolles.command files in your game folder. To install, simply double-click **`setup-rolles.command`** and follow the instructions on screen.
+
+Run **`setup-rolles.command`** in your game folder to reinstall, uninstall or otherwise change the components settings.
+
+## 
+
+#### Linux
+
+The The Slithering Menace for Linux is distributed in the same compressed archive than the Windows one and does not include a WeiDU installer.
+
+Extract the contents of the mod to the folder of the game you wish to modify.
+
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+
+To install, run **`WeInstall setup-rolles`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine Baldur.exe`** for EE games) and start playing.
+
+## 
+
+#### Note for Complete Un-installation
 
 In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-rolles --uninstall`** at the command line to remove all components without wading through prompts.</br>
 <div align="right"><a href="#top">Back to top</a></div>
@@ -110,7 +132,7 @@ This component adds a Bag of Holding (capacity: 38 items) in Irenicus Dungeon.
 
 - Gwendolyne: Fixed bugs and translations and released version 5.0.0.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
-- Deratiseur: Provided the EE compatible version (version 4.0.0).
+- Deratiseur: Provided native EE compatible version (v4.0.0).
 - La Voix 2 la Sagesse (the d'Oghmatiques): French translation.
 - Xavier1161: fixed English texts (version 3a).
 - Alina (aerie.ru): Great thanks for the English texts editing!
@@ -140,7 +162,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 5.0.0 (November , 2019)
+##### Version 5.0.0 (November 22, 2019)
 
 - Major updates:
 	- Renamed *Setup-rolles.tp2* -> *rolles.tp2* to support AL|EN's "Project Infinity".
@@ -149,7 +171,8 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 	- Appended tooltip.2da whenever relevant.
 	- Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 	- Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
-	- Added *Continue()* action when appending bcs files with EXTEND_TOP command.
+	- Externalized items install in *rolles_items.tpa* library.
+	- Added *Continue()* action when appending area bcs files with EXTEND_TOP command.
 	- Fixed corrupted rolles.cre file.
 	- Reorganized components (*DESIGNATED* numbers) and added *LABELS* "*Rolles_Safyer*" and "*Rolles_Bag_of_Holding_in_Irenicus_Dungeon*".
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. 
@@ -350,7 +373,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added Scaly Armour 'Two Dragons', Full Plate +4, Improved Gloves of Healing, Mace of Disruption +3, Ring of Free Action +1 and +2, Improved Ring of Gaxx.
 - Fixed a bug causing some items not displayed in inventory when ToB is not installed.
 - Fixed minor issues.
-- Added new component, which will allows to find a Bag of Holding containing 18 items in Irenicus Dungeon.
+- Added new component, which will allows to find a Bag of Holding containing 38 items in Irenicus Dungeon.
 
 ## 
 

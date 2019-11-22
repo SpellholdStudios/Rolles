@@ -542,7 +542,7 @@ Aaron O'Neil, за ShadowKeeper.
 Алине (aerie.ru) - огромное спасибо за правку английских текстов!
 La Voix 2 la Sagesse (of the d'Oghmatiques) - for the French translation.
 Xavier1161: fixed English texts (version 3a).
-Deratiseur: Provided EE compatible version (v4.0.0).
+Deratiseur: Provided native EE compatible version (v4.0.0).
 AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 Gwendolyne: Fixed bugs and translations and released version 5.0.0.
 
@@ -570,7 +570,7 @@ All other trademarks and copyrights are the property of their respective owners.
 7. История версий
 =================
 
-Version 5.0.0
+Version 5.0.0 (November 22, 2019)
 - Major updates:
 	- Renamed Setup-rolles.tp2 -> rolles.tp2 to support AL|EN's "Project Infinity".
 	- Added rolles.ini metadata file to support AL|EN's "Project Infinity".
@@ -578,7 +578,8 @@ Version 5.0.0
 	- Appended tooltip.2da whenever relevant.
 	- Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 	- Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
-	- Added Continue() action when appending bcs files with EXTEND_TOP command.
+	- Externalized items install in rolles_items.tpa library.
+	- Added Continue() action when appending area bcs files with EXTEND_TOP command.
 	- Fixed corrupted rolles.cre file.
 	- Reorganized components (DESIGNATED numbers) and added LABELS "Rolles_Safyer" and "Rolles_Bag_of_Holding_in_Irenicus_Dungeon".
 	- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. 
@@ -766,9 +767,7 @@ Version 2
 - добавлены: Чешуйчатый Доспех "Два Дракона"; Полный панцирь +4; Улучшенные Перчатки Исцеления; Булава Разрушения +3; Кольцо Свободы Действий +1, или +2; Улучшенное Кольцо Гакса.  
 - исправлена ситуация, когда при не установленном ТоВ некоторые предметы не отображались в инвентаре.
 - исправлено несколько мелких ошибок.
-- добавлен новый компонент, позволяющий найти в подземелье Айреникуса сумку, вмещающую 18 предметов.
+- добавлен новый компонент, позволяющий найти в подземелье Айреникуса сумку, вмещающую 38 предметов.
 
 Version 1
 - первый публичный релиз мода.
-
-
