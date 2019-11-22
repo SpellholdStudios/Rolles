@@ -1,0 +1,378 @@
+/* =============================================================================================== *
+ * LIST of ROUTINES :                                                                              *
+ * ------------------                                                                              *
+ *  - Determines which game is installed and if the game is an Enhanced Edition.    => line #  12  *
+ *  - Detects other mods                                                            => line #  23  *
+ *  - Loads macros and functions                                                    => line #  41  *
+ *  - Install Items                                                                 => line #  55  *
+ * =============================================================================================== */
+ 
+
+/* -------------------------------------------------------------------------------- *
+ *    Determines which game is installed and if the game is an Enhanced Edition.    *
+ * -------------------------------------------------------------------------------- */
+
+OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0					// EE game
+OUTER_SET is_tob = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0	// based on vanilla ToB engine
+OUTER_SET is_tutu = (GAME_IS ~tutu tutu_totsc~) ? 1 : 0			// tutu
+OUTER_SET is_bg2ee = (GAME_IS "bg2ee") ? 1 : 0					// b2gee
+OUTER_SET is_eet = (GAME_IS "eet") ? 1 : 0						// eet
+
+
+/* ------------------------ *
+ *    Detects other mods    *
+ * ------------------------ */
+
+// Detects 1PP
+OUTER_SET is_1pp_helmet =  (MOD_IS_INSTALLED ~1pp.tp2~ ~208~) ? 1 : 0											// 1ppv4: Additional Helmet Animations (core)
+OUTER_SET is_1pp_staff  = ((MOD_IS_INSTALLED ~1pp.tp2~ ~207~) AND (MOD_IS_INSTALLED ~1pp.tp2~ ~400~)) ? 1 : 0	// 1ppv4: Wizards' Staves (core)
+OUTER_SET is_1pp_staff0 = ((MOD_IS_INSTALLED ~1pp.tp2~ ~204~) AND (is_1pp_staff = 0)) ? 1 : 0					// 1ppv4: Colourable Quarterstaves without 1ppv4: Wizards' Staves (core)
+OUTER_SET is_1pp_swblbw = ((MOD_IS_INSTALLED ~1pp.tp2~ ~210~) AND (MOD_IS_INSTALLED ~1pp.tp2~ ~400~)) ? 1 : 0	// 1ppv4: Increased paperdoll object variety (core)
+OUTER_SET is_1pp_shld   = ((MOD_IS_INSTALLED ~1pp.tp2~ ~206~) AND (MOD_IS_INSTALLED ~1pp.tp2~ ~400~)) ? 1 : 0	// 1ppv4: Increased paperdoll object variety (core) with Additional Shield Animations (core)
+OUTER_SET is_1pp_shld0  = ((MOD_IS_INSTALLED ~1pp.tp2~ ~200~) AND (is_1pp_shld = 0)) ? 1 : 0					// 1ppv2 BASE cut and updated without 1ppv4: Core updates and item patches
+OUTER_SET is_1pp_400    =  (MOD_IS_INSTALLED ~1pp.tp2~ ~400~) ? 1 : 0											// 1ppv4: Core updates and item patches
+OUTER_SET is_1pp_401    =  (MOD_IS_INSTALLED ~1pp.tp2~ ~401~) ? 1 : 0											// 1ppv4: Improved projectile effects
+
+// Detects ToBEx
+OUTER_SET is_tobex = (FILE_EXISTS ~tobex_ini/tobexcore.ini~) ? 1 : 0
+
+
+/* -------------------------------- *
+ *    Loads macros and functions    *
+ * -------------------------------- */
+
+INCLUDE ~%MOD_FOLDER%/lib/gw_functions.tpa~						// Loads macros and functions library dealing with tooltip appending and specific EE items descriptions.
+INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~	// Loads function converting inventory BAMs to EE.
+
+LAM ~GW_READ_COL_TOOLTIP~										// Reads how many columns are in tooltip.2da file.
+
+
+ACTION_IF (is_ee OR is_1pp_staff OR is_1pp_staff0 OR is_1pp_helmet OR is_1pp_400 OR is_1pp_swblbw OR is_1pp_shld OR is_1pp_shld0) BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/1pp_macros.tpa~					// Loads 1PP macros dealing with items coloring.
+	LAM ~Locations~												// DEFINES location field values needed to alter items' colors.
+	INCLUDE ~%MOD_FOLDER%/lib/1pp_compatibility.tph~			// Loads functions restoring items coloration for EE games or if 1PP relevant components are installed.
+END
+
+
+/* ------------------- *
+ *    Install items    *
+ * ------------------- */
+
+// Cloak of the Wild Magi
+COPY ~rolles/itm/s#clck01.itm~ ~override~
+	SAY NAME2 @0300
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@0301" END
+	PATCH_IF (is_ee) BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter2 = 83 special = 1 END	// CHAOS_SHIELD
+	END
+BUT_ONLY
+
+// Sling +4 Arla's Dragonbane
+COPY ~rolles/itm/s#slng01.itm~ ~override~
+	SAY NAME2 @1000
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1001" END
+	PATCH_IF (is_ee OR is_1pp_401) BEGIN
+		LPF ALTER_ITEM_HEADER INT_VAR projectile = (IDS_OF_SYMBOL (projectl 1bull06) + 1) END
+	END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_slng05~ END
+	END
+BUT_ONLY
+
+// Enhanced Shield of Balduran
+COPY ~rolles/itm/s#shld01.itm~ ~override~
+	SAY NAME2 @1002
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1003" END
+	PATCH_IF (is_ee OR is_1pp_401) BEGIN
+		PATCH_FOR_EACH proj IN					// 1pp new projectiles
+			1arow01 1arow02 1arow03 1arow04 1arow05 1arow07 1arow10 1arow11 1arow15 1axe05 1axe08 1axe09 1axe10 1axe16 1bolt01 1bolt02 1bolt03 1bolt04 1bolt05 1bolt06 1bolt09 1bull02 1bull03 1bull04 1bull05 1bull06 1dagg05 1dagg11 1dagg12 1dagg16 1dart01 1dart02 1dart03 1dart04 1dart05 1dart08 BEGIN
+			SET projnb = IDS_OF_SYMBOL (~projectl~ ~%proj%~)
+			PATCH_IF projnb > 0 BEGIN
+				LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 197 parameter2 = projnb STR_VAR insert = above END
+			END
+		END
+	END
+	PATCH_IF (is_ee OR is_1pp_shld) BEGIN
+		LPF ~1pp_wa2shiel~ END
+	END
+	PATCH_IF (is_1pp_shld0) BEGIN
+		LPF ~1pp_shld27_0~ END
+	END
+BUT_ONLY
+
+// Gauntlets of Grandmastery
+COPY ~rolles/itm/s#brac01.itm~ ~override~
+	SAY NAME2 @1004
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1005" END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#brac01~ GW_tooltips = ~54312~ END	// Improved Haste twice per day
+
+// Necklace of Time Stability
+COPY ~rolles/itm/s#amul01.itm~ ~override~
+	SAY NAME2 @1006
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1007" END
+BUT_ONLY
+
+// Enhanced Amulet of Power
+COPY ~rolles/itm/s#amul02.itm~ ~override~
+	SAY NAME2 @1008
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1009" END
+BUT_ONLY
+
+// Restored Mask of King Strohm III
+COPY ~rolles/itm/s#helm01.itm~ ~override~
+	SAY NAME2 @1010
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1011" END
+	PATCH_IF (is_ee OR is_tobex) BEGIN
+		WRITE_LONG 0x18 THIS | BIT25	// add EE/Ex: Toggle critical hits flag
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#helm01~ GW_tooltips = ~34609~ END	// Summon Efreeti once per day
+
+// Battle Axe +4 Ice and Fire
+COPY ~rolles/itm/s#ax1h01.itm~ ~override~
+	SAY NAME2 @1012
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1013" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+	END
+	PATCH_IF (is_ee OR is_1pp_401) BEGIN
+		LPF ALTER_ITEM_HEADER INT_VAR header_type = 2 projectile = (IDS_OF_SYMBOL (projectl 1axe08) + 1) END
+	END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_ax1h13~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#ax1h01~ GW_tooltips = ~15527 15529~ END	// Thrown - Melee
+
+// Sacred Justice
+COPY ~rolles/itm/s#sw2h01.itm~ ~override~
+	SAY NAME2 @1014
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1015" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw2h10~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw2h01~ GW_tooltips = ~@1014 3803 12026~ END	// Sacred Justice - Sunray twice per day - Dispel magic 3 times per day
+
+COPY ~rolles/itm/s#sw1h01.itm~ ~override~
+	SAY NAME2 @1016
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1017" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw1h31~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw1h01~ GW_tooltips = ~@1016 12026 3803~ END	// Sacred Justice - Dispel magic 3 times per day - Sunray twice per day
+
+// Enhanced Girdle of Fortitude
+COPY ~rolles/itm/s#belt01.itm~ ~override~
+	SAY NAME2 @1018
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1019" END
+BUT_ONLY
+
+// Enhanced Staff of Curing
+COPY ~rolles/itm/s#staf01.itm~ ~override~
+	SAY NAME2 @1020
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1021" END
+	PATCH_IF is_ee BEGIN
+		PATCH_FOR_EACH effects IN ~SPWI409~ ~SPIN784~ ~OHRGROG~ ~OHDMASK~ ~OHBCDIS~ ~ZOMSEA~ ~SPIDWR1~ ~SHARSWD~ ~SAHZOM01~ ~PUDDEN01~ ~PARAGHAS~ ~P1-2P~ ~OTYUGH~ ~OHRSLNG1~ ~OHHGMUM1~ ~MUMMYW~ ~MUMGREW~ ~MISC8J~ ~MAGISPWR~ ~LACEDO2~ ~LACEDO~ ~IOTYUGH~ ~GHOULLOR~ ~GHAST1~ ~DEMOGORG~ ~DARTMEL~ ~ACIDOOZ3~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 2 multi_match = 1 match_opcode = 11 opcode = 321 duration = 0 parameter1 = 0 parameter2 = 0 STR_VAR insert = below resource = EVAL "%effects%" END
+		END
+	END
+	PATCH_IF (is_ee OR is_1pp_staff) BEGIN
+		LPF ~1pp_staf10~ END
+	END
+	PATCH_IF (is_1pp_staff0) BEGIN
+		LPF ~1pp_staf10_0~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#staf01~ GW_tooltips = ~@1020 12117 8786~ END	// Enhanced Staff of Curing - Raise Dead once per day - Cure 5 times per day
+
+// Gauntlets of Crushing 'Hand of Vampire'
+COPY ~rolles/itm/s#brac02.itm~ ~override~
+	SAY NAME2 @1022
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1023" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 67 special = 1 STR_VAR insert = below END	// BUFF_PRO_EFFECTS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 106 special = 1 STR_VAR insert = below END	// RESIST_FEAR
+		PATCH_FOR_EACH effects IN ~a7!in13b~ ~spwi205~ ~spin105~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 106 opcode = 321 timing = 0 parameter2 = 0 STR_VAR insert = first resource = EVAL "%effects%" END
+		END
+	END
+BUT_ONLY
+
+// Destroyer +4
+COPY ~rolles/itm/s#sw2h02.itm~ ~override~
+	SAY NAME2 @1024
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1025" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw2h13~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw2h02~ GW_tooltips = ~@1024 34654~ END	// Destroyer +4 - Enrage 3 times per day
+
+// Destroyer +5
+COPY ~rolles/itm/s#sw2h03.itm~ ~override~
+	SAY NAME2 @1026
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1027" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw2h13~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw2h03~ GW_tooltips = ~@1026 34654~ END	// Destroyer +5 - Enrage 3 times per day
+
+// Cloak of Perfection
+COPY ~rolles/itm/s#clck03.itm~ ~override~
+	SAY NAME2 @1028
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1029" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 67 special = 1 STR_VAR insert = below END	// BUFF_PRO_EFFECTS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 106 special = 1 STR_VAR insert = below END	// RESIST_FEAR
+		PATCH_FOR_EACH effects IN ~a7!in13b~ ~spwi205~ ~spin105~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 106 opcode = 321 timing = 0 parameter2 = 0 STR_VAR insert = first resource = EVAL "%effects%" END
+		END
+	END
+BUT_ONLY
+
+// Tansheron's Bow +4
+COPY ~rolles/itm/s#bow01.itm~ ~override~
+	SAY NAME2 @1030
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1031" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_bow15~ END
+	END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+	END
+BUT_ONLY
+
+// Dream of the Thief
+COPY ~rolles/itm/s#leat01.itm~ ~override~
+	SAY NAME2 @1032
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1033" END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_leat23~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#leat01~ GW_tooltips = ~12017~ END	// Invisibility 3 times per day
+
+// Dwarven Thrower +4
+COPY ~rolles/itm/s#hamm01.itm~ ~override~
+	SAY NAME2 @1034
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1035" END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_hamm06~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#hamm01~ GW_tooltips = ~15527 15529~ END	// Thrown - Melee
+
+// Universal Thrower +5
+COPY ~rolles/itm/s#hamm02.itm~ ~override~
+	SAY NAME2 @1036
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1037" END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_hamm06~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#hamm02~ GW_tooltips = ~15527 15529~ END	// Thrown - Melee
+
+// Enhanced Staff of the Magi
+COPY ~rolles/itm/s#staf02.itm~ ~override~
+	SAY NAME2 @1038
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1039" END
+	PATCH_IF (is_ee) BEGIN
+		LPF ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~ INT_VAR type = 3 header = 2 flag_breaksanctuary = 1 END
+	END
+	PATCH_IF (is_ee OR is_1pp_staff) BEGIN
+		LPF ~1pp_staf11~ END
+	END
+	PATCH_IF (is_1pp_staff0) BEGIN
+		LPF ~1pp_staf11_0~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#staf02~ GW_tooltips = ~@1038 @10391 26304~ END	// Enhanced Staff of the Magi - Fireball-Chain Lightning 5 times per day - Spell Trap once per day
+
+// Throwing Dagger Silent Death
+COPY ~rolles/itm/s#dagg01.itm~ ~override~
+	SAY NAME2 @1040
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1041" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EFFECT INT_VAR type = 99 insert_point = 0 opcode = 324 target = 2 parameter2 = 77 STR_VAR resource = "s#dagg01" END	// STAT RESISTPOISON >= 100
+		LPF ADD_ITEM_EFFECT INT_VAR type = 99 insert_point = 0 opcode = 324 target = 2 parameter2 = 55 STR_VAR resource = "s#dagg01" END	// undead or golem
+	END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_dagg05~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#dagg01~ GW_tooltips = ~15527 15529~ END	// Thrown - Melee
+
+// Short Sword of Freedom +5
+COPY ~rolles/itm/s#sw1h02.itm~ ~override~
+	SAY NAME2 @1042
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1043" END
+	PATCH_IF is_ee BEGIN
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 301 parameter2 = 1 END	// By this weapon only (1)
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw1h02~ GW_tooltips = ~@1042 12018 54312~ END	// Short Sword of Freedom +5 - Mirror Image twice per day - Improved Haste twice per day
+
+// Long Sword of Freedom +5
+COPY ~rolles/itm/s#sw1h03.itm~ ~override~
+	SAY NAME2 @1044
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1045" END
+	PATCH_IF is_ee BEGIN
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 301 parameter2 = 1 END	// By this weapon only (1)
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#sw1h03~ GW_tooltips = ~@1044 12018 54312~ END	// Long Sword of Freedom +5 - Mirror Image twice per day - Improved Haste twice per day
+
+// Scaly Armour Two Dragons
+COPY ~rolles/itm/s#chan01.itm~ ~override~
+	SAY NAME2 @1046
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1047" END
+BUT_ONLY
+
+// Full Plate +4
+COPY ~rolles/itm/s#plat02.itm~ ~override~
+	SAY NAME2 @1048
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1049" END
+BUT_ONLY
+
+// Improved Gloves of Healing
+COPY ~rolles/itm/s#brac03.itm~ ~override~
+	SAY NAME2 @1050
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1051" END
+BUT_ONLY
+
+// Mace of Disruption +3
+COPY ~rolles/itm/s#mace01.itm~ ~override~
+	SAY NAME2 @1052
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1053" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_blun12~ END
+	END
+BUT_ONLY
+
+// Ring of Free Action +1
+COPY ~rolles/itm/s#ring01.itm~ ~override~
+	SAY NAME2 @1054
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1055" END
+BUT_ONLY
+
+// Ring of Free Action +2
+COPY ~rolles/itm/s#ring02.itm~ ~override~
+	SAY NAME2 @1056
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1057" END
+BUT_ONLY
+
+// Improved Ring of Gaxx
+COPY ~rolles/itm/s#ring03.itm~ ~override~
+	SAY NAME2 @1058
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@1059" END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~s#ring03~ GW_tooltips = ~12021 25937~ END	// Improved Invisibility once per day - Improved Haste 3 times per day
+
+
+COPY_EXISTING ~tooltip.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
