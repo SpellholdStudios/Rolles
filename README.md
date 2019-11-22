@@ -5,7 +5,7 @@
 
 <div align="center"><h1></a>Rolles</h1>
 
-<h3>A mod hosted by Spellhold Studios for Baldur's Gate II: Throne of Bhaal (classical and EE games),<br>
+<h3>A mod hosted by Spellhold Studios for Baldur's Gate II: ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
 </div><br />
