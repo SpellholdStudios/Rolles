@@ -35,7 +35,7 @@ Please see <a href="https://raw.githubusercontent.com/SpellholdStudios/Rolles/ma
 
 ## <a name="compat" id="compat"></a>Compatibility
 
-This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with or without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
+This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
 This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
 
@@ -187,6 +187,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 	- Reorganized mod architecture tree: created folders to sort files according to their types.
 	- Removed useless files.
 	- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+	- Transferred mod to SpellHold Studios GitHub account.
 
 - Items updates:
 	- Fixed unusability flags and appended tooltip.2da whenever relevant.
