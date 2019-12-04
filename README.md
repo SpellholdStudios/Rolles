@@ -187,6 +187,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 	- Reorganized mod architecture tree: created folders to sort files according to their types.
 	- Removed useless files.
 	- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+	- Transferred mod to SpellHold Studios GitHub account.
 
 - Items updates:
 	- Fixed unusability flags and appended tooltip.2da whenever relevant.

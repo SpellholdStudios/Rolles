@@ -567,6 +567,7 @@ Version 5.0.0 (November 22, 2019)
 	- Reorganized mod architecture tree: created folders to sort files according to their types.
 	- Removed useless files.
 	- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+	- Transferred mod to SpellHold Studios GitHub account.
 - Items updates:
 	- Fixed unusability flags and appended tooltip.2da whenever relevant.
 	- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
