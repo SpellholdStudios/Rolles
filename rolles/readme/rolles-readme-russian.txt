@@ -1,5 +1,5 @@
                     A mod for Baldur's Gate II: Throne of Bhaal
-                              Rolles Version 5.0.0
+                              Rolles Version 5.0.1
                          Serdrick ( serdrick@yandex.ru )
 
 
@@ -569,6 +569,10 @@ All other trademarks and copyrights are the property of their respective owners.
 
 7. История версий
 =================
+
+Version 5.0.1 (December 14, 2019)
+- Fixed an issue with Auto-Package Generator tool: new version of MacOS (Catalina) prevented the mod to be installed.
+- Lower cased LABEL name for consistency.
 
 Version 5.0.0 (November 22, 2019)
 - Major updates:

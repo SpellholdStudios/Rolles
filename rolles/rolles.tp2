@@ -1,9 +1,9 @@
 BACKUP ~rolles/backup~
 
 // AUTHOR ~serdrick@rol.ru~
-SUPPORT ~http://www.shsforums.net/topic/36655-rolles-v500/~
+SUPPORT ~http://www.shsforums.net/topic/36655-rolles-v501/~
 
-VERSION ~v5.0.0~
+VERSION ~v5.0.1~
 
 README ~rolles/readme/rolles-readme-%LANGUAGE%.txt~ ~rolles/readme/rolles-readme-english.txt~
 
@@ -44,7 +44,7 @@ LANGUAGE ~French (traduction : La Voix 2 la Sagesse)~
  * ==================================== */
 
 BEGIN @0000
-DESIGNATED 0 LABEL ~Rolles_Safyer~
+DESIGNATED 0 LABEL ~rolles_safyer~
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @0020
 
 // Rolles
