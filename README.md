@@ -12,7 +12,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v500/">Spellhold Studios</a><br /><br />
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v501/">Spellhold Studios</a><br /><br />
 
 
 <div align="center">
@@ -50,9 +50,9 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-rolles.exe`**, uninstall the previously installed main component and delete the :file_folder: rolles folder.</em>
+<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-rolles.exe`**, un-install the previously installed main component and delete the :file_folder: rolles folder.</em>
 
-<em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
+<em>When installing or un-installing, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
 
 **Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
 
@@ -68,7 +68,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: rolles folder and a setup-rolles.exe file in your game folder. To install, simply double-click **`setup-rolles.exe`** and follow the instructions on screen.
 
-Run **`setup-rolles.exe`** in your game folder to reinstall, uninstall or otherwise change the component settings.
+Run **`setup-rolles.exe`** in your game folder to reinstall, un-install or otherwise change the component settings.
 
 ## 
 
@@ -78,7 +78,7 @@ The The Slithering Menace for Mac OS X is distributed in the same compressed arc
 
 First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: rolles folder, setup-rolles and setup-rolles.command files in your game folder. To install, simply double-click **`setup-rolles.command`** and follow the instructions on screen.
 
-Run **`setup-rolles.command`** in your game folder to reinstall, uninstall or otherwise change the components settings.
+Run **`setup-rolles.command`** in your game folder to reinstall, un-install or otherwise change the components settings.
 
 ## 
 
@@ -96,7 +96,7 @@ To install, run **`WeInstall setup-rolles`** in your game folder. Then run **`wi
 
 #### Note for Complete Un-installation
 
-In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-rolles --uninstall`** at the command line to remove all components without wading through prompts.</br>
+In addition to the methods above for removing individual components, you can completely un-install the mod using **`setup-rolles --uninstall`** at the command line to remove all components without wading through prompts.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -161,6 +161,13 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 
 ## <a name="versions" id="versions"></a>Versions History
+
+##### Version 5.0.1 (December 14, 2019)
+
+- Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
+- Lower cased LABEL name for consistency.
+
+## 
 
 ##### Version 5.0.0 (November 22, 2019)
 
