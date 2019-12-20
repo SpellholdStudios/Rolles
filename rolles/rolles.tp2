@@ -3,7 +3,7 @@ BACKUP ~rolles/backup~
 // AUTHOR ~serdrick@rol.ru~
 SUPPORT ~http://www.shsforums.net/topic/36655-rolles-v501/~
 
-VERSION ~v5.0.1~
+VERSION ~v5.0.2~
 
 README ~rolles/readme/rolles-readme-%LANGUAGE%.txt~ ~rolles/readme/rolles-readme-english.txt~
 
@@ -37,6 +37,10 @@ LANGUAGE ~English~
 LANGUAGE ~French (traduction : La Voix 2 la Sagesse)~
          ~french~
          ~rolles/tra/french/setup.tra~
+
+LANGUAGE ~Italiano (traduzione di ilot)~
+         ~italian~
+         ~rolles/tra/italian/setup.tra~
 
 
 /* ==================================== *
@@ -97,7 +101,7 @@ END
  * ==================================== */
 
 BEGIN @0010
-DESIGNATED 10 LABEL ~Rolles_Bag_of_Holding_in_Irenicus_Dungeon~
+DESIGNATED 10 LABEL ~rolles_bag_of_holding_in_irenicus_dungeon~
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @0020
 
 COPY ~rolles/sto/s#bag02.sto~	~override~

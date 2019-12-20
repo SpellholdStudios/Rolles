@@ -1,5 +1,5 @@
                     A mod for Baldur's Gate II: Throne of Bhaal
-                              Rolles Version 5.0.1
+                              Rolles Version 5.0.2
                          Serdrick ( serdrick@yandex.ru )
 
 
@@ -515,6 +515,7 @@ Aaron O'Neil - for ShadowKeeper.
 Alina (aerie.ru) - great thanks for the English texts editing!
 La Voix 2 la Sagesse (of the d'Oghmatiques) - for the French translation.
 Xavier1161: fixed English texts (version 3a).
+ilot: Italian translation.
 Deratiseur: Provided native EE compatible version (v4.0.0).
 AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 Gwendolyne: Fixed bugs and translations and released version 5.0.0.
@@ -543,9 +544,12 @@ All other trademarks and copyrights are the property of their respective owners.
 7. VERSIONS HISTORY
 ===================
 
+Version 5.0.2 (December 20, 2019)
+- Added Italian translation by ilot.
+
 Version 5.0.1 (December 14, 2019)
 - Fixed an issue with Auto-Package Generator tool: new version of MacOS (Catalina) prevented the mod to be installed.
-- Lower cased LABEL name for consistency.
+- Lower cased LABEL names for consistency ("rolles_safyer" and "rolles_bag_of_holding_in_irenicus_dungeon").
 
 Version 5.0.0 (November 22, 2019)
 - Major updates:

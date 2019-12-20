@@ -1,0 +1,855 @@
+@9001 = ~[Uu]tilizzabile[ %tab%]+\([Ss]olo[ %tab%]+\)?[Dd]a[ %tab%]*:~
+@9002 =~[Nn]on[ %tab%]+[Uu]tilizzabile[ %tab%]+[Dd]a[ %tab%]*:~
+
+@0000 = ~Rolles Safyer~
+@0001 = ~Rolles~
+@0002 = ~Rolles~
+
+@0010 = ~Borsa Conservante nel Dungeon di Irenicus ~
+
+@0020 = ~Questo mod non e disponibile per il tuo gioco.~
+
+// Items
+// -----
+ 
+@0300 = ~Mantello del Mago Selvaggio~
+@0301 = ~Mantello del Mago Selvaggio
+
+Non si sa né chi ha creato questo oggetto e né quando sia stato creato. Non si possono che fare delle supposizioni, ma l'ipotesi più accreditata é che possa essere stato creato da un praticante di magia selvaggia, che cercava di proteggersi da qualche effetto indesiderabile.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Scudo del Caos
+Classe Armatura: +1 
+Tiri Salvezza: +1 
+Memorizza 3 incantesimi supplementari di livello uno
+
+Peso: 3
+
+Utilizzabile da:
+ Mago Selvaggio~
+
+
+@1000 = ~Fionda +4: "L'Ammazzadraghi di Arla"~
+@1001 = ~Fionda +4: "L'Ammazzadraghi di Arla"
+
+Questa potente fionda combina magicamente le proprietà dell'Ammazzadraghi di Arla e della Fionda della ricerca, con una fondamentale differenza - questa fionda non richiede munizioni, poiché lancia dei proiettili fantasma che produce da se. Il danno che infligge corrisponde alla forza del possessore, come avviene per la maggior parte di questo tipo di armi. 
+
+Nota: evita di equipaggiare il tuo personaggio con proiettili normali, perché in quel caso la fionda utilizzerà quelli al posto dei proiettili fantasma.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Non richiede proiettili
+
+Abilità di combattimento:
+ 1 attacco supplementare per round
+
+THACO: +4
+Danno: 1d4+4 (danno da proiettile), più il bonus della Forza
+Fattore velocità:2
+Tipo di competenza: Fionda
+Tipo: ad una mano
+Richiede: 3 alla Forza
+
+Peso: 0
+
+Non utilizzabile da: 
+ Kensai
+ Cavaliere~
+
+
+@1002 = ~Scudo di Balduran Migliorato~
+@1003 = ~Scudo di Balduran Migliorato +3
+
+Questo scudo era indossato dal famoso eroe Balduran. E' parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate. 
+Lo scudo é stato magicamente modificato e possiede delle proprietà aggiuntive come quelle dello Scudo Riflettente e dello Scudo dei Perduti, inoltre protegge il proprietario dall'influenza distruttiva degli Elementi. Questo scudo non riduce la forza del suo possessore.
+
+STATISTICHE:
+
+Abilità di Equipaggimento:
+ Riflette i raggi dei beholder 
+ Respinge i proiettili lanciati contro il tiratore
+ +10% di resistenza magica
+ +20% di resistenza al fuoco, al freddo, all'acido e all'elettricità
+
+Bonus alla Classe Armatura: +4
+Peso: 5
+Richiede: 12 alla Forza
+Non Utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai~
+
+@1004 = ~Guanti della Grande Maestria~
+@1005 = ~Guanti della Grande Maestria
+
+Questo paio di guanti sono stati magicamente incantati incorporando le proprietà di diversi altri oggetti, quindi forniscono abilità protettive e di attacco degne di un grande guerriero.
+
+STATISTICHE:
+
+Abilità durante l'Equipaggiamento:
+ THACO: +2 
+ Danno: +2 
+ Classe Armatura: +1
+ Forza: +1 
+
+Abilità Speciali:
+ Velocità Potenziata 2 volte al giorno per 5 round
+ 
+Peso: 2
+Non Utilizzabile da:
+ Kensai
+ Ammazzastregoni~
+
+@1006 = ~Collana della Stabilità del Tempo~
+@1007 = ~Collana della Stabilità del Tempo
+
+L'Amuleto di Protezione dagli incantesimi sembra essere uno dei pochi oggetti in grado di proteggere il suo possessore dagli effetti dell'incantesimo di Fermare il Tempo. Solo questa caratteristica ne farebbe un oggetto di grandissimo valore, nonostante questo, inoltre, accorda diverse protezioni al proprietario.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Immunità al Fermare il Tempo
+ Resistenza alla Magica: Bonus +10% 
+ Classe Armatura: +2 
+ Tiri Salvezza: +2
+ Peso: 3 
+
+Non Utilizzabile da:
+ Ammazzastregoni
+ Mago (singolo, duale e multiclasse)
+ Incantatore~
+
+@1008 = ~Amuleto del Potere Migliorato~
+@1009 = ~Amuleto del Potere Migliorato
+
+Questo amuleto porta la firma magica di Conster Damon, un arcimago caduto nell'Anno dell'Ira dei Draghi (1018CV). Le scritte sono state logorate dal tempo, ma sembrano ripetere le sue grida di battaglia più famose: "La tu magia è annullata!" "Mi starai a sentire!" "La morte arriva veloce!" "Da me non avrai niente!". Ha visto molti usi e ha cambiato mano molte volte nel sangue e nella battaglia.
+Questo amuleto é stato incantato magicamente, e le sue nuove proprietà sono in grado di aiutare i lanciatori di incantesimi più smemorati.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Classe Armatura: +1 
+ Tiri Salvezza: +1 
+ Resistenza Magica: +10%
+ Vocalizzazione
+ Diminuisce il tempo di lancio dell'incantesimo di 1
+ Immunità al Risucchio di Livello
+ Saggezza ed Intelligenza: +2 
+ Conoscenza: +30 
+ 
+Non Utilizzabile da:
+ Guerriero
+ Ladro 
+ Monaco
+ Barbaro
+ Ammazzastregoni~
+
+@1010 = ~Maschera Restaurata del Re Strohm III~
+@1011 = ~Maschera Restaurata del Re Strohm III
+
+Questa é la Maschera dell'anziano Re Strohm III, con una parte delle sue iniziali abilità recuperate. Le due Pietre Incantate, che sono state magicamente collocate alla maschera, rendono l'oggetto ancora più prezioso.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Classe Armatura: +1 
+ THACO: +1 
+ +10 % di bonus ai punti ferita
+ Immunità alla Cecità 
+ Vera Vista
+
+Cariche:
+Evoca un Efreeti 1 volta al giorno
+
+Peso: 1
+Non Utilizzabile da:~
+
+@1012 = ~Ascia da Battaglia +4 "Ghiaccio e Fuoco"~
+@1013 = ~Ascia da Battaglia +4 "Ghiaccio e Fuoco"
+
+Questa potente arma é efficace ed in grado di colpire il nemico sia nel corpo a corpo che a distanza. Inoltre ogni colpo infligge un danno supplementare da fuoco, da freddo e da acido. 
+
+STATISTICHE:
+
+Abilità di Combattimento: 
+ +2 punti di danno da fuoco
+ +2 punti di danno da freddo
+ +2 punti di danno da acido
+ L'Ascia ritorna nelle mani del lanciatore subito dopo ogni attacco
+
+THACO: +4 (incantamento +5) 
+Danno (mischia): 1d8+4
+Danno (lancio): 1d6+4
+Tipo di danno (mischia): tagliente
+Tipo di danno (lancio): proiettile (perforante)
+Fattore velocità: 3
+Tipo di competenza: Ascia
+Tipo: ad una mano
+Richiede: 10 alla Forza
+Peso: 5
+
+Non Utilizzabile da:
+ Druido
+ Chierico
+ Mago 
+ Ladro
+ Monaco
+ Addestratore di animali~
+
+
+@1014 = ~Sacra Giustizia~
+@1015 = ~Sacra Giustizia
+
+In questa spada a due mani dai poteri senza precedenti le proprietà delle due lame sacre - la Daystar, ovvero la Stella del Giorno e la leggendaria Carsomyr - sono state magicamente incorporate, questa spada possiede un forte disgusto per le forze del male e del caos. Solo i puri di cuore possono brandire questa spada.
+
+STATISTICHE:
+
+Cariche:
+ Dissolvi Magie 3 volte al giorno
+
+ Raggio di Sole 2 volte al giorno
+ Danno: 3D6 (tiro salvezza contro incantesimi o si é accecati per 10 round)
+ Non Morti: supplementari 1d6 di punti di danno a livello del lanciatore (tiro salvezza contro incantesimi o essere distrutti)
+ Raggio d'azione: 6 metri
+ Area: 6 metri di raggio
+
+Abilità d'Equipaggiamento: 
+ +50% di resistenza alla Magia
+ Immunità al Risucchio di Livello
+    
+Abilità di combattimento:
+ Dissolvi Magie quando la spada colpisce un avversario
+ Danno Supplementare: +4 contro le creature malvagie, +5 di danno contro gli avversari caotici malvagi in aggiunta agli altri bonus.
+    
+THAC0: +5 (incantamento +6), +7 contro le creature malvagie
+Danno: 1D12 +5, fa doppio danno contro i Non Morti
+Tipo di danno: tagliente
+Fattore velocità: 4
+Tipo di competenza: Spada a due mani 
+Tipo: a due mani
+Richiede: 14 alla Forza
+Peso: 6
+
+Utilizzabile da:
+ Paladino~
+
+@1016 = ~Sacra Giustizia~
+@1017 = ~Sacra Giustizia
+
+In questa spada lunga dai poteri senza precedenti le proprietà delle due lame sacre - la Daystar, ovvero la Stella del Giorno e la leggendaria Carsomyr - sono state magicamente incorporate. Questa spada possiede un forte disgusto per le forze del male e del caos. Solo i puri di cuore possono brandire questa spada.
+
+STATISTICHE:
+
+Cariche:
+ Dissolvi Magie 3 volte al giorno
+
+ Raggio di Sole 2 volte al giorno
+ Danno: 3D6 (tiro salvezza contro incantesimi o si é accecati per 10 round)
+ Non Morti: supplementari 1d6 di punti di danno a livello del lanciatore (tiro salvezza contro incantesimi o essere distrutti)
+ Raggio d'azione: 6 metri
+ Area: 6 metri di raggio
+
+Abilità d'Equipaggiamento: 
+ +50% di resistenza alla Magia
+ Immunità al Risucchio di Livello
+    
+Abilità di combattimento:
+ Dissolvi Magie quando la spada colpisce un avversario
+ Danno Supplementare: +4 contro le creature malvagie, +5 di danno contro gli avversari caotici malvagi in aggiunta agli altri bonus.
+    
+THAC0: +5 (incantamento +6), +7 contro le creature malvagie
+Danno: 1D12 +5, fa doppio danno contro i Non Morti
+Tipo di danno: tagliente
+Fattore velocità: 4
+Tipo di competenza: Spada lunga 
+Tipo: a due mani
+Richiede: 14 alla Forza
+Peso: 6
+
+Utilizzabile da:
+ Paladino~
+
+@1018 = ~Cintura della Tempra Migliorata~
+@1019 = ~Cintura della Tempra Migliorata
+
+Questa cinta é stata magicamente incantata, ed ha riacquistato i suoi antichi poteri.
+
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+ Costituzione: impostata a 18
+ Rigenera 1 punto ferita ogni 3 secondi
+ Immunità alla Malattia
+
+Peso: 2
+
+Non Utilizzabile da:
+ Ammazzastregoni~
+
+@1020 = ~Bastone della Cura Migliorato~
+@1021 = ~Bastone della Cura Migliorato
+
+Torm è solito concedere questi oggetti durante i periodi di grande sofferenza, donandoli ai sacerdoti che curano i feriti, i malati e gli avvelenati. Magicamente combinato con il Bastone del Sacerdote +3, ora é divenuta un'arma molto potente, inoltre ha ricevuto delle utili qualità aggiuntive - le cariche di cura di questo bastone si ricaricano automaticamente ogni 8 ore.
+
+STATISTICHE:
+
+Cariche: 
+- Cura: 4d6+4 punti ferita, Malattia, Cecità, Blocco e Veleno - 5 volte al giorno
+- Risuscitare morti - 1 volta al giorno
+
+Abilità durante l’equipaggiamento:
+Classe Armatura: +2
+ 
+THAC0: +4 
+Danno: 1d6+4
+Tipo di danno: schiacciamento
+Peso: 4
+Fattore velocità: 3
+Tipo di competenza: Bastone Rinforzato
+Tipo: a due mani
+Richiede: 5 alla Forza
+
+Peso: 4
+
+Non Utilizzabile da:
+ Bardo
+ Guerriero
+ Mago
+ Ladro
+ Monaco~
+
+@1022 = ~Guanto d'armi della distruzione 'Mano del Vampiro'~
+@1023 = ~Guanto d'armi della distruzione 'Mano del Vampiro'
+
+Il Guanto d'armi della distruzione é diventato un artefatto molto potente dopo che è stato combinato con una parte delle forze provenienti dalla Mano di un anziano vampiro di nome Dace. Il possessore di questi guanti ottiene della protezione di origine vampira, ad esempio la rigenerazione e l'immunità al Risucchio di Livello.  
+
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+ Immunità alla Paura, al Blocco ed al Fallimento Morale
+ Immunità al Risucchio di Livello
+ Rigenera 1 punto ferita ogni 3 secondi
+ +30% di resistenza al freddo
+ +30% di resistenza all'elettricità
+
+Abilità di combattimento:
+THAC0: bonus +4 quando si attacca con i pugni
+Danno: bonus +4 quando si attacca con i pugni
+
+Peso: 2
+
+Utilizzabile da:
+ Monaco~
+
+@1024 = ~Distruttore +4~
+@1025 = ~Distruttore +4
+
+Questa grande e pesante spada a due mani combina magicamente diverse lame più semplici, ed ognuna ha donato una parte della sua forza. A causa del suo peso l'impatto della spada con l'avversario è piuttosto forte, ed infligge un danno aggiuntivo da schiacciamento. E' tuttavia richiesta una forza considerevole a colui che deve brandirla.
+
+STATISTICHE:
+
+Cariche:
+ Furia 3 volte al giorno
+
+Abilità d'Equipaggiamento:
+ Immunità allo Charme
+ Immunità alla Confusione
+    
+Abilità di Combattimento:
+ Ogni colpo risucchia 2 punti ferita dalla vittima e li trasferisce al possessore dell'arma. Non conferisce punti ferita al di sopra del massimo che il portatore detiene in piena salute 
+ 10 % di possibilità che ad ogni colpo l'avversario cada a terra incosciente per 1 round, avendo ricevuto un colpo aggiuntivo di 1d6 punti di danni contundenti
+     
+THAC0: +4 (incantamento +5)
+Danno: 2d6+4, +1d4 punti aggiuntivi di danni contundenti
+Tipo di danno: tagliente
+Peso: 18
+Fattore velocità: 9
+Tipo di competenza: Spada a due mani 
+Tipo: a due mani
+Richiede: 19 alla Forza
+
+Peso: 18
+
+Non Utilizzabile da:
+ Druido
+ Chierico
+ Mago 
+ Ladro
+ Monaco
+ Addestratore di animali~
+
+@1026 = ~Distruttore +5~
+@1027 = ~Distruttore +5
+
+Questa grande e pesante spada a due mani combina magicamente diverse lame più semplici, ed ognuna ha donato una parte della sua forza. A causa del suo peso l'impatto della spada con l'avversario è piuttosto forte, ed infligge un danno aggiuntivo da schiacciamento. E' tuttavia richiesta una forza considerevole a colui che deve brandirla.
+
+
+STATISTICHE:
+
+Cariche:
+- Furia 3 volte al giorno
+
+Abilità d'Equipaggiamento:
+- Immunità allo Charme
+- Immunità alla Confusione
+- Resistenza alla Magia: +10%
+
+Abilità di combattimento:
+ Ogni colpo risucchia 2 punti ferita dalla vittima e li trasferisce al possessore dell'arma. Non conferisce punti ferita al di sopra del massimo che il portatore detiene in piena salute 
+ 15% di possibilità che ad ogni colpo l'avversario cada a terra incosciente per 1 round, avendo ricevuto un colpo aggiuntivo di 1d8 punti di danni contundenti
+ 10% di possibilità che ad ogni colpo andato a buon fine l'avversario muoia eccetto che per un tiro salvezza contro la morte riuscito (-2 di penalità).
+ Ad ogni colpo riuscito il bersaglio riceve 2 punti aggiuntivi di penalità al suo THAC0 per 10 round     
+THAC0: +5 (incantamento +6)
+Danno: 2D8 +5, +1D6 punti aggiuntivi di danni contundenti
+Tipo di danno: tagliente
+Fattore velocità: 9
+Tipo di competenza: Spada a due mani 
+Tipo: a due mani
+Richiede: 21 alla Forza
+
+Peso: 24
+
+Non Utilizzabile da:
+ Druido
+ Chierico
+ Mago 
+ Ladro
+ Monaco
+ Addestratore di animali~
+ 
+@1028 = ~Mantello della Perfezione~
+@1029 = ~Mantello della Perfezione
+
+Colui che indossa questo mantello si può infilare tranquillamente in vicoli oscuri senza correre il rischio di ricevere qualche pugnalata alle spalle, poiché è stato migliorato magicamente con la chitina proveniente da un guscio di un Ankheg. La fibbia di questo mantello, costituita anche da un Amuleto dalla Pietra Verde, fornisce un'eccellente protezione contro gli incantesimi che incidono sulla mente.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Classe Armatura: +2 
+ Tiri Salvezza: +2 
+ Immunità alla pugnalata alle spalle
+ Protegge da tutti i tipi di incantesimi che influenzano la mente - come lo charme, la confusione, la paura ecc.
+
+Peso: 5
+
+Non Utilizzabile da:
+ Ammazzastregoni~
+
+@1030 = ~Arco di Tansheron +4~ 
+@1031 = ~Arco di Tansheron +4
+
+La corda sottile e fragile di questo arco sembra inutilizzabile, ma quando viene tesa appare una freccia solida ma invisibile. Il lich Tansheron diede questo arco al suo Osservatore, il guardiano del suo castello, che si trovava in cima ad una torre senza entrate né uscite. Quando qualcuno si avvicinava, dall'alto cadeva una pioggia infinita di frecce fantasma fino a quando l'intruso era morto o in fuga. Non si sa come questo arco fu strappato dalle mani dell'Osservatore, ma probabilmente sarebbe una magnifica storia da taverna.
+
+Magicamente combinato con l'Arco Tuigan +1, ora é divenuta un'arma più potente.
+
+Nota: evitate di equipaggiare il vostro personaggio con frecce normali, altrimenti l'arco lancerà quelle invece delle frecce fantasma.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+Questo potente arco non richiede munizioni
+3 tiri per round
+25% di possibilità che ad ogni colpo ci sia un danno da perforazione aggiuntivo di 1d6 punti
+
+THACO: bonus +4 
+Danno: 1D6  
+Fattore velocità: 3
+Tipo di competenza: Arco Corto
+Tipo: a due mani
+Richiede: 6 alla Forza
+
+Peso: 2
+
+Non Utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Monaco
+ Cavaliere
+ Kensai~
+
+@1032 = ~Sogno del Ladro~
+@1033 = ~Sogno del Ladro
+
+Questa corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. E' composta dall'Armatura della Vipera e dalla Pelle del Ghoul, migliorata inoltre con l'aggiunta della chitina proveniente da un guscio di un Ankheg, che fornisce un'eccellente protezione soprattutto per i colpi alle spalle. Numerose borchie fatte di pura Adamantite, su cui la luce del sole non ha effetto, creano un metallo flessibile e protettivo, aiutando ad evitare gli attacchi taglienti, perforanti e contro lo charme magico. Sebbene in molti la possano indossare, sarà più utile a coloro che di solito usano nascondersi tra le ombre, fornendogli un'eccellente protezione anche contro i suoi compagni rivali.
+
+STATISTICHE:
+
+Cariche:
+ Invisibilità 3 volte al giorno
+
+Abilità d'Equipaggiamento:
+ Tiri Salvezza: +1 
+ Immunità alla pugnalata alle spalle
+ Immunità al veleno
+ Anti-individuazione
+
+Classe Armatura: 0
+Richiede: 9 alla Forza
+
+Peso: 14
+
+Non Utilizzabile da:
+ Mago
+ Monaco
+ Mutaforma
+ Vendicatore
+ Kensai~
+
+@1034 = ~Lanciatore Nanico +4~
+@1035 = ~Lanciatore Nanico +4
+Questo martello - da non confondersi col Lanciatore Nano creato dagli elfi, è usato solo dai nani. Nelle abili mani di un guerriero nano il martello può essere scagliato contro un nemico. La magia nel martello fa sì che torni nella mano di chi lo ha lanciato. Se colpisce un avversario, fa un danno che equivale al doppio di quello di un normale martello. Contro giganti e orchi infligge 12 danni aggiuntivi a causa dello speciale odio che i nani hanno verso queste razze.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+Il martello ritorna da chi l'ha lanciato
+ 
+THAC0: +4 
+Danno: 2d4+4, +12 di danni su orchi e giganti
+Tipo di danno (mischia): schiacciamento
+Tipo di danno (lancio): proiettile (perforante)
+Fattore velocità: 1
+Tipo di competenza: Martello da Guerra
+Tipo: ad una mano
+Richiede: 9 alla Forza
+
+Peso: 4
+
+Non Utilizzabile da:
+ Non-nani
+ Paladino
+ Ranger
+ Druido
+ Bardo
+ Mago 
+ Ladro
+ Monaco~
+
+@1036 = ~Lanciatore Universale +5~
+@1037 = ~Lanciatore Universale +5
+
+Questo Martello é stato magicamente incantato e migliorato ed ora può essere utilizzato da ognuno che in generale é capace di usare un martello. Quest'arma potente é in grado di colpire il nemico sia in un combattimento ravvicinato che a distanza. La magia del martello permette all'arma di ritornare nelle mani del lanciatore. Se il colpo va a buon fine raddoppierà il normale danno che può fare un semplice martello. Contro i giganti e gli orchi il martello infligge un danno aggiuntivo di +12. 
+
+STATISTICHE:
+
+Abilità di Combattimento:
+Il martello ritorna da chi l'ha lanciato
+
+THAC0: +5 
+Danno: 2d4+5, +2d2 di danno elettrico, +12 di danno ai giganti e agli orchi
+Tipo di danno (mischia): schiacciamento
+Tipo di danno (lancio): proiettile (perforante)
+Fattore velocità: 1
+Tipo di competenza: Martello da Guerra
+Tipo: ad una mano
+Richiede: 9 alla Forza
+
+Peso: 4
+
+Non Utilizzabile da:
+ Druido
+ Mago 
+ Ladro
+ Monaco
+ Addestratore di animali~
+
+@1038 = ~Bastone del Mago Migliorato~
+@1039 = ~Bastone del Mago Migliorato
+
+Questo bastone ormai é associato all'immagine del lanciatore di incantesimi, per quanto sia comunque raro. E' uno dei più potenti strumenti che un mago possa avere, il culmine di complessi incantesimi e di studi senza fine. Questo particolare esempio è ottimo nella lotta in mischia, conferisce Invisibilità e offre protezione contro lo Charme e il Male. Può anche lanciare l'incantesimo Trappola, lanciare una combinazione di fulmini e palle di fuoco, e Dissolvere magie. Il massimo degli strumenti di un mago.
+ 
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+Classe Armatura: +2 
+Tiri Salvezza: +2 
+Invisibilità
+Immunità allo Charme
+Protezione dal Male
+
+Cariche:
+ Palla di fuoco-Fulmine
+ Danno: danni combinati della Palla di fuoco e del Fulmine
+ Raggio: 50 metri
+ Uso: 5 volte al giorno
+
+ Intrappolare incantesimi
+ Durata: 8 ore o fino a che 30 livelli di incantesimi non sono stati intrappolati
+ Uso: Una volta al giorno
+
+Abilità di Combattimento (ad ogni colpo): Dissolvi magie
+THAC0: +5 
+Danno: 1d6+5
+Tipo di danno: schiacciamento
+Fattore velocità: 4
+Tipo di competenza: Bastone Rinforzato
+Tipo: a due mani
+Richiede: 5 alla Forza
+Peso: 4
+
+Utilizzabile da
+ Mago~
+@10391  = ~Fulmini e Palle di Fuoco~
+
+@1040 = ~Pugnale da Lancio "Morte Silente"~
+@1041 = ~Pugnale da Lancio "Morte Silente"
+
+Composto dallo Stiletto di Demarchess e dalla Spina del Folletto, questo pugnale é un'arma pericolosa, ed è egualmente in grado di colpire i nemici sia in un combattimento ravvicinato che a distanza. Una volta lanciato il pugnale ritorna nelle mani del suo lanciatore.
+ 
+STATISTICHE:
+
+Abilità di Combattimento:
+ Il pugnale ritorna nelle mani di colui che lo lancia subito dopo aver colpito l'avversario
+ 20% di possibilità che ad ogni colpo riuscito la vittima rimanga addormentata per due round a meno che non gli riesca un tiro salvezza contro veleno
+ 20% di possibilità che ad ogni colpo riuscito la vittima rimanga bloccata per due round a meno che non gli riesca un tiro salvezza contro la morte
+ Al bersaglio deve riuscire un tiro salvezza contro il veleno o subire 12 punti di danno da Veleno per 2 round
+
+THAC0: +4 
+Danno: 2d4+4
+Tipo di danno (mischia): perforante
+Tipo di danno (lancio): proiettile (perforante)
+Fattore velocità: 0
+Tipo di competenza: Pugnale
+Tipo: ad una mano
+Richiede: 3 alla Forza
+Peso: 1
+
+Non Utilizzabile da:
+ Chierico
+ Addestratore di animali~
+
+@1042 = ~Spada Corta della Libertà +5~
+@1043 = ~Spada Corta della Libertà +5
+
+Questa spada fornisce una buona protezione contro gli incantesimi che influiscono con la mente e dagli attacchi paralizzanti dei mostri. E' magicamente combinata con diverse semplici lame, ognuna delle quali fornisce parte della sua forza. L'eccellente bilanciamento e l'estrema affilatezza permette di provocare colpi critici abbastanza spesso.  
+ 
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+- Immunità allo Charme, al Dominio e alla Confusione
+- Immunità al Blocco e allo Stordimento
+- +1 attacco aggiuntivo per round
+- Colpo critico migliorato (un colpo critico parte da un punteggio di 20)
+
+Cariche:
+- Immagini illusorie 2 volte al giorno
+- Velocità Potenziata 2 volte al giorno per 5 round
+
+Abilità di combattimento (ad ogni colpo):
+ Il bersaglio deve effettuare un tiro salvezza contro la magia o rimanere silenzioso per 2 round            
+ Risucchia 2 punti ferita al bersaglio e li trasferisce a colui che brandisce l'arma. Non conferisce punti ferita al di sopra del massimo che il portatore detiene in piena salute
+
+THAC0: +5 
+Danno: 1d6+5
+Tipo di danno: perforante
+Fattore velocità: 1
+Tipo di competenza: Spada Corta 
+Tipo: ad una mano
+Richiede: 5 alla Forza
+Peso: 2
+
+Non Utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Addestratore di animali~
+
+@1044 = ~Spada Lunga della Libertà +5~
+@1045 = ~Spada Lunga della Libertà +5
+
+Questa spada fornisce una buona protezione dagli incantesimi che influiscono con la mente e dagli attacchi paralizzanti dei mostri. E' magicamente combinata con diverse semplici lame, ognuna delle quali fornisce parte della sua forza. L'eccellente bilanciamento e l'estrema affilatezza permette di provocare colpi critici abbastanza spesso.  
+ 
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+- Immunità allo Charme, al Dominio e alla Confusione
+- Immunità al Blocco e allo Stordimento
+- +1 attacco aggiuntivo per round
+- Colpo critico migliorato (un colpo critico parte da un punteggio di 20)
+
+Cariche:
+- Immagini illusorie 2 volte al giorno
+- Velocità Potenziata 2 volte al giorno per 5 round 
+
+Abilità di combattimento (ad ogni colpo)
+ Il bersaglio deve effettuare un tiro salvezza contro la magia (-2 di penalità) o rimanere silenzioso per 2 round            
+ Risucchia 2 punti ferita al bersaglio e li trasferisce a colui che brandisce l'arma. Non conferisce punti ferita al di sopra del massimo che il portatore detiene in piena salute
+
+THAC0: +5 
+Danno: 1d8+5
+Tipo di danno: tagliente
+Fattore velocità: 2
+Tipo di competenza: Spada Lunga 
+Tipo: ad una mano
+Richiede: 6 alla Forza
+Peso: 3
+
+Non Utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ammazzastregoni~
+
+@1046 = ~Armatura di Scaglie 'Due Draghi'~
+@1047 = ~Armatura di Scaglie 'Due Draghi'
+Questa armatura é formata da eleganti intrecci composti da scaglie di drago Rosso e di drago Nero. Questa scaglie proteggono colui che la indossa dal fuoco e dall'acido. Inoltre questa armatura ha assorbito le abilità della Cinta della Barriera Inerziale. La luminosità di questa armatura permette di essere indossata dai guerrieri/maghi e dai ladri con alcune restrizioni.
+
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+ +50% di resistenza dal fuoco, dall'acido e dal danno magico
+ +3 ai tiri salvezza contro armi da soffio
+
+Classe Armatura: 0
+Richiede: 8 alla Forza
+Peso: 10
+
+Non Utilizzabile da:
+ Mago (di classe singola)
+ Monaco
+ Mutaforma
+ Kensai~
+
+@1048 = ~Corazza Completa +4~
+@1049 = ~Corazza Completa +4
+Questa armatura é composta da una lega estremamente rara di Illithium e di  Adamantite. La lega è molto potente, estremamente leggera e non é influenzata dalla luce del sole. Inoltre la lega fornisce protezione al Risucchio di Livello  e da tutti gli incantesimi di primo livello. 
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+ Immunità al Risucchio di Livello
+ Immunità agli incantesimi di primo livello
+
+Classe Armatura: -3
+Richiede: 15 alla Forza
+Peso: 50
+
+Non Utilizzabile da:
+ Druido
+ Bardo
+ Mago
+ Ladro
+ Monaco
+ Barbaro
+ Arciere
+ Addestratore di animali
+ Predatore
+ Kensai~
+
+@1050 = ~Guanti della Guarigione Migliorati~
+@1051 = ~Guanti della Guarigione Migliorati
+Questi guanti sono stati migliorati magicamente ed ora danno una migliore protezione a colui che li indossa.
+
+STATISTICHE:
+
+Abilità d'Equipaggiamento:
+- Classe Armatura: +2 
+- Tiri Salvezza: +1 
+- Colui che li indossa rigenera 1 punto ferita ogni 6 secondi
+- Immunità al veleno
+
+Peso: 3
+
+Not Utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ammazzastregoni
+ Kensai~
+
+@1052 = ~Mazza della Distruzione +3~
+@1053 = ~Mazza della Distruzione +3
+Questa pesante mazza è stata creata per uno scopo ben preciso: uccidere i Non Morti. Qualsiasi creatura che venga colpita non solo sente l'impatto dell'arma ma corre anche il rischio di venire cancellata dell'esistenza. Esistono leggende di un sacerdote così santo da poter consegnare un vampiro all'oblio tramite un semplice tocco dell'arma, ma se fosse il sacerdote a conferire il potere all'arma o viceversa è un quesito teologico irrisolto.
+Ora che la mazza é stata rivestita con l'illithium, é ancora più potente, conferisce a colui che la brandisce l'immunità ai poteri di risucchio di livello dei più potenti Non Morti. C'è anche la possibilità di rallentare il bersaglio.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento: 
+ Immunità al Risucchio di Livello
+    
+Abilità di combattimento:
+ 50% di possibilità di rallentare il bersaglio per 15 secondi a meno che non gli riesca un tiro salvezza contro la magia.
+ Ai Non Morti deve riuscire un tiro salvezza contro la morte (-4 di penalità) o essere totalmente distrutti
+    
+THAC0: +3 (incantamento +5)
+Danno: 1d6+4, 2d6+4 contro i Non Morti 
+Tipo di danno: schiacciamento
+Fattore velocità: 6
+Tipo di competenza: Mazza 
+Tipo: ad una mano
+Richiede: 10 alla Forza
+Peso: 8
+
+Non Utilizzabile da:
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di animali~
+ 
+@1054 = ~Anello di Libertà di Movimento +1~
+@1055 = ~Anello di Libertà di Movimento +1
+
+Questo anello è stato incantato magicamente. Unisce le abilità dell'Anello di protezione +1: 'Anello dei Principi' e dell'Anello di Libertà di Movimento.
+
+STATISTICHE:
+
+Abilità di equipaggiamento:
+- Il portatore è immune a qualsiasi cosa, di natura magica o meno, che    influenzi in qualsiasi modo la mobilità, compresi gli incantesimi di velocità e rallentamento.
+- Classe Armatura: +1
+- Tiri Salvezza: +1
+
+Peso: 0 
+ 
+Non Utilizzabile da:
+ Ammazzastregoni~
+ 
+@1056 = ~Anello di Libertà di Movimento +2~
+@1057 = ~Anello di Libertà di Movimento +2 
+
+Questo anello è stato incantato magicamente. Unisce le abilità dell'Anello di protezione +2: 'L'Anello della Guardia' e dell'Anello di Libertà di Movimento.
+
+STATISTICHE:
+
+Abilità di equipaggiamento:
+- Il portatore è immune a qualsiasi cosa, di natura magica o meno, che influenzi in qualsiasi modo la mobilità, compresi gli incantesimi di velocità e rallentamento.
+- Classe Armatura: +2
+- Tiri Salvezza: +2
+
+Peso: 0 
+ 
+Non Utilizzabile da:
+ Ammazzastregni~
+ 
+@1058 = ~Anello di Gaxx Migliorato~
+@1059 = ~Anello di Gaxx Migliorato
+
+Questo anello è relativamente privo di decorazioni, ma la magia nera al suo interno emana una carica maligna. Il suo stesso creatore, Gaxx, era altrettanto malvagio già prima che millenni passati come non morto affinassero il suo potere. Si dice che una squadra di maghi Netheril abbia combattuto e imprigionato il demilich una volta, ma che non riuscendo a distruggerlo si sia trasformata in una squadra di lich a sua volta per fare la guardia ai suoi resti. La costruzione dell'anello può aver provocato la loro inimicizia, dal momento che ognuna delle nove facce della gemma pare aver ricevuto energia dal loro sacrificio e dalla morte.
+Questo anello é stato lavorato magicamente migliorandone le abilità offensive e difensive.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+- Classe Armatura: +2
+- Tiri Salvezza: +2 
+- Resistenza Magica: +10%
+- Rigenerazione 1 punto ferita al secondo
+- Immunità alla Malattia e al Veleno
+
+Cariche:
+ Invisibilità potenziata, una volta al giorno, per 10 round
+ Velocità Potenziata 3 volte al giorno per 5 round
+
+Peso: 0
+
+Non Utilizzabile da:
+ Ammazzastregoni~  
+
+
