@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Rolles?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Russian&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Italian%20%7C%20Russian&color=limegreen)
 
 <div align="center"><h1></a>Rolles</h1>
 
@@ -12,7 +12,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v501/">Spellhold Studios</a><br /><br />
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v502/">Spellhold Studios</a><br /><br />
 
 
 <div align="center">
@@ -133,12 +133,13 @@ This component adds a Bag of Holding (capacity: 38 items) in Irenicus Dungeon.
 - Gwendolyne: Fixed bugs and translations and released version 5.0.0.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 - Deratiseur: Provided native EE compatible version (v4.0.0).
+- ilot: Italian translation.
 - La Voix 2 la Sagesse (the d'Oghmatiques): French translation.
 - Xavier1161: fixed English texts (version 3a).
 - Alina (aerie.ru): Great thanks for the English texts editing!
 
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v500/">mod forum</a>.</br>
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v502/">mod forum</a>.</br>
 
 
 #### Programs/tools used in creation
@@ -162,10 +163,17 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
+##### Version 5.0.2 (December 20, 2019)
+
+- Added Italian translation by ilot.
+
+## 
+
+
 ##### Version 5.0.1 (December 14, 2019)
 
 - Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
-- Lower cased LABEL name for consistency.
+- Lower cased LABEL names for consistency (*rolles_safyer* and *rolles_bag_of_holding_in_irenicus_dungeon*).
 
 ## 
 

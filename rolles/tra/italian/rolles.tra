@@ -1,0 +1,108 @@
+ 
+@001 = ~Benvenuto nel negozio di Rolles Safyer, mio <LADYLORD>. Cosa posso fare per te?~ 
+@002 = ~Dimmi Rolles, di cosa ti occupi qui?~ 
+@003 = ~Io sono un mago esperto nella creazione e nella modifica di vari oggetti su ordinazione. Se ho bisogno di un fabbro non devo fare altro che chiedere a questa persona qui vicino. Per me è piuttosto conveniente. Ho anche delle cose in vendita. Allora, cosa desideri?~ 
+@004 = ~Mostrami quello che hai da vendere.~ 
+@005 = ~Ho con me qualcosa che potresti modificare?~ 
+@006 = ~Per il momento niente, ti ringrazio. Ci vediamo.~ 
+@007 = ~Sono lieto di rivederti. Cosa posso fare per te?~ 
+@008 = ~Con piacere, <LADYLORD>~ 
+@009 = ~Mostrami quello che hai, ed io ti dirò se può essere modificato.~ 
+@010 = ~Sembra che comunque ho niente di interessante. Ti saluto, me ne vado.~ 
+@011 = ~Ti auguro tutto il meglio per te, <LADYLORD>. Torna se avrai bisogno di qualcosa.~ 
+@012 = ~Ci vediamo.~ 
+@013 = ~No, per ora no, grazie. Ho qualcos'altro che potresti modificare?~ 
+@014 = ~Si, fallo per me.~ 
+
+@104 = ~Possiedo la Fionda +3: 'L'ammazzadraghi di Arla'. Puoi farci qualcosa?~ 
+@105 = ~La Fionda +3: 'L'ammazzadraghi di Arla'? Se possiedi anche la Fionda della ricerca +2, posso crearti una fionda eccellente. Per il lavoro ti prenderò solo 5000 monete d'oro. Allora, che ne pensi?~ 
+
+@106 = ~Puoi fare qualcosa con questo Scudo di Balduran? ~ 
+@107 = ~Lo Scudo di Balduran? Hmm... Posso farti uno scudo talmente bello che gli dei moriranno d'invidia. Avrò bisogno anche dello Scudo Riflettente +1 e dello Scudo dei Perduti +2, inoltre di una Pergamena di protezione dal fuoco, di una Pergamena di Protezione dal Freddo, di una Pergamena di protezione dall'Elettricità, di una Pergamena di Protezione dall'Acido, di una Pozione di resistenza alla magie e di una Pozione di forza del gigante del fuoco. Non giudicarmi troppo severamente, ma per un oggetto così potente il mio prezzo è di 15000 monete d'oro. Allora, ne sei interessato?~ 
+
+@108 = ~Puoi fare qualcosa con questi Guanti?~ 
+@109 = ~Vediamo... Si, se mi porterai i Guanti di abilità, i Guanti di specializzazione ed i Bracciali del Colpo Accecante, ti creerò un oggetto che non ti deluderà. Inoltre mi serviranno i Bracciali di difesa CA 6, una Pergamena di Velocità Potenziata, una Pozione di forza del gigante delle tempeste, due Pozioni di forza del gigante del fuoco, ed una Pozione di difesa. E 10000 monete d'oro per il mio lavoro. Allora, che ne pensi?~ 
+
+@110 = ~Non molto tempo fa ho ottenuto questo Amuleto di protezione dagli Incantesimi. Pensi di poter fare qualcosa con questo oggetto praticamente inutile?~ 
+@111 = ~Fammi dare un'occhiata... Inutile dici? Se mi porterai una Pergamena Fermare il Tempo, penso di poterti fare una bella sorpresa. Inoltre avrò bisogno dell'Amuleto di Kaligun della Resistenza alla Magia, di due Amuleti di protezione +1, di due Diamanti, e di una Pozione di resistenza alla magie. E 10000 monete d'oro come compenso per il mio lavoro. Che ne pensi?~ 
+
+@112 = ~Ho con me l'Amuleto del Potere. Puoi fare qualcosa per migliorarlo?~ 
+@113 = ~L'Amuleto del Potere? Beh, un oggetto davvero notevole. Ma è possibile anche renderlo migliore. Per fare ciò ho bisogno dell'Amuleto della Resistenza alla Magia 5%, di un Amuleto di protezione +1, di una Pozione di genio, e di una Pozione di Intuito. Poiché poi è un lavoro piuttosto semplice, ti chiedo solo 5000 monete d'oro. Allora. Inizio il lavoro?~ 
+
+@114 = ~Possiedo un oggetto piuttosto insolito - la Maschera del Re Strohm III. Potresti farci qualcosa?~ 
+@115 = ~Certamente... Una volta era un oggetto molto potente. Ma sono passati molti anni ormai... Temo che non sia possibile restaurarla completamente e portarla agli antichi fasti con tutte le sue precedenti abilità, ma posso provare. Portami la Pietra Incantata Rosa Polvere e la Pietra Incantata Verde Chiaro, inoltre mi serve una Pergamena di Visione del Vero ed una Pergamena di Evocare Efreeti, e vedrai quello che sarò in grado di fare. Inoltre 10000 monete d'oro per me, in quanto il lavoro che c'é da fare é un pò difficile. Allora cosa vuoi fare?~ 
+
+@116 = ~Puoi migliorare questa Ascia da Battaglia?~ 
+@117 = ~Se mi porterai tre Asce da Battaglia - la Pietra di fuoco, la Spaccaghiaccio e l'Ascia di Hangard +2, otterrai un'ascia eccellente. Avrò inoltre bisogno di un Cuore del demone, una Bacchetta di gelo, e di due Pergamene della Freccia acida di Melf. Come pagamento mi prenderò solamente 10000 monete d'oro. Allora che ne pensi?~ 
+
+@118 = ~Possiedo una spada eccellente - Il Vendicatore Sacro: Carsomyr. E' possibile migliorarla ulteriormente?~ 
+@119 = ~Non avrei mai pensato che un giorno avrei visto quest'arma leggendaria. Si, se mi porterai un'altra spada, che detesta il male - la Daystar, ovvero la Stella del Giorno io le combinerò insieme in una sola spada. E, a tua scelta, posso creare una spada lunga oppure una spada a due mani. Avrò bisogno anche di due Pergamene di protezione dai non morti, in modo tale che tutte le creature Non Morte tremeranno alla sola vista di quest'arma. Per un simile e piacevole lavoro mi prenderò solamente 5000 monete d'oro. Allora che ne dici?~ 
+@120 = ~Si, creami una spada a due mani.~ 
+@121 = ~Si, creami una spada lunga.~ 
+
+@122 = ~Ho una Cintura della Tempra. E' un oggetto abbastanza buono, ma puoi migliorarlo ulteriormente?~ 
+@123 = ~La Cintura della Tempra? Hmm... Ho l'impressione che possa perdere la sua magia con il passare del tempo. Ma questo può essere sistemato. Mi servirà una Pozione di rigenerazione ed una Pozione di coraggio. Il tutto non ti costerà quasi niente - solamente 5000 monete d'oro. Che ne pensi?~ 
+
+@124 = ~Ho con me il Bastone di Cura. Un oggetto utile, ma piuttosto debole come arma. Puoi riuscire a migliorarlo?~ 
+@125 = ~Se mi porterai il Bastone del Sacerdote +3 ed una Pergamena di Rianimare morti otterrai un oggetto piuttosto utile, nel quale le cariche saranno ricaricate con il tempo. Ma ti avviso subito che ci saranno meno cariche. Inoltre come pagamento mi prenderò 10000 monete d'oro. Allora, inizio il lavoro?~ 
+
+@126 = ~Possiedo La Mano di Dace. Una cosa piuttosto sgradevole, pensi che sia adatta a qualcosa?~ 
+@127 = ~Sono completamente d'accordo con te che si tratta di una "cosa sgradevole", ma possiamo farci qualcosa di utile, penso. Se mi porterai il Guanto d'armi della distruzione posso crearti qualcosa di veramente eccellente. Ho necessità anche di una Pozione di Rigenerazione, una Pozione di Isolamento ed una Pozione di Resistenza al freddo. E 15000 monete d'oro per me, per lo sgradevole lavoro. Allora che ne pensi?~ 
+
+@128 = ~Possiedo diverse spade e due mani. Ma mi piacerebbe averne solamente una, che contenesse le caratteristiche di tutte. Puoi aiutarmi?~ 
+@129 = ~Hmm... Beh, é possibile farlo, ma non sarà un cosa semplice. Devo dirti, però, che la spada che ne uscirà sarà piuttosto pesante, e richiederà una forza considerevole. Tuttavia a causa del suo peso l'impatto di questa spada sarà molto potente, ed infliggerà dei danni contundenti supplementari. Cercheremo di preservare tutte le utili proprietà iniziali delle singole spade. Mi servono la Spada del Caos +2, la Lilarcor, la Spada a due mani della maledizione berserker +3, due Pergamene di Scaccia Maledizione, e una Pergamena del Tocco del vampiro. Il lavoro ti costerà 15000 monete d'oro, ma credo che il risultato non ti deluderà. E comunque sarà possibile rendere la spada ancora più potente se troverai qualche altra spada interessante. Allora, inizio il lavoro?~ 
+
+@130 = ~Possiedo il Distruttore +4. Puoi renderlo ancora più potente?~ 
+@131 = ~Hmm. Beh, è possibile, ma non è semplice. Devo avere la Spada d'argento, la Soul Reaver +4, la Fiamma del Nord, una Pergamena Dito della Morte ed una Pozione di resistenza alla magie. Cercheremo di preservare le utili proprietà iniziali delle singole spade, ma forse non tutte potranno essere conservate. Il costo sarà di 20000 monete d'oro, ma credo che il risultato che ne uscirà non ti deluderà. Allora, che ne pensi?~ 
+
+@132 = ~Possiedo un Amuleto dalla Pietra Verde. Un buon oggetto ma potresti, comunque, migliorarlo?~ 
+@133 = ~Un Amuleto dalla Pietra Verde? Ho un'offerta piuttosto insolita da farti. Sicuramente possiedi diversi altri amuleti quindi non farà differenza se ne hai uno in meno o in più. Posso crearti una spilla per mantelli da questo amuleto, e nello stesso tempo anche un mantello, e sono certo che il risultato ti piacerà. Avrò bisogno anche di due Mantelli di protezione +1, una Pozione di chiarezza, Diadema di Controllo, una Pozione Salina ed un Guscio di Ankheg. Poiché il lavoro sarà piuttosto complicato, mi dovrai pagare 15000 monete d'oro. Allora, che ne pensi?~ 
+
+@134 = ~Possiedo l'Arco di Tansheron +3. Un oggetto piuttosto utile, credi di poterlo migliorare ulteriormente?~ 
+@135 = ~Beh, si, si può migliorare. Se mi porterai l'Arco Tuigan +1, e mi pagherai 5000 monete d'oro, posso renderlo più potente. Allora, vuoi che inizi?~ 
+
+@136 = ~Puoi fare qualcosa per migliorare questa Corazza di cuoio?~ 
+@137 = ~Hmm... Beh, io posso crearti un'eccellente Corazza di cuoio, ma non sarà una cosa semplice. Avrò bisogno della Pelle del Ghoul +4, dell'Armatura della Vipera +5, di un Mantello di protezione +1, di un Guscio di Ankheg, di due Pergamene di Anti-individuazione, di due Pergamene di Protezione dal Veleno, di due Pergamene di Invisibilità e di due mucchi di Polvere di Adamantite, al fine di estrarre dell'Adamantite pura, che non avrà effetto alla luce del sole. Poiché sarà un lavoro piuttosto complesso, ti costerà 20000 monete d'oro. Che ne pensi, ti interessa?~ 
+
+@138 = ~Possiedo il Martello da Guerra Lanciatore Nanico +3. Un oggetto piuttosto notevole, credi di poterlo migliorare?~ 
+@139 = ~Hmm... Beh, se mi procurerai il Martello da Guerra +1,+4 contro i Giganti, e mi pagherai 5000 monete d'oro, ne potrò creare un altro migliore. Tuttavia solo i nani lo potranno utilizzare. Ma se potrai pagarmi 15000 monete d'oro, posso crearti il Lanciatore Universale, che potrà essere utilizzato da tutti coloro che, in linea di massima, sanno combattere con un martello da guerra. Ma per fare ciò avrò anche bisogno del Martello da Guerra +2: 'Ashideena' ed una Bacchetta di Fulmini. Il martello diventerà più potente. Allora, che ne pensi, inizio il lavoro?~ 
+@140 = ~Si, vorrei il Lanciatore Nanico +4.~ 
+@141 = ~Si, vorrei il Lanciatore Universale +5.~ 
+
+@142 = ~Possiedo il Bastone dei Maghi. Un oggetto eccellente, ma riusciresti a migliorarlo?~ 
+@143 = ~C'é già molta magia, sarebbe molto rischioso lavorare nuovamente questo bastone, ma posso provare. Se mi porterai il Bastone di Rynn +4, e due pergamene di Catena di Fulmini, sarò in grado di migliorarne le abilità di combattimento. Ti costerà solamente 10000 monete d'oro. Ne sei interessato?~ 
+
+@144 = ~Ho con me diversi pugnali. Ma mi piacerebbe averne solamente uno che unisce tutte le qualità dei singoli pugnali. Puoi farci qualcosa?~ 
+@145 = ~Hmm... Beh, si é possibile. Posso creare un ottimo pugnale da lancio. Ho bisogno dello Stiletto di Demarchess +2, il Pugnale Boomerang +2, la Spina del Folletto +3, il Cesello Maligno di Neb, due Pergamene di Blocca Mostro, e due Pergamene di Sonno. Inoltre di costerà 10000 monete d'oro, ma credo che il risultato non ti deluderà. Allora, che ne pensi?~ 
+
+@146 = ~Ho diverse spade piuttosto deboli. Mi piacerebbe averne una sola che unisca le caratteristiche di ognuna. Puoi aiutarmi?~ 
+@147 = ~Hmm... Beh, si lo posso fare. Ti posso creare la Spada della Libertà, che sarà una spada lunga o una spada corta a tua scelta. Ho bisogno della Namarra +2, della Scimitarra della velocità +2: Belm, della Spada di Arabane +2, dell'Ilbratha +1, di due Oli di velocità (bianco), una Pozione di libertà, e due Pergamene di Tocco del vampiro. Inoltre ti costerà 15000 monete d'oro, me credo che il risultatonon ti deluderà. Vuoi che inizi il lavoro?~ 
+@148 = ~Si, creami una Spada Corta della Libertà +5.~ 
+@149 = ~Si, creami una Spada Lunga della Libertà +5.~
+
+@150 = ~Ho delle scaglie di un drago. Puoi farci qualcosa?~
+@151 = ~Si, posso farci un'eccellente armatura, che avrà delle restrizioni. Per il mio lavoro avrò bisogno delle Scaglie di Drago Rosso e delle Scaglie di Drago Nero, ed inoltre della Cinta della Barriera Inerziale e di una Pozione di schermatura magica. Il prezzo per il mio lavoro sarà di 10000 monete d'oro. Che ne pensi?~
+
+@152 = ~Possiedo un Pezzo di Lega di Illithium. Puoi farci qualcosa?~
+@153 = ~Si, posso crearci un'eccellente armatura. Per eseguire il lavoro avrò bisogno di Illithium puro e dell'Adamantite pura presa dalla Polvere di Adamantite, poi fonderle insieme e creare così una nuova lega metallica. Avrò bisogno quindi di tre mucchi di Polvere di Adamantite, della Lega di Illithium, e di una Pergamena di protezione dal magico. E poiché sarà un compito piuttosto complesso, prenderò come pagamento 20000 monete d'oro. Allora. Che ne pensi?~
+
+@154 = ~Puoi fare qualcosa con questi Guanti della guarigione?~
+@155 = ~Diamogli un'occhiata... Si, é possibile lavorarli e farci uscire un buon oggetto. Per il lavoro avrò bisogno dei Guanti della guarigione, dei Bracciali di difesa CA 6, di un Anello di Protezione +1, di due Pozioni di rigenerazione, di quattro Antidoti, e di due Pergamene di Protezione dal Veleno. E 10000 monete d'oro come pagamento. Ne sei interessato?~
+
+@156 = ~Possiedo la Mazza della Distruzione +1. Puoi farci qualcosa?~
+@157 = ~Si, se la ricopriamo con un sottile strato di Illithium puro, darà a colui che la brandisce un'eccellente protezione contro gli attacchi dei vampiri. Avrò bisogno inoltre della Caduta di Ardulia +1, del Minerale di Illitihium, e di tra Pergamene di Lentezza. Mi prenderò solamente 10000 monete d'oro come pagamento. Allora, ne sei interessato?~
+
+@158 = ~Puoi migliorare questo Anello della libertà di movimento?~
+@159 = ~Si, a tua scelta posso combinare un Anello della libertà di movimento con un Anello di Protezione +1, o un Anello di Protezione +2. Avrò anche bisogno di una Pozione di Difesa, e di due Smeraldi. Come compenso mi prenderò solamente 10000 monete d'oro. Allora, che ne dici?~
+ @160 = ~Si, voglio che mi crei l'Anello di Libertà di Movimento +1.~
+ @161 = ~Si, voglio che mi crei l'Anello di Libertà di Movimento +2.~
+
+@162 = ~Puoi fare qualcosa con questo Anello di Gaxx?~
+@163 = ~C'é già una magia potente in questo oggetto. E' rischioso cercare di modificare questo anello, ma posso provare. Se mi porterai quattro Pozioni di Rigenerazione, una Pergamena di Invisibilità potenziata, ed una Pergamena di Velocità Potenziata, sarà possibile migliorarne il suo potenziale d'attacco. Come pagamento mi prenderò solo 10000 monete d'oro. Vuoi che faccia il lavoro per te?~
+
+
+
+
+
+
+
