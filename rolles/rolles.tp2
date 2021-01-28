@@ -1,12 +1,11 @@
 BACKUP ~rolles/backup~
 
 // AUTHOR ~serdrick@rol.ru~
-SUPPORT ~http://www.shsforums.net/topic/36655-rolles-v501/~
+SUPPORT ~http://www.shsforums.net/topic/36655-rolles/~
 
-VERSION ~v5.0.2~
+VERSION ~v5.0.3~
 
 README ~rolles/readme/rolles-readme-%LANGUAGE%.txt~ ~rolles/readme/rolles-readme-english.txt~
-
 
 ALWAYS
 
