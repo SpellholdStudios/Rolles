@@ -1,5 +1,5 @@
                     A mod for Baldur's Gate II: Throne of Bhaal
-                              Rolles Version 5.0.3
+                              Rolles Version 5.0.4
                          Serdrick ( serdrick@yandex.ru )
 
 
@@ -543,6 +543,8 @@ All other trademarks and copyrights are the property of their respective owners.
 
 7. VERSIONS HISTORY
 ===================
+Version 5.0.4 (Febuary 3, 2021)
+- Added info about Polish translation.
 
 Version 5.0.3 (January 27, 2021)
 - Added Polish translation by Aristo.
