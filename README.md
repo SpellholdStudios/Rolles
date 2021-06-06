@@ -16,7 +16,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v502/">Spellhold Studios</a>
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles">Spellhold Studios</a>
 
 
 ## 
@@ -29,10 +29,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/
-isra-readme-english.html)
-
-:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/1042-isra/)<br>
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/https://spellholdstudios.github.io/readmes/rolles-readme-english.txt)
 
 ## 
 
@@ -64,7 +61,7 @@ This mod is designed to work on the following Infinity Engine games: the origina
 
 #### Other Mods Compatibility
 
-This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/638-isra/">report them on the forum!</a><br>
+This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/36655-rolles">report them on the forum!</a><br>
 
 ## 
 
@@ -180,7 +177,7 @@ This component adds a Bag of Holding (capacity: 38 items) in Irenicus Dungeon.
 - Alina (aerie.ru): Great thanks for the English texts editing!
 
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v502/">mod forum</a>.</br>
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles">mod forum</a>.</br>
 
 ## 
 
@@ -212,9 +209,9 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 5.0.5 (June 6, 2021)
 
+- Added dynamic install order syntax and global labels to support AL|EN's "Project Infinity".
 - .
-- .
-- .
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v247.
 
 ## 
