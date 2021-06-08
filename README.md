@@ -207,22 +207,22 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 5.0.5 (June 6, 2021)
+##### Version 5.0.5 &nbsp;(June 8, 2021)
 
 - Added dynamic install order syntax and global labels to support AL|EN's "Project Infinity".
-- .
+- Fixed wrong shaman usability flags setting for shaman items in EE games.
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v247.
 
 ## 
 
-##### Version 5.0.4 (February 3, 2021)
+##### Version 5.0.4 &nbsp;(February 3, 2021)
 
 - Added info about Polish translation.
 
 ## 
 
-##### Version 5.0.3 (January 28, 2021)
+##### Version 5.0.3 &nbsp;(January 28, 2021)
 
 - Added Polish translation by Aristo.
 - Fixed Russian component names.
@@ -231,21 +231,21 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 5.0.2 (December 20, 2019)
+##### Version 5.0.2 &nbsp;(December 20, 2019)
 
 - Added Italian translation by ilot.
 
 ## 
 
 
-##### Version 5.0.1 (December 14, 2019)
+##### Version 5.0.1 &nbsp;(December 14, 2019)
 
 - Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
 - Lower cased `LABEL` names for consistency (*rolles_safyer* and *rolles_bag_of_holding_in_irenicus_dungeon*).
 
 ## 
 
-##### Version 5.0.0 (November 22, 2019)
+##### Version 5.0.0 &nbsp;(November 22, 2019)
 
 - Major updates:
 	- Renamed *Setup-rolles.tp2* -> *rolles.tp2* to support AL|EN's "Project Infinity".
@@ -428,7 +428,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 4 (November 11, 2018)
+##### Version 4 &nbsp;(November 11, 2018)
 
 - Added native BG2EE compatibility by Deratiseur.
 - Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
@@ -437,19 +437,19 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 3a (March 10, 2013)
+##### Version 3a &nbsp;(March 10, 2013)
 
 - Added English edits by Xavier1161.
 
 ## 
 
-##### Version 3 (September 7, 2008)
+##### Version 3 &nbsp;(September 7, 2008)
 
 - Added French translation by La Voix 2 la Sagesse (of the d'Oghmatiques).
 
 ## 
 
-##### Version 2 (October 2, 2005)
+##### Version 2 &nbsp;(October 2, 2005)
 
 - Required components for some items were changed.
 - Added usability restrictions for some items.

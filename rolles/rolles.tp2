@@ -3,9 +3,10 @@ BACKUP ~rolles/backup~
 // AUTHOR ~serdrick@rol.ru~
 SUPPORT ~http://www.shsforums.net/topic/36655-rolles/~
 
-VERSION ~v5.0.4~
+VERSION ~v5.0.5~
 
 README ~rolles/readme/rolles-readme-%LANGUAGE%.txt~ ~rolles/readme/rolles-readme-english.txt~
+
 
 ALWAYS
 
@@ -44,6 +45,7 @@ LANGUAGE ~Italiano (traduzione di ilot)~
 LANGUAGE ~Polski (tlumaczenie: Aristo)~
          ~polish~
          ~rolles/tra/polish/setup.tra~
+
 
 /* ==================================== *
  *         Rolles Safyer (ToB)          *
