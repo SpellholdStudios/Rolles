@@ -40,7 +40,7 @@ $RECYCLE.BIN/
 *.bak
 *.bat
 *.csv
-*.7z
+#*.7z
 *.rar
 *.zip
 *.exe
@@ -53,3 +53,4 @@ todo*.*
 # ignore all files in any directory named
 # ========================================
 legacy/
+rolles_legacy/

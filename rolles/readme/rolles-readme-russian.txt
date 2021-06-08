@@ -1,5 +1,5 @@
                     A mod for Baldur's Gate II: Throne of Bhaal
-                              Rolles Version 5.0.4
+                              Rolles Version 5.0.5
                          Serdrick ( serdrick@yandex.ru )
 
 
@@ -17,6 +17,10 @@
 ============
 
 Стандартная для WeiDU модов. Распакуйте содержимое архива в директорию с игрой, и запустите Setup-Rolles.exe.
+
+Here is the recommended installation order:
+- Please install Rolles after TobEx, BG2 Fixpack, and EET.
+- Please install Rolles before EET_End, and any final "biffing" routines.
 
 
 3. Список совершенствуемых предметов
@@ -543,6 +547,7 @@ Aaron O'Neil, за ShadowKeeper.
 La Voix 2 la Sagesse (of the d'Oghmatiques) - for the French translation.
 Xavier1161: fixed English texts (version 3a).
 ilot: Italian translation.
+Aristo: Polish translation.
 Deratiseur: Provided native EE compatible version (v4.0.0).
 AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 Gwendolyne: Fixed bugs and translations and released version 5.0.0.
@@ -570,19 +575,27 @@ All other trademarks and copyrights are the property of their respective owners.
 
 7. История версий
 =================
-Version 5.0.4 (Febuary 3, 2021)
+Version 5.0.5 (June 8, 2021)
+- Added dynamic install order syntax and global labels to support AL|EN's "Project Infinity".
+- Fixed wrong shaman usability flags setting for shaman items in EE games.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Updated WeiDU installer to v247.
+
+Version 5.0.4 (February 3, 2021)
 - Added info about Polish translation.
 
 Version 5.0.3 (January 27, 2021)
 - Added Polish translation by Aristo.
 - Fixed Russian component names.
+- Minor whitespace corrections.
+- Update Infinity Auto Packager.
 
 Version 5.0.2 (December 20, 2019)
 - Added Italian translation by ilot.
 
 Version 5.0.1 (December 14, 2019)
 - Fixed an issue with Auto-Package Generator tool: new version of MacOS (Catalina) prevented the mod to be installed.
-- Lower cased LABEL names for consistency ("rolles_safyer" and "rolles_bag_of_holding_in_irenicus_dungeon").
+- Lower cased `LABEL` names for consistency ("rolles_safyer" and "rolles_bag_of_holding_in_irenicus_dungeon").
 
 Version 5.0.0 (November 22, 2019)
 - Major updates:
@@ -593,21 +606,21 @@ Version 5.0.0 (November 22, 2019)
 	- Fixed typos in rolles.d that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 	- Fixed Sword of freedom recipe: Adjatha the Drinker is needed instead of Namarra +2.
 	- Externalized items install in rolles_items.tpa library.
-	- Added Continue() action when appending area bcs files with EXTEND_TOP command.
+	- Added Continue() action when appending area bcs files with `EXTEND_TOP` command.
 	- Fixed corrupted rolles.cre file.
-	- Reorganized components (DESIGNATED numbers) and added LABELS "Rolles_Safyer" and "Rolles_Bag_of_Holding_in_Irenicus_Dungeon".
-	- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. 
-	- Added README command in tp2.
-	- Replaced AUTHOR keyword with SUPPORT.
-	- Added VERSION flag.
+	- Added components `DESIGNATED` numbers and "Rolles_Safyer" and "Rolles_Bag_of_Holding_in_Irenicus_Dungeon" `LABELS`.
+	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. 
+	- Added `README` command in tp2.
+	- Replaced `AUTHOR` keyword with `SUPPORT`.
+	- Added `VERSION` flag.
 	- Commented code as much as possible.
 	- Updated and renamed readme files to rolles-readme-%LANGUAGE%.txt.
-	- Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
+	- Updated Russian tra file for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU` function requirements which automatically removes usability restrictions for EE games.
 	- Updated French and English translations (Gwendolyne).
 	- Re-included English edits by Xavier1161 (v4 regression).
 	- Reorganized mod architecture tree: created folders to sort files according to their types.
 	- Removed useless files.
-	- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+	- Included Linux and Mac OS versions in the same package (thanks AL|EN!).
 - Items updates:
 	- Fixed unusability flags and appended tooltip.2da whenever relevant.
 	- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
@@ -630,7 +643,7 @@ Version 5.0.0 (November 22, 2019)
 	- Necklace of Time Stability (s#amul01.itm):
 		- Fixed item description: added missing weight (3).
 	- Enhanced Amulet of Power (s#amul02.itm):
-		- Fixed item description: added missing weight (3) and added missing Wozard Slayer and Barbarian restriction flags.
+		- Fixed item description: added missing weight (3) and added missing Wizard Slayer and Barbarian restriction flags.
 		- Added missing opcodes for a full Immunity to Silence: op#267 (protection from string = 14002 Silence - 14676 Silenced).
 		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
 	- Restored Mask of King Strohm III (s#helm01.itm):

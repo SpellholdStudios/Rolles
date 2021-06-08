@@ -1,30 +1,29 @@
 /* ================================================================================================================================================== *
- * LIST of FUNCTIONS :                                                                                                                                *
- * -------------------                                                                                                                                *
- *  - FUNCTION GW_UPDATE_ITM_DESCRIPTION_TO_EE      : MODIFIES item descriptions to fit EE description format.                         => line #  14  *
- *  - FUNCTION GW_WRITE_EE_ITM_DESCRIPTIONS         : WRITES item descriptions in ITM files according to the game (classical or EE).   => line #  54  *
- *  - MACRO GW_READ_COL_TOOLTIP                     : READS tooltip.2da file number of columns.                                        => line # 102  *
- *  - FUNCTION GW_ADD_ITEM_TOOLTIPS                 : ADDS a new line in tooltip.2da. file.                                            => line # 117  *
- *  - FUNCTION GW_ALTER_ITEM_ALTER_HEADER_FLAGS     : ALTERS itm extender headers new EE (or ToBEx) flags.                             => line # 163  *
- *  - FUNCTION GW_ITEM_RESTRICT_USABILITY_EE        : DEFINES special item usability restrictions (EE games).                          => line # 289  *
+ * LIST of FUNCTIONS & MACROS :                                                                                                                       *
+ * ----------------------------                                                                                                                       *
+ *  - FUNCTION GW_UPDATE_ITM_DESCRIPTION_TO_EE      : MODIFIES item descriptions to fit EE description format.                         => line #  13  *
+ *  - FUNCTION GW_WRITE_EE_ITM_DESCRIPTIONS         : WRITES item descriptions in ITM files according to the game (classical or EE).   => line #  52  *
+ *  - MACRO GW_READ_COL_TOOLTIP                     : READS tooltip.2da file number of columns.                                        => line # 101  *
+ *  - FUNCTION GW_ADD_ITEM_TOOLTIPS                 : ADDS a new line in tooltip.2da. file.                                            => line # 116  *
+ *  - FUNCTION GW_ALTER_ITEM_ALTER_HEADER_FLAGS     : ALTERS itm extender headers new EE (or ToBEx) flags.                             => line # 162  *
+ *  - FUNCTION GW_ITEM_RESTRICT_USABILITY_EE        : DEFINES special item usability restrictions (EE games).                          => line # 288  *
  * ================================================================================================================================================== */
 
-
-/* ========================================================================================================== *
- * FUNCTION GW_UPDATE_ITM_DESCRIPTION_TO_EE: AJUSTE la DESCRIPTION des OBJETS au format Enhanced Edition.     *
- * ---------------------------------------------------------------------------------------------------------- *
- * Reads variable GW_desc_to_update (@nn or #nnn) in .tra file, alters it to fit EE description format,       *
- * then saves it as variable GW_desc_updated.                                                                 *
- * ========================================================================================================== *
- * FUNCTION GW_WRITE_EE_ITM_DESCRIPTIONS: ÉCRIT les DESCRIPTIONS des OBJETS au format Enhanced Edition.       *
- * ---------------------------------------------------------------------------------------------------------- *
- * Reads variables GW_desc_to_update and GW_undesc_to_update (@nnn or #nnn) in .tra file, alters them to fit  *
- * EE description format if needed, then updates .ITM file.                                                   *
- * ========================================================================================================== */
+/* =========================================================================================================== *
+ *  FUNCTION GW_UPDATE_ITM_DESCRIPTION_TO_EE: AJUSTE la DESCRIPTION des OBJETS au format Enhanced Edition.     *
+ * ----------------------------------------------------------------------------------------------------------- *
+ *  Reads variable GW_desc_to_update (@nn or #nnn) in .tra file, alters it to fit EE description format,       *
+ *  then saves it as variable GW_desc_updated.                                                                 *
+ * =========================================================================================================== *
+ *  FUNCTION GW_WRITE_EE_ITM_DESCRIPTIONS: ÉCRIT les DESCRIPTIONS des OBJETS au format Enhanced Edition.       *
+ * ----------------------------------------------------------------------------------------------------------- *
+ *  Reads variables GW_desc_to_update and GW_undesc_to_update (@nnn or #nnn) in .tra file, alters them to fit  *
+ *  EE description format if needed, then updates .ITM file.                                                   *
+ * =========================================================================================================== */
 
 DEFINE_PATCH_FUNCTION ~GW_UPDATE_ITM_DESCRIPTION_TO_EE~ 
-	STR_VAR GW_desc_to_update = ~~	// reference in format @123 or #123
-	RET		GW_desc_updated			// returns modified text
+    STR_VAR GW_desc_to_update = ~~  // reference in format @123 or #123
+    RET     GW_desc_updated         // returns modified text
 BEGIN
 
 	INNER_ACTION BEGIN
@@ -36,11 +35,10 @@ OUTER_SPRINT GW_desc_updated
 			COPY - ~.../inlined/GW_%GW_desc_to_update%.tpp~ ~.../inlined/GW_%GW_desc_to_update%.tpp~
 				INSERT_BYTES SOURCE_SIZE (STRING_LENGTH ~%GW_desc_to_update%~)
 				WRITE_ASCIIE SOURCE_SIZE ~%GW_desc_to_update%~
-			VERBOSE
 			INCLUDE ~.../inlined/GW_%GW_desc_to_update%.tpp~
 			OUTER_SPRINT usab @9001		// ~[Uu]niquement[ %tab%]+[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~ = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 			OUTER_SPRINT unus @9002		// ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~ = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
-			OUTER_PATCH_SAVE GW_desc_updated ~%GW_desc_updated%~ BEGIN	// Suppression de toutes les références aux classes et aux kits pouvant ou pas utiliser l'objet.
+			OUTER_PATCH_SAVE GW_desc_updated ~%GW_desc_updated%~ BEGIN	// Suppression de toutes les références aux classes et aux kits pouvant ou pas utiliser l'objet. - Removes all classes and kits (un-)usability flags.
 				REPLACE_TEXTUALLY ~\(\([%LNL%%MNL%%WNL%][ %TAB%]*\(%usab%\|%unus%\)[ %TAB%]*\)\(\([%LNL%%MNL%%WNL%].*\)*\)?\)~  ~~
 			END
 		END ELSE BEGIN
@@ -52,9 +50,10 @@ END		// of DEFINE_PATCH_FUNCTION
 
 
 DEFINE_PATCH_FUNCTION ~GW_WRITE_EE_ITM_DESCRIPTIONS~ 
-	STR_VAR GW_desc_to_update	= ~~	// reference in format @123 or #123
-			GW_undesc_to_update = ~~	// reference in format @123 or #123
+	STR_VAR GW_desc_to_update   = ~~    // reference in format @123 or #123
+	        GW_undesc_to_update = ~~    // reference in format @123 or #123
 BEGIN
+
 	PATCH_IF (ENGINE_IS ~bgee bg2ee eet~) OR GAME_INCLUDES ~sod~ BEGIN
 		SPRINT GWdesc "none"
 		SPRINT GWundesc "none"
@@ -113,15 +112,15 @@ DEFINE_ACTION_MACRO ~GW_READ_COL_TOOLTIP~ BEGIN
 END
 
 
-/* ======================================================================= *
- *  FUNCTION GW_ADD_ITEM_TOOLTIPS: ADDS new line in tooltip.2da. file.     *
- * ----------------------------------------------------------------------- *
- *  PARSES %GW_tooltips% string chain and adds a new line in tooltip.2da.  *
- * ======================================================================= */
+/* ========================================================================= *
+ *  FUNCTION GW_ADD_ITEM_TOOLTIPS: ADDS a new line in tooltip.2da. file.     *
+ * ------------------------------------------------------------------------- *
+ *  PARSES %GW_tooltips% string chain and adds a new line in tooltip.2da.    *
+ * ========================================================================= */
 
 DEFINE_ACTION_FUNCTION ~GW_ADD_ITEM_TOOLTIPS~
-	STR_VAR	GW_objet	= ~N~	// item code: ~sw1h01~
-			GW_tooltips	= ~~	// tooltips stringref list: ~@123 @124 6620~, accepts combination of tra refs and strrefs for as many abilities as you need to specify
+    STR_VAR GW_objet    = ~N~   // item code: ~sw1h01~
+            GW_tooltips	= ~~    // tooltips strref list: ~@123 @124 6620~, accepts combination of tra refs and strrefs for as many abilities as you need to specify
 BEGIN
 
 	ACTION_IF ("%GW_objet%" STRING_COMPARE_CASE "N") BEGIN
@@ -177,20 +176,20 @@ END	// of DEFINE_ACTION_FUNCTION
  * ====================================================================================================================================== */
 
 DEFINE_PATCH_FUNCTION ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~
-	INT_VAR type				= "-1" // -1 is all headers, otherwise use value here
-			header				= 0    // 0 matches all headers, otherwise just modify specified header - use with type = -1
+    INT_VAR type                = "-1" // -1 is all headers, otherwise use value here
+            header              = 0    // 0 matches all headers, otherwise just modify specified header - use with type = -1
 			// flag_vars affect flags starting at 0x26; 0 means removes flag, 1 means adds flag, -1 no change
-			flag_strength		= "-1" // adds strength bonus, bit0
-			flag_break			= "-1" // breakable, bit1
-//			flag_str_damage		= "-1" // damage damage bonus, ee, bit2
-//			flag_str_to_hit		= "-1" // thac0 strength bonus, ee, bit3
-			flag_breaksanctuary	= "-1" // breaks sanctuary, ee, bit9
-			flag_hostile		= "-1" // hostile, bit10
-			flag_recharge		= "-1" // recharge after resting, bit11
-			flag_bypass			= "-1" // bypass armor, bit16
-			flag_keenedge		= "-1" // keen edge, bit17
-			flag_backstab		= "-1" // tobex and ee only, can backstab, bit25
-			flag_noinvisible	= "-1" // tobex and ee only, cannot target invisible, bit26
+            flag_strength       = "-1" // adds strength bonus, bit0
+            flag_break          = "-1" // breakable, bit1
+//          flag_str_damage     = "-1" // damage damage bonus, ee, bit2
+//          flag_str_to_hit     = "-1" // thac0 strength bonus, ee, bit3
+            flag_breaksanctuary = "-1" // breaks sanctuary, ee, bit9
+            flag_hostile        = "-1" // hostile, bit10
+            flag_recharge       = "-1" // recharge after resting, bit11
+            flag_bypass         = "-1" // bypass armor, bit16
+            flag_keenedge       = "-1" // keen edge, bit17
+            flag_backstab       = "-1" // tobex and ee only, can backstab, bit25
+            flag_noinvisible    = "-1" // tobex and ee only, cannot target invisible, bit26
 BEGIN
 
 	READ_LONG  0x64 "abil_off"
@@ -286,7 +285,7 @@ END	// of DEFINE_PATCH_FUNCTION
 
 
 /* ================================================================================================================= *
- *  FUNCTION GW_ITEM_RESTRICT_USABILITY_EE : DEFINES special item usability restrictions (EE games)                  *
+ *  FUNCTION GW_ITEM_RESTRICT_USABILITY_EE: DEFINES special item usability restrictions (EE games)                   *
  *                                          INTERDIT L'UTILISATION D'UN OBJET à un type de créature dans BG2EE.      *
  * ----------------------------------------------------------------------------------------------------------------- *
  *  #319 Usability: Item Usability : This effect restricts the item to creature(s) matching the object identifiers.  *
@@ -294,18 +293,18 @@ END	// of DEFINE_PATCH_FUNCTION
  * ================================================================================================================= */
 
 DEFINE_PATCH_FUNCTION ~GW_ITEM_RESTRICT_USABILITY_EE~ 
-	INT_VAR GW_shaman	= 0		// Automatic Druid restriction removal, now handled with op#319
-	STR_VAR GW_restrict = ""	// HUMAN, MALE, CAVALIER... Or string defining Actor's name, or scripting name (8 maximum length).
-			GW_kind		= ""	// IDS file : EA, General, Race, class, Specific, Gender, Align, Kit. OR Name (Actor's name), script_name (Actor's scripting name).
-			GW_mess319	= 0		// Description note (special field)
+    INT_VAR GW_shaman   = 0     // Automatic Druid restriction removal, now handled with op#319
+    STR_VAR GW_restrict = ""    // HUMAN, MALE, CAVALIER... Or string defining Actor's name, or scripting name (8 maximum length).
+            GW_power    = 0     // When GW_power is set to 1, this effect restricts the item to creature(s) matching the object identifiers. When GW_power is set to 0, creature(s) matching the object identifiers cannot use the item. The strref to display when an invalid creature attempts to use the item is held in GW_mess319 (0x2c).
+            GW_kind     = ""    // IDS file : EA, General, Race, class, Specific, Gender, Align, Kit. OR Name (Actor's name), script_name (Actor's scripting name).
+            GW_mess319  = 0     // Description note (special field)
 BEGIN
 
-//	PATCH_IF (ENGINE_IS ~bgee bg2ee eet iwdee~) OR GAME_INCLUDES ~sod~ BEGIN
 	PATCH_IF (GW_shaman) BEGIN
-	
+
 		WRITE_LONG 0x1e (THIS BAND BNOT BIT30)	// removes Druid exclusion flag
-		LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 319 target = 1 timing = 2 parameter1 = 11 parameter2 = 5 power = 1 special = 1080 END	// Restrict Item (Usability: Item Usability) : 11 Druid - 5 Class.ids
-	
+		LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 319 target = 1 timing = 2 parameter1 = 11 parameter2 = 5 power = 0 special = 1080 END	// Restrict Item (Usability: Item Usability) : 11 Druid - 5 Class.ids
+
 	END ELSE BEGIN
 
 		SET GW_param2 = 0
@@ -334,7 +333,7 @@ BEGIN
 				END			// of PATCH_IF FILE_EXISTS_IN_GAME ~%GW_kind%.ids~
 			END				// of PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~NAME~) AND ("%GW_kind%" STRING_COMPARE_CASE ~SCRIPT_NAME~)
 
-		// Actor's name case : If 'IDS File' is set to 10, the item is restricted to characters with the name specified by the set held in parameter1.
+		// Actor's name case : If 'IDS File' is set to 10, the item is restricted to characters with the name specified by the strref held in parameter1. TODO If the strref is set to -1 (None), then you are targeting player-created characters (e.g., CHARNAME).
 		// -----------------
 			PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~NAME~ = 0) BEGIN
 				SET GW_param2 = 10
@@ -352,7 +351,7 @@ BEGIN
 				END
 			END		// of PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~NAME~ = 0)
 
-		// Actor's scripting name case : If 'IDS File' is set to 11, the item is restricted to characters with the death variable specified by the resource field. 
+		// Actor's scripting name case : If 'IDS File' is set to 11, the item is restricted to characters with the death variable specified by the resource field. TODO If ˜no death variable is specified in the resource field, then you are targeting player-created characters (e.g., CHARNAME).
 		// ---------------------------
 			PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~SCRIPT_NAME~ = 0) BEGIN
 				SET GW_param1 = 0
@@ -369,7 +368,7 @@ BEGIN
 					REPLACE_TEXTUALLY ~^[@#]~  ~~
 				END
 				PATCH_IF ("GW_mess319%" STRING_COMPARE_REGEXP ~^[@]-?[0-9]+$~ = 0) BEGIN
-					SET GW_special319 = RESOLVE_STR_REF ((AT % GWspecial%))
+					SET GW_special319 = RESOLVE_STR_REF ((AT %GWspecial%))
 				END ELSE BEGIN
 					SET GW_special319 = EVAL "%GWspecial%"
 				END
@@ -380,7 +379,7 @@ BEGIN
 			// Adds Effect #319 Usability: Item Usability if needed.
 			// -----------------------------------------------------
 			PATCH_IF (GW_param2 > 0) BEGIN
-				LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 319 target = 1 timing = 2 parameter1 = EVAL "%GW_param1%" parameter2 = EVAL "%GW_param2%" special = EVAL "%GW_special319%" STR_VAR resource = EVAL "%GW_resource319%" END
+				LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 319 target = 1 timing = 2 parameter1 = EVAL "%GW_param1%" parameter2 = EVAL "%GW_param2%" power = EVAL "%GW_power%" special = EVAL "%GW_special319%" STR_VAR resource = EVAL "%GW_resource319%" END
 			END	// of PATCH_IF (GW_param2 > 0)
 
 		END		// of PATCH_IF ("%GW_restrict%" STR_CMP ~~) AND ("%GW_kind%" STR_CMP ~~)

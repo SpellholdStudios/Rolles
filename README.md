@@ -1,22 +1,40 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Rolles?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20Italian%20%7C%20Russian&color=limegreen)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/Rolles?color=gold)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20MacOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
+![Language](https://img.shields.io/static/v1?label=languages&message=English%20%7C%20French%20%7C%20Italian%20%7C%20Polish%20%7C%20Russian&color=limegreen)
+
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2-ToB%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
+
 
 <div align="center"><h1></a>Rolles</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II: ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
-</div><br />
+</div><br>
 
 
 **Original Author:** Serdrick  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles-v502/">Spellhold Studios</a><br /><br />
+**Mod Website and Forum:** <a href="http://www.shsforums.net/topic/36655-rolles">Spellhold Studios</a>
 
+
+## 
+
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/Rolles?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/Rolles?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/Rolles?color=cyan&style=plastic)](https://badges.pufler.dev) 
+![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/Rolles?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/Rolles?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+
+## 
+
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/https://spellholdstudios.github.io/readmes/rolles-readme-english.txt)
+
+## 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></br>
 </div>
 
 
@@ -35,11 +53,26 @@ Please see <a href="https://raw.githubusercontent.com/SpellholdStudios/Rolles/ma
 
 ## <a name="compat" id="compat"></a>Compatibility
 
-This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
+#### Games supported
 
-This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please report them on the forum!<br>
+This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy (EET)</a>.
 
-:warning: Classical game players are strongly recommended to download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+## 
+
+#### Other Mods Compatibility
+
+This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/36655-rolles">report them on the forum!</a><br>
+
+## 
+
+#### Installation Order
+
+>Although it is not required for the Rolles mod to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+
+Here is the recommended installation order:
+- Please install Rolles after TobEx, BG2 Fixpack, and EET.
+- Please install Rolles before EET_End, and any final "biffing" routines.
+
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -50,11 +83,11 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-rolles.exe`**, un-install the previously installed main component and delete the :file_folder: rolles folder.</em>
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run __`setup-rolles.exe`__, un-install the previously installed main component and delete the :file_folder: __rolles__ folder.*
 
-<em>When installing or un-installing, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
+*When installing or un-installing, __do not close the DOS window__ by clicking on the __X__ button! Instead, press the __Enter__ key whenever instructed to do so.*
 
-**Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
+*__Disable any antivirus__ or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.*
 
 ## 
 
@@ -66,15 +99,17 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
+Rolles for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
+
 Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: rolles folder and a setup-rolles.exe file in your game folder. To install, simply double-click **`setup-rolles.exe`** and follow the instructions on screen.
 
 Run **`setup-rolles.exe`** in your game folder to reinstall, un-install or otherwise change the component settings.
 
 ## 
 
-#### Mac OS X
+#### Mac OS
 
-The The Slithering Menace for Mac OS X is distributed in the same compressed archive than the Windows one.
+Rolles for Mac OS is distributed in the same compressed archive and includes a WeiDU installer.
 
 First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: rolles folder, setup-rolles and setup-rolles.command files in your game folder. To install, simply double-click **`setup-rolles.command`** and follow the instructions on screen.
 
@@ -84,19 +119,19 @@ Run **`setup-rolles.command`** in your game folder to reinstall, un-install or o
 
 #### Linux
 
-The The Slithering Menace for Linux is distributed in the same compressed archive than the Windows one and does not include a WeiDU installer.
+Rolles for Linux is distributed in the same compressed archive and does not include a WeiDU installer.
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to `/usr/bin`. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run **`WeInstall setup-rolles`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine Baldur.exe`** for EE games) and start playing.
+To install, run **`WeInstall setup-rolles`** in your game folder. Then run **`wine bgmain.exe`** (or **`wine baldur.exe`** for EE games) and start playing.
 
 ## 
 
 #### Note for Complete Un-installation
 
-In addition to the methods above for removing individual components, you can completely un-install the mod using **`setup-rolles --uninstall`** at the command line to remove all components without wading through prompts.</br>
+In addition to the methods above for removing individual components, you can completely un-install the mod using **`setup-rolles --uninstall`** at the command line to remove all components without wading through prompts.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -105,16 +140,17 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component DESIGNATED number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
+The installer includes the following components. The number of each is the component `DESIGNATED` number which gives it a fixed install position and allows automated installers to specify component choices.
 
+## 
 
-**0. Rolles Safyer**<br />
+**0. Rolles Safyer**  
 
 This component adds Rolles in Waukeen's Promenade.
 
 ## 
 
-**10. Bag of Holding in Irenicus Dungeon**<br />
+**10. Bag of Holding in Irenicus Dungeon**  
 
 This component adds a Bag of Holding (capacity: 38 items) in Irenicus Dungeon.
 <div align="right"><a href="#top">Back to top</a></div>
@@ -125,36 +161,44 @@ This component adds a Bag of Holding (capacity: 38 items) in Irenicus Dungeon.
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-#### Author: Serdrick
+**Author:** Serdrick  
 
+## 
 
 #### Special Acknowledgements to:
 
 - Gwendolyne: Fixed bugs and translations and released version 5.0.0.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 - Deratiseur: Provided native EE compatible version (v4.0.0).
+- Aristo: Polish translation.
 - ilot: Italian translation.
 - La Voix 2 la Sagesse (the d'Oghmatiques): French translation.
 - Xavier1161: fixed English texts (version 3a).
 - Alina (aerie.ru): Great thanks for the English texts editing!
 
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles-v502/">mod forum</a>.</br>
+If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/36655-rolles">mod forum</a>.</br>
 
+## 
 
 #### Programs/tools used in creation
 
-- <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> by Wes Weimer, the bigg and Wisp
-- <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintained by igi and lynx
-- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> by Avenger
+- <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> by Wes Weimer, the bigg and Wisp.
+- <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
+- <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintained by igi and lynx.
+- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> by Avenger.
 - <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip">ShadowKeeper</a> by Aaron O'Neil.
+- <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
+- <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters</a>, by Argent77.
+- <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a>, by AL|EN.
 
+## 
 
 #### Copyrights Information
 
 ###### Rolles is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Serdrick, based on material from the game Baldur's Gate II and its expansion.
 ###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp.
-###### All other trademarks and copyrights are the property of their respective owners.</br>
+###### All other trademarks and copyrights are the property of their respective owners.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -163,21 +207,45 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 5.0.2 (December 20, 2019)
+##### Version 5.0.5 &nbsp;(June 8, 2021)
+
+- Added dynamic install order syntax and global labels to support AL|EN's "Project Infinity".
+- Fixed wrong shaman usability flags setting for shaman items in EE games.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Updated WeiDU installer to v247.
+
+## 
+
+##### Version 5.0.4 &nbsp;(February 3, 2021)
+
+- Added info about Polish translation.
+
+## 
+
+##### Version 5.0.3 &nbsp;(January 28, 2021)
+
+- Added Polish translation by Aristo.
+- Fixed Russian component names.
+- Minor whitespace corrections.
+- Update Infinity Auto Packager.
+
+## 
+
+##### Version 5.0.2 &nbsp;(December 20, 2019)
 
 - Added Italian translation by ilot.
 
 ## 
 
 
-##### Version 5.0.1 (December 14, 2019)
+##### Version 5.0.1 &nbsp;(December 14, 2019)
 
 - Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
-- Lower cased LABEL names for consistency (*rolles_safyer* and *rolles_bag_of_holding_in_irenicus_dungeon*).
+- Lower cased `LABEL` names for consistency (*rolles_safyer* and *rolles_bag_of_holding_in_irenicus_dungeon*).
 
 ## 
 
-##### Version 5.0.0 (November 22, 2019)
+##### Version 5.0.0 &nbsp;(November 22, 2019)
 
 - Major updates:
 	- Renamed *Setup-rolles.tp2* -> *rolles.tp2* to support AL|EN's "Project Infinity".
@@ -189,19 +257,19 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 	- Externalized items install in *rolles_items.tpa* library.
 	- Added *Continue()* action when appending area bcs files with EXTEND_TOP command.
 	- Fixed corrupted rolles.cre file.
-	- Reorganized components (*DESIGNATED* numbers) and added *LABELS* "*Rolles_Safyer*" and "*Rolles_Bag_of_Holding_in_Irenicus_Dungeon*".
+	- Added components `DESIGNATED` numbers and "*Rolles_Safyer*" and "*Rolles_Bag_of_Holding_in_Irenicus_Dungeon*" `LABELS`.
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games: as for v5.0.0, Rolles is no more SoA compatible to avoid Necklace of Time Stability may crash game. :angel:
-	- Added README command in tp2.
-	- Replaced AUTHOR keyword with SUPPORT.
-	- Added VERSION flag.
+	- Added `README` command in tp2.
+	- Replaced `AUTHOR` keyword with `SUPPORT`.
+	- Added `VERSION` flag.
 	- Commented code as much as possible.
 	- Updated and renamed readme files to *rolles-readme-%LANGUAGE%.txt*.
-	- Updated Russian tra file for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
+	- Updated Russian tra file for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes usability restrictions for EE games.
 	- Updated French and English translations (Gwendolyne).
 	- Re-included English edits by Xavier1161 (v4 regression).
 	- Reorganized mod architecture tree: created folders to sort files according to their types.
 	- Removed useless files.
-	- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+	- Included Linux and Mac OS versions in the same package (thanks AL|EN!).
 	- Transferred mod to SpellHold Studios GitHub account.
 
 - Items updates:
@@ -226,7 +294,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 	- <ins>Necklace of Time Stability</ins> (s#amul01.itm):
 		- Fixed item description: added missing weight (3).
 	- <ins>Enhanced Amulet of Power</ins> (s#amul02.itm):
-		- Fixed item description: added missing weight (3) and added missing Wozard Slayer and Barbarian restriction flags.
+		- Fixed item description: added missing weight (3) and added missing Wizard Slayer and Barbarian restriction flags.
 		- Added missing opcodes for a full Immunity to Silence: op#267 (protection from string = 14002 *Silence* - 14676 *Silenced*).
 		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
 	- <ins>Restored Mask of King Strohm III</ins> (s#helm01.itm):
@@ -360,7 +428,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 4 (November 11, 2018)
+##### Version 4 &nbsp;(November 11, 2018)
 
 - Added native BG2EE compatibility by Deratiseur.
 - Fixed Sword of freedom recipe: Scimitar of Speed +2 Belm is now used instead of short sword Ilbratha +1.
@@ -369,19 +437,19 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## 
 
-##### Version 3a (March 10, 2013)
+##### Version 3a &nbsp;(March 10, 2013)
 
 - Added English edits by Xavier1161.
 
 ## 
 
-##### Version 3 (September 7, 2008)
+##### Version 3 &nbsp;(September 7, 2008)
 
 - Added French translation by La Voix 2 la Sagesse (of the d'Oghmatiques).
 
 ## 
 
-##### Version 2 (October 2, 2005)
+##### Version 2 &nbsp;(October 2, 2005)
 
 - Required components for some items were changed.
 - Added usability restrictions for some items.
