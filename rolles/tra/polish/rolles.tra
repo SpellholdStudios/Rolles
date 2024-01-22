@@ -1,74 +1,101 @@
-@1   = ~Witaj w sklepie Rollesa Safyera, mój panie. Co mogê dla ciebie uczyniæ?~ ~Witaj w sklepie Rollesa Safyera, moja pani. Co mogê dla ciebie uczyniæ?~ 
-@2   = ~Powiedz mi, Rollesie, co tu porabiasz?~
-@3   = ~Jestem bieg³y w sztuce zaklinania, ale moja praca polega g³ównie na tworzeniu i modyfikowaniu rozmaitych magicznych przedmiotów. Jeœli potrzebna mi do tego pomoc kowala, proszê o ni¹ tego oto krasnoluda, co jest dla mnie ca³kiem wygodne. Ponadto mam nieco towarów na sprzeda¿. Czego zatem sobie ¿yczysz? ~ 
-@4   = ~Poka¿ mi, co masz do sprzedania.~
-@5   = ~Czy mam coœ, co móg³byœ ulepszyæ?~ 
-@6   = ~Dziêkujê, w tej chwili niczego nie potrzebujê. Wychodzê.~
-@7   = ~Cieszê siê, ¿e znów ciê widzê. Co mogê dla ciebie uczyniæ?~
-@8   = ~Z przyjemnoœci¹, mój panie.~ ~Z przyjemnoœci¹, moja pani.~ 
-@9   = ~Poka¿ mi rzeczy, które masz, a ja powiem ci, czy któr¹œ z nich da siê przerobiæ.~
-@10  = ~Wygl¹da na to, ¿e nie mam niczego, nad czym móg³byœ popracowaæ. Wychodzê.~ 
-@11  = ~¯yczê ci wszystkiego najlepszego, mój panie. Wróæ, jeœli bêdziesz czegoœ potrzebowa³.~ ~¯yczê ci wszystkiego najlepszego, moja pani. Wróæ, jeœli bêdziesz czegoœ potrzebowa³a.~
-@12  = ~¯egnaj.~
-@13  = ~Na razie tego nie chcê. Czy mam jeszcze coœ, co móg³byœ zmieniæ?~ 
-@14  = ~Tak, zrób to dla mnie.~
-@104 = ~Mam przy sobie Zgubê smoków Arli. Czy mo¿esz coœ z niej zrobiæ?~ 
+
+@001 = ~Witaj w sklepie Rollesa Safyera, mój panie. Co mogê dla ciebie uczyniæ?~ ~Witaj w sklepie Rollesa Safyera, moja pani. Co mogê dla ciebie uczyniæ?~
+@002 = ~Powiedz mi, Rollesie, co tu porabiasz?~
+@003 = ~Jestem bieg³y w sztuce zaklinania, ale moja praca polega g³ównie na tworzeniu i modyfikowaniu rozmaitych magicznych przedmiotów. Jeœli potrzebna mi do tego pomoc kowala, proszê o ni¹ tego oto krasnoluda, co jest dla mnie ca³kiem wygodne. Ponadto mam nieco towarów na sprzeda¿. Czego zatem sobie ¿yczysz? ~
+@004 = ~Poka¿ mi, co masz do sprzedania.~
+@005 = ~Czy mam coœ, co móg³byœ ulepszyæ?~
+@006 = ~Dziêkujê, w tej chwili niczego nie potrzebujê. Wychodzê.~
+@007 = ~Cieszê siê, ¿e znów ciê widzê. Co mogê dla ciebie uczyniæ?~
+@008 = ~Z przyjemnoœci¹, mój panie.~ ~Z przyjemnoœci¹, moja pani.~
+@009 = ~Poka¿ mi rzeczy, które masz, a ja powiem ci, czy któr¹œ z nich da siê przerobiæ.~
+@010 = ~Wygl¹da na to, ¿e nie mam niczego, nad czym móg³byœ popracowaæ. Wychodzê.~
+@011 = ~¯yczê ci wszystkiego najlepszego, mój panie. Wróæ, jeœli bêdziesz czegoœ potrzebowa³.~ ~¯yczê ci wszystkiego najlepszego, moja pani. Wróæ, jeœli bêdziesz czegoœ potrzebowa³a.~
+@012 = ~¯egnaj.~
+@013 = ~Na razie tego nie chcê. Czy mam jeszcze coœ, co móg³byœ zmieniæ?~
+@014 = ~Tak, zrób to dla mnie.~
+
+@104 = ~Mam przy sobie Zgubê smoków Arli. Czy mo¿esz coœ z niej zrobiæ?~
 @105 = ~Zguba smoków Arli? Je¿eli masz równie¿ Procê naprowadzania, to mogê z nich dla ciebie stworzyæ now¹ potê¿n¹ broñ. Bêdzie to kosztowa³o 5000 sztuk z³ota. Czy zatem mam to dla ciebie uczyniæ?~
+
 @106 = ~Czy potrafisz coœ zrobiæ z Tarcz¹ Baldurana?~
 @107 = ~Tarcza Baldurana? Hmm... mogê z niej stworzyæ tarczê o takiej mocy, ¿e nawet bogowie ci pozazdroszcz¹. Bêdê potrzebowa³ jeszcze Tarczy odbiæ, Tarczy zaginionych, zwojów Ochrony przed ogniem, zimnem, elektrycznoœci¹ i kwasem, a tak¿e Mikstury ochrony przed magi¹ i Mikstury si³y ognistego olbrzyma. Ponadto - oby ciê to jednak nie zniechêci³o - za stworzenie tak potê¿nej rzeczy wezmê zap³atê w wysokoœci 15000 sztuk z³ota. Czy mam to zrobiæ?~
-@108 = ~Czy mo¿esz coœ wykonaæ przy u¿yciu tych Rêkawic?~ 
+
+@108 = ~Czy mo¿esz coœ wykonaæ przy u¿yciu tych Rêkawic?~
 @109 = ~Niech no spojrzê... Tak, przynieœ mi Rêkawice bieg³oœci, Rêkawice mistrzostwa, Bransolety b³yskawicznego uderzania, Bransolety ochrony KP 6, zwój Ulepszonego przyspieszenia ruchów, Miksturê si³y burzowego olbrzyma, dwie Mikstury si³y ognistego olbrzyma oraz Miksturê ochrony, a wykonam z tego wszystkiego coœ, co z pewnoœci¹ nie sprawi ci zawodu. Oczywiœcie bêdê równie¿ wymaga³ zap³aty: 10000 sztuk z³ota powinno wystarczyæ. Czy mam to dla ciebie zrobiæ?~
-@110 = ~Uda³o mi siê niedawno znaleŸæ Amulet blokowania czarów. Móg³byœ zrobiæ z tego szparga³u coœ u¿ytecznego?~ 
-@111 = ~Daj mi na to spojrzeæ... Nazywasz to szparga³em? Jeœli dostarczysz mi zwój Zatrzymania czasu, Amulet odpornoœci na magiê Kaliguna, dwa Amulety ochrony +1, dwa diamenty, Miksturê ochrony przed magi¹ oraz moj¹ zap³atê - w tym przypadku 10000 sztuk z³ota - czeka ciê mi³a niespodzianka. Czy mam dla ciebie wykonaæ tê rzecz?~ 
+
+@110 = ~Uda³o mi siê niedawno znaleŸæ Amulet blokowania czarów. Móg³byœ zrobiæ z tego szparga³u coœ u¿ytecznego?~
+@111 = ~Daj mi na to spojrzeæ... Nazywasz to szparga³em? Jeœli dostarczysz mi zwój Zatrzymania czasu, Amulet odpornoœci na magiê Kaliguna, dwa Amulety ochrony +1, dwa diamenty, Miksturê ochrony przed magi¹ oraz moj¹ zap³atê - w tym przypadku 10000 sztuk z³ota - czeka ciê mi³a niespodzianka. Czy mam dla ciebie wykonaæ tê rzecz?~
+
 @112 = ~Mam Amulet mocy? Co mo¿esz zrobiæ, by go ulepszyæ?~
-@113 = ~Amulet mocy? Sam w sobie jest potê¿nym artefaktem, ale oczywiœcie mo¿na go uczyniæ jeszcze lepszym. Potrzebowa³bym do tego jeszcze Amuletu odpornoœci na magiê, Amuletu ochrony +1, Mikstury geniuszu oraz Mikstury intuicji. Jako ¿e jest to stosunkowo ³atwy do wykonania przedmiot, za jego stworzenie policzê sobie tylko 5000 z³otych monet. Czy chcesz, bym zrobi³ go dla ciebie?~ 
+@113 = ~Amulet mocy? Sam w sobie jest potê¿nym artefaktem, ale oczywiœcie mo¿na go uczyniæ jeszcze lepszym. Potrzebowa³bym do tego jeszcze Amuletu odpornoœci na magiê, Amuletu ochrony +1, Mikstury geniuszu oraz Mikstury intuicji. Jako ¿e jest to stosunkowo ³atwy do wykonania przedmiot, za jego stworzenie policzê sobie tylko 5000 z³otych monet. Czy chcesz, bym zrobi³ go dla ciebie?~
+
 @114 = ~Uda³o mi siê znaleŸæ ca³kiem interesuj¹cy przedmiot: Maskê Króla Strohma III. Mo¿esz z niej wykonaæ coœ u¿ytecznego, prawda?~
 @115 = ~Tak... by³a ongiœ ca³kiem potê¿na, ale up³ynê³o od tego czasu wiele lat... Obawiam siê, ¿e nie jest ju¿ mo¿liwe przywrócenie wszystkich jej dawnych w³aœciwoœci. Jednak¿e, nawet jeœli nie bêdê w stanie odtworzyæ w pe³ni jej niegdysiejszej natury, to z pewnoœci¹ mogê siê do niej przybli¿yæ. Przynieœ mi jeszcze Ciemnoró¿owy kamieñ Ioun, Bladozielony kamieñ Ioun, zwój Prawdziwego widzenia i zwój Przyzwania Ifrita, a zobaczê, co da siê zrobiæ. Co oczywiste, za tak trudn¹ robotê bêdê wymaga³ odpowiednio wysokiej zap³aty - 10000 sztuk z³ota. Czy mam dla ciebie odnowiæ tê maskê?~
+
 @116 = ~Czy mo¿esz coœ zrobiæ z tym toporem bojowym?~
 @117 = ~Tak, o ile przyniesiesz mi trzy magiczne bojowe topory: Skalny Ogieñ, Lodowego £upie¿cê oraz Toporek Hangarda. Jeœli potrafisz je wszystkie zgromadziæ, a ponadto znajdziesz Serce demona, Ró¿d¿kê zimna i dwa zwoje Kwasowej strza³y Melfa, bêdê móg³ z nich stworzyæ wyj¹tkow¹ broñ. Jako zap³atê wezmê od ciebie zaledwie 10000 sztuk z³ota. Czy mam wykonaæ dla ciebie ten topór?~
+
 @118 = ~Mam ze sob¹ niezrównany miecz: Karsomir, Œwiêty Mœciciel. Czy da siê go jakoœ ulepszyæ?~
 @119 = ~Nigdy nie s¹dzi³em, ¿e pewnego dnia ujrzê ten legendarny orê¿. Tak, jeœli przyniesiesz mi innego pogromcê z³a, Dzienn¹ Gwiazdê, bêdê móg³ je przekuæ w jedn¹ broñ. By tego dokonaæ, bêdê potrzebowa³ jeszcze dwóch zwojów Ochrony przed nieumar³ymi, a tobie dam wybór, jaki rodzaj miecza mam stworzyæ: miecz oburêczny czy jednorêczny d³ugi miecz. A poniewa¿ pracê nad Œwiêtym Mœcicielem postrzegam jako zaszczyt, zlecenie to wykonam za jedyne 5000 sztuk z³ota. Co mam zatem zrobiæ?~
 @120 = ~Wykonaj dla mnie miecz oburêczny.~
 @121 = ~Wykonaj dla mnie d³ugi miecz.~
+
 @122 = ~Mam tu Pas wzmocnienia. Zechciej coœ z nim zrobiæ.~
 @123 = ~Pas wzmocnienia? Hmm... Odnoszê wra¿enie, ¿e kiedyœ by³ wspania³y, ale z czasem utraci³ czêœæ magicznej mocy. Mogê to jednak naprawiæ. Bêdê do tego potrzebowa³ Mikstury regeneracji i Mikstury wzmocnienia. Nie bêdzie ciê to wiele kosztowa³o - jedyne 5000 sztuk z³ota. Czy mam zatem ulepszyæ ten pas?~
+
 @124 = ~Mam ze sob¹ Kostur leczenia. Jest u¿yteczny, ale jako broñ nie spisuje siê najlepiej. Czy mo¿esz coœ na to poradziæ?~
 @125 = ~Jeœli przyniesiesz mi jeszcze Kostur kap³ana oraz zwój Wskrzeszenia, stworzê znacznie lepsz¹ broñ, której moce lecznicze bêd¹ siê odnawiaæ po up³ywie pewnego czasu. Muszê ciê jednak ostrzec, ¿e liczba ³adunków do wykorzystania przez ten czas ulegnie zmniejszeniu. Jako zap³atê za tak¹ pracê wzi¹³bym jedyne 10000 sztuk z³ota. Czy mam wykonaæ ten kostur?~
+
 @126 = ~Mam tu ze sob¹ D³oñ Daka. Jest nieco obrzydliwa, ale czy mimo tego by³byœ w stanie coœ z niej zrobiæ?~
 @127 = ~Ca³kowicie siê z tob¹ zgadzam, kiedy mówisz, ¿e ta d³oñ jest "nieco obrzydliwa", ale mogê zrobiæ z niej u¿ytek. Je¿eli przyniesiesz mi Rêkawice mia¿d¿enia, Miksturê regeneracji, Miksturê izolacji i Miksturê ochrony przed zimnem, bêdê móg³ to wszystko po³¹czyæ w parê ca³kiem potê¿nych rêkawic. Och, i bêdê potrzebowa³ 15000 sztuk z³ota w ramach zap³aty. Staram siê unikaæ takich nieczystych zleceñ i liczê sobie za nie wiêcej. Czy mam zatem zrobiæ dla ciebie te rêkawice?~
+
 @128 = ~Mam kilka mieczy oburêcznych. Czy da siê je po³¹czyæ w taki sposób, by moce ich wszystkich zosta³y zawarte w jednym ostrzu?~
 @129 = ~Hmm... Có¿, to mo¿liwe, choæ na pewno nie³atwe. Pierwsz¹ rzecz¹, jak¹ musisz wiedzieæ, jest to, ¿e taki miecz by³by bardzo ciê¿ki i wymaga³by nadludzkiej si³y, ¿eby nim w³adaæ. Jednak¿e z drugiej strony waga miecza doda mu potê¿nej mocy - bêdzie uderza³ jak m³ot i jak miecz jednoczeœnie. Postaram siê zachowaæ wszystkie w³aœciwoœci u¿ytkowe oryginalnych mieczy: Lilarcora, Miecza Chaosu i Berserkera, jednak bêd¹ mi równie¿ potrzebne dwa zwoje Zdjêcia kl¹twy oraz zwój Wampirycznego dotkniêcia. Bêdzie ciê to kosztowa³o 15000 sztuk z³ota, ale nie mam w¹tpliwoœci, ¿e efekt pracy ciê usatysfakcjonuje. Dodam jeszcze, ¿e bêdzie mo¿liwe dalsze ulepszenie tego miecza i uczynienie go potê¿niejszym, jeœli znajdziesz godne uwagi komponenty. Czy chcesz zatem, bym wyku³ dla ciebie to ostrze?~
+
 @130 = ~Mam Niszczyciela - miecz, który dla mnie zbudowa³eœ. Wspomnia³eœ te¿ wczeœniej o mo¿liwoœci uczynienia go jeszcze potê¿niejszym. Z czym by³oby to zwi¹zane?~
 @131 = ~Hmm. Có¿, to mo¿liwe, ale zadanie nie nale¿y do ³atwych. Bêdê potrzebowa³ Srebrnego Miecza, Rozpruwacza Dusz, P³omienia Pó³nocy, a tak¿e zwoju Palca œmierci i Mikstury ochrony przed magi¹. Spróbujê oczywiœcie zachowaæ wszystkie u¿yteczne w³aœciwoœci oryginalnych mieczy, ale na to raczej nie ma nadziei. To zlecenie bêdzie ciê kosztowa³o 20000 sztuk z³ota. Tak, to du¿o, ale efekt koñcowy na pewno ci siê spodoba. Jak zatem bêdzie? Mam ju¿ zacz¹æ tworzyæ tê potworn¹ broñ?~
+
 @132 = ~Mam tu Amulet z nefrytem. Ca³kiem ³adny i doœæ u¿yteczny, ale czy nie s¹dzisz, ¿e móg³byœ coœ niego zrobiæ?~
 @133 = ~Amulet z nefrytem? Mam dla ciebie w zwi¹zku z tym doœæ niezwyk³¹ ofertê. Posiadasz ju¿ zapewne a¿ nadto ró¿nych amuletów, wiêc z tego mogê zrobiæ zapinkê p³aszcza. Jednoczeœnie bêdê musia³ wykonaæ p³aszcz, ale jestem pewny, ¿e spodoba ci siê to, co planujê dla ciebie zrobiæ. Bêd¹ mi jednak potrzebne dwa P³aszcze ochrony +1, Mikstura klarownoœci, Obrêcz kontrolna, Solna mikstura i Skorupa ankhega. Jako ¿e bêdzie to raczej skomplikowane zadanie, za¿¹dam zap³aty w wysokoœci 15000 sztuk z³ota. Czy mam wykonaæ dla ciebie ten p³aszcz?~
+
 @134 = ~Mam £uk Tansherona. Nie da siê zaprzeczyæ, ¿e jest ca³kiem u¿yteczny, ale mo¿e jednak potrafi³byœ go ulepszyæ?~
 @135 = ~Ach, to nawet ca³kiem proste. Jeœli przyniesiesz mi Tuigañski ³uk i zap³acisz 5000 sztuk z³ota za moj¹ pracê, mogê po³¹czyæ te dwa ³uki w jeden potê¿niejszy. Czy mam to zrobiæ?~
+
 @136 = ~Czy mo¿esz ulepszyæ tê oto skórzan¹ zbrojê?~
 @137 = ~Hmm... Có¿, mogê dla ciebie wykonaæ œwietn¹ zbrojê skórzan¹, ale nie bêdzie to ³atwe. Bêdzie mi potrzebna Skóra ghoula, Zbroja ¿mii, P³aszcz ochrony +1, Skorupa ankhega, dwa zwoje Niewykrywalnoœci, dwa zwoje Ochrony przed trucizn¹, dwa zwoje Niewidzialnoœci i dwie garœcie adamantynowego py³u. Py³ ten bêdzie konieczny, poniewa¿ potrzebujê czystego adamantytu, na który nie dzia³a ju¿ œwiat³o s³oneczne. A poniewa¿ ca³a ta praca bêdzie skomplikowana, bêdê wymaga³ 20000 sztuk z³ota tytu³em zap³aty. Czy mam zrobiæ dla ciebie tê zbrojê?~
+
 @138 = ~Przynoszê ci Krasnoludzki m³ot. Jest ca³kiem u¿yteczny, gdy¿ wraca do rêki jak bumerang. Byæ mo¿e jednak da³byœ radê go ulepszyæ?~
 @139 = ~Hmm... No có¿, jeœli znajdziesz równie¿ 'M³ot bojowy +1, +4 przeciw olbrzymom' i zap³acisz mi 5000 sztuk z³ota, bêdê móg³ uczyniæ go potê¿niejszym. Nadal jednak pozostanie broni¹, któr¹ mog¹ u¿ywaæ wy³¹cznie krasnoludy. Je¿eli jednak zap³acisz 15000 z³otych monet, a tak¿e przyniesiesz M³ot bojowy +2: 'Ashideena' oraz Ró¿d¿kê b³yskawic, wówczas bêdê móg³ wykonaæ dla ciebie Uniwersalny m³ot do rzucania. Orê¿ ten móg³by byæ u¿ywany przez wszystkich, którzy upodobali sobie walkê m³otem bojowym, a ponadto by³by potê¿niejszy od Krasnoludzkiego m³ota do rzucania. Który z tych m³otów mia³bym dla ciebie stworzyæ?~
 @140 = ~Wykonaj Krasnoludzki m³ot do rzucania +4.~
 @141 = ~Wykuj mi Uniwersalny m³ot do rzucania +5.~
+
 @142 = ~Posiadam Kostur Magów. Jest niesamowity, ale mo¿e móg³byœ z niego uczyniæ coœ jeszcze lepszego?~
 @143 = ~Jest w nim ju¿ zawarta ogromna moc. Mówi¹c szczerze, to wielkie ryzyko robiæ cokolwiek przy tym kiju, ale mimo to mogê spróbowaæ. Je¿eli przyniesiesz mi Kostur z Rynn oraz dwa zwoje Wy³adowania ³añcuchowego, bêdê w stanie zwiêkszyæ jego zdolnoœci bojowe. Jako zap³atê wezmê tylko 10000 sztuk z³ota. Czy mam stworzyæ dla ciebie ten kij?~
+
 @144 = ~Mam kilka sztyletów. Czy da siê je po³¹czyæ w taki sposób, by moce ich wszystkich zosta³y zawarte w jednym ostrzu?~
 @145 = ~Hmm... Potrafi³bym z nich stworzyæ wyj¹tkowy sztylet do rzucania. Bêd¹ mi potrzebne: Sztylet Lady Demarche, Sztylet bumerang, Kolec chochlika, Paskudny scyzor Neba, a ponadto dwa zwoje Unieruchomienia potwora i dwa zwoje Uœpienia. Bêdzie ciê to kosztowa³o 10000 sztuk z³ota, ale pewien jestem, ¿e efekt mojej pracy ciê nie rozczaruje. Mam zatem wykonaæ to ostrze?~
+
 @146 = ~Posiadam kilka dosyæ s³abych mieczy. Czy myœlisz, ¿e móg³byœ je po³¹czyæ w jedn¹ przyzwoit¹ broñ?~
 @147 = ~Oczywiœcie. Mogê z nich wykuæ przedmiot o nazwie Miecz wolnoœci, a zale¿nie od twego wyboru mo¿e to byæ miecz d³ugi albo krótki. Potrzebne mi bêd¹ w tym celu nastêpuj¹ce ostrza: Namarra, Belm, Miecz Arbane'a oraz Ilbratha, a tak¿e dwa Oleje szybkoœci, Mikstura wolnoœci i dwa zwoje Wampirycznego dotkniêcia. Ponadto bêdzie ciê to kosztowa³o 15000 sztuk z³ota, ale spodoba ci siê to, co wrêczê ci po zakoñczeniu pracy. W jakiej wersji mam stworzyæ ten miecz?~
 @148 = ~Wykonaj Krótki miecz wolnoœci.~
 @149 = ~Wykuj dla mnie D³ugi miecz wolnoœci.~
+
 @150 = ~Mam trochê ³usek zdartych z cielska smoka, którego uda³o mi siê zg³adziæ. Jak s¹dzisz? Da siê coœ z nich zrobiæ?~
 @151 = ~Ale¿ oczywiœcie. Z tych ³usek mogê stworzyæ wyj¹tkow¹ zbrojê, która nie narzuca zbyt wielu ograniczeñ nawet magom i z³odziejom, zatem nosz¹c j¹ bêd¹ mogli korzystaæ ze swych umiejêtnoœci. Bêdê potrzebowa³ ³usek zarówno czerwonego smoka, jak i smoka cieni, a tak¿e Pasa bezw³adnej bariery i Mikstury magicznej zas³ony. Bêdzie ciê to kosztowa³o 10000 sztuk z³ota. Czy mam wykonaæ tê zbrojê?~
+
 @152 = ~Jestem w posiadaniu bry³y stopu ilitu. Czy mo¿esz coœ z niej zrobiæ.~
 @153 = ~Tak, mogê jej u¿yæ do wykucia wspania³ej zbroi. Musia³bym wytopiæ z niej czysty ilit, a tak¿e pozyskaæ nieco czystego adamantytu z py³u adamantynowego, by nastêpnie po³¹czyæ je w nowy stop. Bêdê w zwi¹zku z tym potrzebowa³ trzech garœci adamantynowego py³u, twojego stopu ilitu oraz zwoju Ochrony przed magi¹. Bior¹c pod uwagê z³o¿onoœæ tego zadania oczekujê te¿ 20000 sztuk z³ota tytu³em zap³aty. Co ty na to? Czy mam wykuæ tê zbrojê?~
+
 @154 = ~Byæ mo¿e móg³byœ coœ zrobiæ z tych Rêkawic leczenia?~
 @155 = ~Rzuæmy na to okiem... Tak, mo¿na je przerobiæ w bardziej imponuj¹c¹ parê rêkawic. Oprócz Rêkawic leczenia bêdê potrzebowa³ Bransolet ochrony KP 6, Pierœcienia ochrony +1, dwóch Mikstur regeneracji, czterech buteleczek Antidotum oraz dwóch zwojów Ochrony przed trucizn¹. Jako zap³atê wezmê 10000 sztuk z³ota. Czy mam wykonaæ te rêkawice?~
+
 @156 = ~Posiadam Wekierê zniszczeñ. Czy móg³byœ coœ z ni¹ zrobiæ?~
 @157 = ~Tak, gdybym pokry³ j¹ cienk¹ warstw¹ czystego ilitu, ta wekiera œwietnie chroni³aby przed atakami wampirów. Musisz mi jednak przynieœæ jeszcze wekierê Upadek Ardulii, nieco rudy ilitu oraz trzy zwoje Spowolnienia ruchów. Wezmê za to zlecenie tylko 10000 sztuk z³ota. Jak zatem bêdzie? Mam ulepszyæ tê wekierê?~
+
 @158 = ~Czy mo¿esz coœ zrobiæ z tego Pierœcienia swobody ruchów?~
 @159 = ~Tak, mogê go po³¹czyæ z dowolnym pierœcieniem ochrony. Mo¿esz zatem wybraæ, którego mam u¿yæ: Pierœcienia ochrony +1 czy Pierœcienia ochrony +2. Tak czy inaczej, bêdê równie¿ potrzebowa³ Mikstury ochrony oraz dwóch szmaragdów. Tym razem jako zap³atê wezmê 10000 sztuk z³ota. Który z tych pierœcieni mam wykonaæ?~
 @160 = ~Stwórz dla mnie Pierœcieñ swobody ruchów +1.~
 @161 = ~Zrób Pierœcieñ swobody ruchów +2, jeœli mo¿esz.~
+
 @162 = ~Czy mo¿esz coœ zrobiæ z Pierœcieniem Gaxxa?~
 @163 = ~W tym pierœcieniu kryje siê ju¿ tak silna magia, ¿e dokonywanie dalszego umagicznienia jest niczym innym jak niebezpieczeñstwem. Jednak¿e mogê podj¹æ tê próbê. Jeœli postarasz siê o cztery Mikstury regeneracji, zwój Ulepszonej niewidzialnoœci oraz zwój Ulepszonego przyspieszenia ruchów, mo¿liwe bêdzie zwiêkszenie mocy pierœcienia. Wezmê tylko 10000 sztuk z³ota za tê pracê. Czy mam ulepszyæ ten pierœcieñ?~
