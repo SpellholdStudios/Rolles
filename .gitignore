@@ -1,56 +1,29 @@
-# Windows image file caches
-# =========================
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-# ==================
-Desktop.ini
-
-# Recycle Bin used on file shares
-# ===============================
 $RECYCLE.BIN/
+__macosx
+backup/
+temp/
+tmp/
 
-# Windows Installer files
-# =======================
+.*
+!/.gitattributes
+!/.gitconfig
+!/.github
+!/.gitignore
+!/.gitmodules
+!/.bgforge.yml
 
-# Windows shortcuts
-# =================
-*.lnk
-
-# =======================
-# Operating System Files
-# =======================
-
-# OSX
-# ===
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-# ==========
-._*
-
-
-# =================
-# ignore all files
-# =================
+*.7z
 *.bak
 *.bat
-*.csv
-#*.7z
+*.iemod
+*.lnk
 *.rar
+*.tar*
+*.tmp
 *.zip
-*.exe
-dev_notes.txt
-z*.*
-todo*.*
 
+desktop.ini
+Thumbs.db
 
-# ========================================
-# ignore all files in any directory named
-# ========================================
 legacy/
 rolles_legacy/
