@@ -1,7 +1,7 @@
-BACKUP ~rolles/backup~
+BACKUP ~weidu_external/backup/rolles~
 
 // AUTHOR ~serdrick@rol.ru~
-SUPPORT ~http://www.shsforums.net/topic/36655-rolles/~
+SUPPORT ~http://www.shsforums.net/topic/36655-rolles~
 
 VERSION ~v5.0.5~
 
@@ -9,63 +9,76 @@ README ~rolles/readme/rolles-readme-%LANGUAGE%.txt~ ~rolles/readme/rolles-readme
 
 
 ALWAYS
+    OUTER_SPRINT MOD_FOLDER "rolles"
+    MKDIR "weidu_external\tra\%MOD_FOLDER%"
 
-	/* Converts tra files to UTF-8 */
-	ACTION_DEFINE_ARRAY s#_reload BEGIN setup END
-	ACTION_DEFINE_ARRAY s#_noconvert BEGIN END
+    ACTION_DEFINE_ARRAY arrayNoConvert BEGIN setup END
+    ACTION_DEFINE_ARRAY arrayReload BEGIN rolles END
+
 	LAF HANDLE_CHARSETS
 		INT_VAR
-			infer_charset = 1
-		STR_VAR
-			tra_path = EVAL ~%MOD_FOLDER%/tra~
-			noconvert_array = s#_noconvert
-			reload_array = s#_reload
-	END
+            from_utf8 = 1 //the source lang files of all languages are UTF8
+            infer_charset = 1 //set the correct encoding for classic games based on the detected game and associated encoding
+            verbose = 1 //display more debugging info
+        STR_VAR
+            default_language = english
+			tra_path = EVAL ~%MOD_FOLDER%\tra~ // path to translation files, do not add slash at the end of it
+            out_path = EVAL ~weidu_external\lang\%MOD_FOLDER%~ // path to temporary work directory, do not add slash at the end of it
+            noconvert_array = arrayNoConvert
+            reload_array = arrayReload
+    END
+
 
 END
 
-AUTO_TRA ~rolles/tra/%s~
+AUTO_TRA ~rolles\tra\%s~
+//AUTO_TRA ~weidu_external\tra\%MOD_FOLDER%\%s~
+LANGUAGE ~English~
+         ~english~
+         ~rolles/tra/english/setup.tra~
+         ~rolles/tra/english/rolles.tra~
 
 LANGUAGE ~Russian~
          ~russian~
          ~rolles/tra/russian/setup.tra~
+         ~rolles/tra/english/rolles.tra~
 
-LANGUAGE ~English~
-         ~english~
-         ~rolles/tra/english/setup.tra~
-
-LANGUAGE ~French (traduction : La Voix 2 la Sagesse)~
+LANGUAGE ~French (traduction: La Voix 2 la Sagesse)~
          ~french~
          ~rolles/tra/french/setup.tra~
+         ~rolles/tra/english/rolles.tra~
 
 LANGUAGE ~Italiano (traduzione di ilot)~
          ~italian~
          ~rolles/tra/italian/setup.tra~
+          ~rolles/tra/english/rolles.tra~
 
 LANGUAGE ~Polski (tlumaczenie: Aristo)~
          ~polish~
          ~rolles/tra/polish/setup.tra~
+         ~rolles/tra/english/rolles.tra~
 
 
 /* ==================================== *
  *         Rolles Safyer (ToB)          *
  * ==================================== */
 
-BEGIN @0000
+BEGIN @11000
 DESIGNATED 0 LABEL ~rolles_safyer~
-REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @0020
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @90000
 
 // Rolles
 // ------
 COPY ~rolles/sto/s#rolles.sto~	~override~
 
 COPY ~rolles/roll/s#rolles.cre~	~override~
-	SAY NAME1 @0001
- 	SAY NAME2 @0002
+	SAY NAME1 @0
+ 	SAY NAME2 @0
 
 EXTEND_TOP ~ar0706.bcs~	~rolles/roll/s#rolles.baf~
+EXTEND_TOP ~ar0706.bcs~	~rolles/roll/AR4000.baf~
 
-COMPILE ~rolles/dlg/rolles.d~
+COMPILE EVALUATE_BUFFER ~rolles/dlg/rolles.d~ USING ~rolles.tra~
 
 
 // Items
@@ -104,9 +117,9 @@ END
  *  Bag of Holding in Irenicus Dungeon  *
  * ==================================== */
 
-BEGIN @0010
+BEGIN @12000
 DESIGNATED 10 LABEL ~rolles_bag_of_holding_in_irenicus_dungeon~
-REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @0020
+REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @90000
 
 COPY ~rolles/sto/s#bag02.sto~	~override~
 COPY ~rolles/itm/s#bag02.itm~	~override~
